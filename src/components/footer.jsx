@@ -1,6 +1,8 @@
-function footer() {
+import { NavLink } from "react-router-dom";
+
+function Footer() {
   return (
-    <div className="footer">
+    <div className="footer w-full absolute botttom-0">
       <div className="newsletter flex flex-col items-center">
         <h3 className="font-bold">
           Subscribe for the latest products and offers
@@ -27,6 +29,7 @@ function footer() {
 
       <div className="footer-bottom px-4 lg:px-20">
         <div className="bottom-one">
+          <NavLink to="/home">
           <div className="logo flex gap-0 items-center">
             <img
               src="src\components\assets\Hydra-logo.png"
@@ -38,6 +41,7 @@ function footer() {
               <span className="">SOLUTIONS</span>
             </p>
           </div>
+          </NavLink>
 
           <p className="font-black text-sm mb-1">
             Making Your Tap Water Drinkable
@@ -51,45 +55,54 @@ function footer() {
         <div className="bottom-two flex flex-col items-start ">
           <h4 className="font-bold">Quick Links</h4>
           <span className="flex flex-col text-sm mt-2 gap-1">
-            <a href="" className="">
+            <NavLink to="/" className="">
               Home
-            </a>
-            <a href="" className="">
+            </NavLink>
+            
+            <NavLink to="/about" className="">
               About Us
-            </a>
-            <a href="" className="">
+            </NavLink>
+            
+            <NavLink to="/products" className="">
               Products
-            </a>
-            <a href="" className="">
+            </NavLink>
+            
+            <NavLink to="/blog" className="">
               Our Blog
-            </a>
-            <a href="" className="">
+            </NavLink>
+            
+            <NavLink to="/contact" className="">
               Contact Us
-            </a>
-            <a href="" className="">
+            </NavLink>
+            
+            <NavLink to="/contact" className="">
               Get a Quote
-            </a>
+            </NavLink>
           </span>
         </div>
 
         <div className="bottom-three flex flex-col items-start">
           <h4 className="font-bold">Legal</h4>
           <span className="flex flex-col text-sm mt-2 gap-1">
-            <a href="" className="">
+            <NavLink to="/" className="">
               Privacy Policy
-            </a>
-            <a href="" className="">
+            </NavLink>
+            
+            <NavLink to="/" className="">
               Cookies Policy
-            </a>
-            <a href="" className="">
+            </NavLink>
+            
+            <NavLink to="/" className="">
               Products
-            </a>
-            <a href="" className="">
+            </NavLink>
+            
+            <NavLink to="/" className="">
               Data Processing
-            </a>
-            <a href="" className="">
+            </NavLink>
+            
+            <NavLink to="/" className="">
               Terms and Conditions
-            </a>
+            </NavLink>
           </span>
         </div>
 
@@ -135,4 +148,4 @@ function footer() {
   );
 }
 
-export default footer;
+export default Footer;
