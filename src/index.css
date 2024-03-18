@@ -24,6 +24,28 @@ button:active{
     gap: 2rem;
 }
 
+.products{
+    display: grid;
+    align-content: center;
+    grid-template-columns: repeat(auto-fill, minmax(250px,1fr));
+    column-gap: 4rem;
+    row-gap: 2rem;
+    /* gap: 2rem; */
+}
+
 .footer-bottom a:hover ,.anchor a:hover{
     text-decoration: underline;
+}
+
+.secondary{
+    background-color: #57B33E;
+}
+.primary{
+    background-color: #3056D3;
+}
+.dark-blue{
+    background-color: #0C192C;
+}
+.gray{
+    color: #786F6F;
 }
