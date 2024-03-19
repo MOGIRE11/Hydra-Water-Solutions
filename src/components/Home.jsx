@@ -1,3 +1,5 @@
+import { NavLink } from "react-router-dom"; 
+
 function Home() {
   return (
     <div className="px-4 lg:px-20 my-8">
@@ -20,13 +22,13 @@ function Home() {
               className="border-2 w-40 py-2 rounded-md border-black font-semibold"
               type="button"
             >
-              View Products
+              <NavLink to="/products">View Products</NavLink>
             </button>
             <button
-              className="border w-40 py-2 font-semibold secondary text-white rounded-md"
+              className="w-40 py-2 font-semibold secondary text-white rounded-md"
               type="button"
             >
-              Contact Us
+              <NavLink to="/contact">Contact Us</NavLink>
             </button>
           </span>
         </div>
@@ -154,7 +156,9 @@ function Home() {
       {/* our story */}
       <div className="about-us mt-32 flex flex-col lg:flex-row items-start justify-between gap-y-8">
         <div className="about-story lg:w-1/2">
-          <p className="text-xs gray tracking-wider font-semibold">ABOUT HYDRA</p>
+          <p className="text-xs gray tracking-wider font-semibold">
+            ABOUT HYDRA
+          </p>
           <h3 className="text-2xl font-bold">
             Our journey to revolutionize water for a sustainable future
           </h3>
@@ -175,7 +179,11 @@ function Home() {
           </button>
         </div>
 
-        <img src="src/components/assets/Hydra-team-photo.svg" alt="" className="lg:w-[60%] lg:h-[300px] h-[250px] w-full object-cover rounded-md" />
+        <img
+          src="src/components/assets/Hydra-team-photo.svg"
+          alt=""
+          className="lg:w-[60%] lg:h-[300px] h-[250px] w-full object-cover rounded-md"
+        />
       </div>
     </div>
   );
