@@ -8,9 +8,18 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    
 }
 body{
     font-family: "Mulish", sans-serif;
+    background: linear-gradient(180deg,rgb(197,193,226),rgb(3,136,229));
+}
+.footer{
+    background-color:rgb(3,136,229);
+    
+}
+.nav{
+    background-color: rgb(197,193,226);
 }
 
 button:active{
