@@ -105,7 +105,7 @@ function Home() {
           <p className="text-sm my-2">
             Ideal for users consuming treated City Council Water
           </p>
-          <p className="font-bold">Ksh. 25,000</p>
+          <p className="font-bold">Ksh. 30,000</p>
         </div>
 
         <div className="product2">
@@ -120,7 +120,7 @@ function Home() {
           <p className="text-sm my-2">
             Ideal for those using borehole water ,river and rain water
           </p>
-          <p className="font-bold">Ksh. 30,000</p>
+          <p className="font-bold">Ksh. 40,000</p>
         </div>
       </div>
 
