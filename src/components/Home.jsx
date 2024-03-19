@@ -84,7 +84,7 @@ function Home() {
         <p className="gray text-xs mt-24 tracking wider font-bold">
           SHOP WITH US
         </p>
-        <p className="text-3xl font-bold">Featured Products</p>
+        <p className="text-2xl font-bold">Featured Products</p>
         <p className="lg:w-[70%] text-sm my-2">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque
           ipsum,neque dolor eos illo repellendus numquam soluta ratione velit
@@ -123,10 +123,60 @@ function Home() {
           <p className="font-bold">Ksh. 30,000</p>
         </div>
       </div>
-      
+
       <p className="mt-10 text-sm font-semibold">
         Learn more about the Reverse Osmosis Water Purifiers.
       </p>
+
+      {/* services section header*/}
+      <p className="md:text-center gray tracking-wide text-xs font-semibold mt-24">
+        WHAT WE OFFER
+      </p>
+      <h3 className="text-2xl md:text-center font-bold">Our Best Services</h3>
+      <p className="md:text-center text-sm">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci
+        commodi iusto maxime.
+      </p>
+
+      {/* services */}
+      <div className="services flex items-start justify-between lg:items-center lg:justify-evenly flex-wrap gap-y-4 mt-8">
+        <div className="service1 shadow-lg border w-64 h-36 rounded-md relative">
+          <div className="w-8 h-8 bg-blue-800 opacity-[0.5] rounded-md absolute top-2 left-2"></div>
+        </div>
+        <div className="service1  shadow-lg border w-64 h-36 rounded-md relative">
+          <div className="w-8 h-8 bg-blue-800 opacity-[0.5] rounded-md absolute top-2 left-2"></div>
+        </div>
+        <div className="service1 shadow-lg border w-64 h-36 rounded-md relative">
+          <div className="w-8 h-8 bg-blue-800 opacity-[0.5] rounded-md absolute top-2 left-2"></div>
+        </div>
+      </div>
+
+      {/* our story */}
+      <div className="about-us mt-32 flex flex-col lg:flex-row items-start justify-between gap-y-8">
+        <div className="about-story lg:w-1/2">
+          <p className="text-xs gray tracking-wider font-semibold">ABOUT HYDRA</p>
+          <h3 className="text-2xl font-bold">
+            Our journey to revolutionize water for a sustainable future
+          </h3>
+          <p className="my-8">
+            Hydra was founded to address the notable lack of service delivery in
+            the areas of water, renewable energy and stand-by power solutions.
+            After identifying the gap in quality service, we sought to close the
+            accessibility and availability of safe drinking water to all while
+            encouraging cooperation with our partners. By offering top-notch
+            products and services, we hope to improve the communities we serve
+            as well as the environment .
+          </p>
+          <button
+            className="border w-40 py-2 font-semibold secondary text-white rounded-md"
+            type="button"
+          >
+            Read Our Story
+          </button>
+        </div>
+
+        <img src="src/components/assets/Hydra-team-photo.svg" alt="" className="lg:w-[60%] lg:h-[300px] h-[250px] w-full object-cover rounded-md" />
+      </div>
     </div>
   );
 }
