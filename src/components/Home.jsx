@@ -177,6 +177,9 @@ function Home() {
 
         <img src="src/components/assets/Hydra-team-photo.svg" alt="" className="lg:w-[60%] lg:h-[300px] h-[250px] w-full object-cover rounded-md" />
       </div>
+      
+      <p className="text-xs gray tracking-wider font-bold">OUR PARTNERS</p>
+      <h3 className="">Only Recognized By the Best</h3>
     </div>
   );
 }
