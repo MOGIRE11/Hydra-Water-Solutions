@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom"; 
+import { NavLink } from "react-router-dom";
 
 function Home() {
   return (
@@ -185,11 +185,45 @@ function Home() {
           className="lg:w-[60%] lg:h-[300px] h-[250px] w-full object-cover rounded-md"
         />
       </div>
-      
-      <p className="text-xs gray tracking-wider font-bold">OUR PARTNERS</p>
-      <h3 className="">Only Recognized By the Best</h3>
+
+      <p className="text-xs gray tracking-wider font-bold  md:text-center mt-24">
+        OUR PARTNERS
+      </p>
+      <h3 className="text-2xl font-bold md:text-center">
+        Only Recognized By the Best
+      </h3>
+      <div className="partners-wrapper my-4 ">
+        <div className="scroll-content flex items-center w-full justify-evenly flex-wrap">
+          
+          <img
+            src="src/components/assets/hidrotech-partner.svg"
+            alt="hidrotech-hydra-partner"
+            className=""
+          />
+          <img
+            src="src\components\assets\fineteklabs-partner.png"
+            alt="fineteklabs-hydra-partner"
+            className=""
+          />
+          <img
+            src="src/components/assets/celestial-dental-partner.svg"
+            alt="celestial-dental-hydra-partner"
+            className=""
+          />
+          <img
+            src="src/components/assets/Stuntech-partner.svg"
+            alt="stuntech-hydra-partner"
+            className=""
+          />
+          <img
+            src="src/components/assets/amario-partner.svg"
+            alt="amario-hydra-partner"
+            className=""
+          />
+        </div>
+      </div>
     </div>
   );
 }
 
-export default Home
+export default Home;
