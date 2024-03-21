@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 const Navbar = () => {
   const [display, setDisplay] = useState(false);
   return (
-    <div className="nav py-3 px-4 pl-0 md:px-4 flex items-center justify-between lg:px-20 shadow-md sticky top-0 z-10 bg-white">
+    <div className="nav py-3 px-4 pl-0 md:px-4 flex items-center justify-between lg:px-20 shadow-md sticky top-0 z-10">
       <NavLink to="/">
         <div className="logo flex gap-0 items-center">
           <img

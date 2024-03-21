@@ -10,7 +10,7 @@ function ErrorPage() {
         Here <span className="text-green-500">...</span>
       </h1>
       <p className=" text-sm  lg:text-base  text-center w-1/2 mx-auto my-8">
-        We can't seem to find the page you are looking for. Try going back to
+        We can&apos;t seem to find the page you are looking for. Try going back to
         the previous page or contact us for more information.
       </p>
 
