@@ -9,6 +9,7 @@
   margin: 0;
   box-sizing: border-box;
 }
+
 body {
   font-family: "Mulish", sans-serif;
   /* background: linear-gradient(180deg,rgb(197,193,226),rgb(3,136,229)); */
@@ -81,3 +82,7 @@ button:active {
   /* position: absolute; */
   /* right: 0; */
 }
+.request i {
+    color: rgb(30 64 175);
+}
+
