@@ -9,33 +9,13 @@
   margin: 0;
   box-sizing: border-box;
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
-body{
-    font-family: "Mulish", sans-serif;
-    /* background: linear-gradient(180deg,rgb(197,193,226),rgb(3,136,229)); */
-}
-/* .footer{
-    background-color:rgb(3,136,229);
-    
-} */
-/* .nav{
-    background-color: rgb(197,193,226);
-} */
-=======
-=======
 
->>>>>>> be22faaf3772e82f21936be60493e896a93153d4
 body {
   font-family: "Mulish", sans-serif;
   /* background: linear-gradient(180deg,rgb(197,193,226),rgb(3,136,229)); */
   background-color: #fafafa;
   max-width: 100%;
 }
-<<<<<<< HEAD
->>>>>>> 3e755c72efc3d23a1507eddb1927f813e8e26306
-=======
->>>>>>> be22faaf3772e82f21936be60493e896a93153d4
 
 .nav {
   background-color: #fafafa;
@@ -102,19 +82,11 @@ button:active {
   /* position: absolute; */
   /* right: 0; */
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
-.gray{
-    color: #786F6F;
-}
-.request i {
-    color: rgb(30 64 175);
-}
-=======
->>>>>>> 3e755c72efc3d23a1507eddb1927f813e8e26306
-=======
+
 .request i {
     color: rgb(30 64 175);
 }
 
->>>>>>> be22faaf3772e82f21936be60493e896a93153d4
+.request i {
+    color: rgb(30 64 175);
+}
