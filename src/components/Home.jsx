@@ -5,7 +5,7 @@ function Home() {
     <div className="px-4 lg:px-20 my-8">
       <div className="hero-section flex flex-col my-10 lg:my-8 lg:mt-20 gap-4 lg:flex-row lg:justify-between items-center lg:mb-20">
         <div className="hero-content lg:w-1/2 mb-8 lg:mb-2">
-          <small className="text-xs font-bold text-orange-500 tracking-wide">
+          <small className="text-xs font-bold gray tracking-wide">
             UNDER THE SINK
           </small>
           <h1 className="text-3xl lg:text-4xl font-bold">
@@ -13,7 +13,7 @@ function Home() {
           </h1>
           <p className="mt-6 mb-8 lg:w-[90%]">
             Envision being able to turn your tap water into crisp ,{" "}
-            <span className="text-orange-500 font-bold underline underline-offset-2">
+            <span className=" font-semibold underline underline-offset-2">
               clean refeshment at the touch of a button
             </span>
             . Home water filtration systems not only remove impurities but also
@@ -27,11 +27,14 @@ function Home() {
               <NavLink to="/products">View Products</NavLink>
             </button>
             <button
-              className="w-40 py-2 font-semibold secondary text-white rounded-md"
+              className="w-40 py-2 font-semibold secondary text-white rounded-md border secondary  flex items-center justify-center gap-4"
               type="button"
             >
-              <NavLink to="/contact">Contact Us</NavLink>
+              <NavLink to="/contact">Contact Us
+              </NavLink>
+              <i className="fa-solid fa-arrow-up rotate-90"></i>
             </button>
+          
           </span>
         </div>
         <img
@@ -85,7 +88,7 @@ function Home() {
       <img src="src\components\assets\Hydra-print.svg" alt="hydra-print" />
 
       <div className="featured-products">
-        <p className="text-orange-500 text-xs mt-24 tracking wider font-bold">
+        <p className="gray text-xs mt-24 tracking wider font-bold">
           SHOP WITH US
         </p>
         <p className="text-2xl font-bold">Featured Products</p>
@@ -109,7 +112,7 @@ function Home() {
           <p className="text-sm my-2 text-neutral-500 font-semibold">
             Ideal for users consuming treated City Council Water
           </p>
-          <p className="font-bold text-orange-500 underline underline-offset-4">
+          <p className="font-bold text-green-500 underline underline-offset-4">
             Ksh. 30,000
           </p>
         </div>
@@ -126,18 +129,18 @@ function Home() {
           <p className="text-sm my-2 text-neutral-500 font-semibold">
             Ideal for those using borehole water ,river and rain water
           </p>
-          <p className="font-bold text-orange-500 underline underline-offset-4">
+          <p className="font-bold text-green-500 underline underline-offset-4">
             Ksh. 40,000
           </p>
         </div>
       </div>
 
-      <p className="mt-10 text-sm font-semibold">
+      <p className="mt-10 text-sm gray font-semibold">
         Learn more about the Reverse Osmosis Water Purifiers.
       </p>
 
       {/* services section header*/}
-      <p className="md:text-center text-orange-500 tracking-wide text-xs font-bold mt-24">
+      <p className="md:text-center gray tracking-wide text-xs font-bold mt-24">
         WHAT WE OFFER
       </p>
       <h3 className="text-2xl md:text-center font-bold">Our Best Services</h3>
@@ -162,9 +165,7 @@ function Home() {
       {/* our story */}
       <div className="about-us mt-32 flex flex-col lg:flex-row lg:items-center justify-between gap-4">
         <div className="about-story lg:w-1/2">
-          <p className="text-xs text-orange-500 tracking-wider font-bold">
-            ABOUT HYDRA
-          </p>
+          <p className="text-xs gray tracking-wider font-bold">ABOUT HYDRA</p>
           <h3 className="text-2xl font-bold">
             Our journey to revolutionize water for a sustainable future
           </h3>
@@ -178,10 +179,11 @@ function Home() {
             as well as the environment .
           </p>
           <button
-            className="border w-40 py-2 font-semibold secondary text-white rounded-md"
+            className="border w-40 py-2 font-semibold secondary text-white rounded-md  flex items-center justify-evenly"
             type="button"
           >
-            Read Our Story
+            <NavLink to="/about">Read Our Story</NavLink>
+            <i className="fa-solid fa-arrow-up rotate-45"></i>
           </button>
         </div>
 
@@ -232,7 +234,7 @@ function Home() {
 
       {/* Testimonials */}
 
-      <div className="testimonial_slider_2">
+      <div className="testimonial_slider_2 my-24">
         <input type="radio" name="slider_2" id="slide_2_1" checked />
         <input type="radio" name="slider_2" id="slide_2_2" />
         <input type="radio" name="slider_2" id="slide_2_3" />
@@ -242,9 +244,10 @@ function Home() {
             <div className="testimonial_2">
               <div className="content_2">
                 <p>
-                  Susan, I had to leave the workshop early so I didn&apos;t get a
-                  chance to say goodby or thank you and Rod for the terrific job
-                  you did. 
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Similique quibusdam impedit quia distinctio, cupiditate unde
+                  sunt esse voluptatum voluptates nulla optio necessitatibus,
+                  repellat at amet, animi eligendi aperiam saepe alias.
                 </p>
               </div>
               <div className="author_2">
@@ -257,13 +260,10 @@ function Home() {
             <div className="testimonial_2">
               <div className="content_2">
                 <p>
-                  Susan is not only passionate about her work and purpose in the
-                  world, she has education and experience that empower her to be
-                  highly effective in everything that she pursues. We took
-                  several courses together during her career at Brite and it was
-                  clear that she was well acquainted with many fields including
-                  anthropology, sociology, history, queer theologies, and a
-                  number of multicultural studies.
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Officia, veritatis modi autem dolorum nulla accusamus ratione
+                  culpa aliquam! Nemo ab quisquam consectetur omnis sunt ducimus
+                  accusamus porro, labore accusantium magni?
                 </p>
               </div>
               <div className="author_2">
@@ -276,16 +276,17 @@ function Home() {
             <div className="testimonial_2">
               <div className="content_2">
                 <p>
-                  The messenger is the message, and in this very good book, we
-                  find important messages that sadden, excite and affirm us as
-                  people who celebrate both our sexuality and our spirituality.
-                
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Soluta architecto perspiciatis eaque dignissimos reprehenderit
+                  itaque ab corporis recusandae culpa at rem consectetur error
+                  minima harum consequuntur, provident quaerat id voluptatem.
                 </p>
               </div>
               <div className="author_2">
                 <h3>Brian McNaught</h3>
                 <h4>
-                  Author of <i>Gay Issues in the Workplace</i>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit,
+                  fuga?
                 </h4>
               </div>
             </div>
@@ -294,18 +295,17 @@ function Home() {
             <div className="testimonial_2">
               <div className="content_2">
                 <p>
-                  These personal stories will persuade even the most cynical
-                  that religion can be a force that is fully accepting and
-                  transforming. Indeed, the fulfillment of religion’s true
-                  promise is found among those who have courageously spoken
-                  here.
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Molestiae voluptatibus aut quo, quia atque aliquid cupiditate
+                  rerum eum sunt quidem, ratione vero et officiis, iste quasi
+                  unde mollitia nam laboriosam?
                 </p>
               </div>
               <div className="author_2">
                 <h3>Lee Barker</h3>
                 <h4>
-                  President and Professor of Ministry, Meadville Lombard
-                  Theological School
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Laudantium, animi!
                 </h4>
               </div>
             </div>
@@ -318,6 +318,17 @@ function Home() {
           <label htmlFor="slide_2_4"></label>
         </div>
       </div>
+
+      {/* ready to go green */}
+      <h2 className="text-2xl font-semibold text-center mb-4 mt-16">
+        Ready To Go Green?
+      </h2>
+      <button
+        className="w-40 py-2 font-semibold secondary text-white rounded-md flex mx-auto items-center justify-center mb-16"
+        type="button"
+      >
+        <NavLink to="/contact">Contact Us</NavLink>
+      </button>
     </div>
   );
 }

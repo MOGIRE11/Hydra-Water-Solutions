@@ -58,6 +58,10 @@ button:active {
   color: #786f6f;
 }
 
+.dark-icon{
+	color: #0c192c;
+}
+
 .partners-wrapper {
   position: relative;
   /* height: 100px; */
@@ -86,7 +90,9 @@ button:active {
 }
 
 
-
+.footer-bottom .bottom-one .logo a:hover{
+	text-decoration: none;
+}
 /* testimonials start*/
 .testimonial_slider_2{
 	width:100%;
