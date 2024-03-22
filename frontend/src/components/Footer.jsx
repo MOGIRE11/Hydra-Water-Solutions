@@ -4,7 +4,7 @@ import hydralogo from "./assets/Hydra-logo.png";
 
 function Footer() {
   return (
-    <div className="footer w-full absolute botttom-0 dark-blue text-neutral-400 pt-8 rounded-t-[40px]">
+    <div className="footer w-full absolute botttom-0 dark-blue text-neutral-400 pt-8">
       <div className="newsletter flex flex-col items-center">
         <h3 className="font-bold">
           Subscribe for the latest products and offers

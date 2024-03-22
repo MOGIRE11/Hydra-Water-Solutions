@@ -47,12 +47,12 @@ const Navbar = () => {
       </div>
 
       {display ? (
-        <div className="menu-list h-screen bg-blue-400 absolute top-0 right-0 w-[100%] ">
+        <div className="menu-list h-screen bg-blue-400 absolute top-0 right-0 w-[80%] ">
           <div className="top-menu-list flex items-center justify-between px-4 py-2 pl-0">
             <NavLink to="/">
               <div className="logo flex gap-0 items-center">
                 <img
-                  src="src\components\assets\Hydra-logo.png"
+                  src={hydralogo}
                   alt="Hydra-Water-solutions-logo"
                   className="w-12"
                 />
