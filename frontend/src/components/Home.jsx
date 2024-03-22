@@ -1,4 +1,5 @@
 import { NavLink } from "react-router-dom";
+import stagePurifier from './assets/7stage.svg'
 
 function Home() {
   return (
@@ -37,9 +38,11 @@ function Home() {
           
           </span>
         </div>
+        
+        
         <img
           className="h-[300px] w-full lg:h-auto lg:w-auto flex mx-0"
-          src="src/components/assets/7stage.svg"
+          src={stagePurifier}
           alt="hydra-reverse-osmosis-water-purifier"
         />
       </div>
