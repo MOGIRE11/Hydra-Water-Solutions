@@ -1,5 +1,7 @@
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
+import hydralogo from "./assets/Hydra-logo.png";
+
 
 const Navbar = () => {
   const [display, setDisplay] = useState(false);
@@ -8,7 +10,7 @@ const Navbar = () => {
       <NavLink to="/">
         <div className="logo flex gap-0 items-center">
           <img
-            src="src/components/assets/Hydra-logo.png"
+            src={hydralogo}
             alt="Hydra-Water-solutions-logo"
             className="w-12"
           />

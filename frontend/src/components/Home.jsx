@@ -1,5 +1,17 @@
 import { NavLink } from "react-router-dom";
-import stagePurifier from './assets/7stage.svg'
+import sevenstagePurifier from './assets/7stage.svg'
+import fivestagePurifier from './assets/5stage.svg'
+// import labelledsevenstagePurifier from "./assets/7stage-labelled.svg";
+// import africanmap from './assets/african-map.svg'
+import celestialdental from './assets/7stage.svg'
+import fineteklabs from './assets/fineteklabs-partner.png'
+import amario from "./assets/amario-partner.svg";
+import hidrotech from "./assets/hidrotech-partner.svg";
+import stuntech from "./assets/stuntech-partner.svg";
+// import image5 from "./assets/image5.svg";
+import hydraprint from "./assets/Hydra-print.svg";
+import hydrateam from "./assets/hydra-team-photo.svg";
+
 
 function Home() {
   return (
@@ -42,7 +54,7 @@ function Home() {
         
         <img
           className="h-[300px] w-full lg:h-auto lg:w-auto flex mx-0"
-          src={stagePurifier}
+          src={sevenstagePurifier}
           alt="hydra-reverse-osmosis-water-purifier"
         />
       </div>
@@ -88,7 +100,7 @@ function Home() {
 
       <hr className="my-2" />
 
-      <img src="src\components\assets\Hydra-print.svg" alt="hydra-print" />
+      <img src={hydraprint} alt="hydra-print" />
 
       <div className="featured-products">
         <p className="gray text-xs mt-24 tracking wider font-bold">
@@ -105,7 +117,7 @@ function Home() {
       <div className="products mt-10">
         <div className="product1">
           <img
-            src="src/components/assets/5stage.svg"
+            src={fivestagePurifier}
             alt="hydra-5stage-purifier"
             className="border rounded-md h-42 w-full object-cover"
           />
@@ -122,7 +134,7 @@ function Home() {
 
         <div className="product2">
           <img
-            src="src/components/assets/7stage.svg"
+            src={sevenstagePurifier}
             alt="hydra-5stage-purifier"
             className="border h-42 w-full object-cover"
           />
@@ -192,8 +204,8 @@ function Home() {
 
         <div className="our-pic lg:w-1/2 flex items-center lg:justify-end my-8">
           <img
-            src="src/components/assets/Hydra-team-photo.svg"
-            alt=""
+            src={hydrateam}
+            alt="Hydra-team-photo"
             className="h-[300px] w-full lg:w-[80%] lg:h-[300px] object-cover rounded-md"
           />
         </div>
@@ -208,27 +220,27 @@ function Home() {
       <div className="partners-wrapper my-4 ">
         <div className="scroll-content flex items-center w-full justify-evenly gap-4 flex-wrap">
           <img
-            src="src/components/assets/hidrotech-partner.svg"
+            src={hidrotech}
             alt="hidrotech-hydra-partner"
             className=""
           />
           <img
-            src="src\components\assets\fineteklabs-partner.png"
+            src={fineteklabs}
             alt="fineteklabs-hydra-partner"
             className=""
           />
           <img
-            src="src/components/assets/celestial-dental-partner.svg"
+            src={celestialdental}
             alt="celestial-dental-hydra-partner"
             className=""
           />
           <img
-            src="src/components/assets/Stuntech-partner.svg"
+            src={stuntech}
             alt="stuntech-hydra-partner"
             className=""
           />
           <img
-            src="src/components/assets/amario-partner.svg"
+            src={amario}
             alt="amario-hydra-partner"
             className=""
           />

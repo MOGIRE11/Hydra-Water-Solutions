@@ -1,4 +1,6 @@
 import { NavLink } from "react-router-dom";
+import hydralogo from "./assets/Hydra-logo.png";
+
 
 function Footer() {
   return (
@@ -32,7 +34,7 @@ function Footer() {
           <NavLink to="/">
             <div className="logo flex gap-0 items-center">
               <img
-                src="src\components\assets\Hydra-logo.png"
+                src={hydralogo}
                 alt="Hydra-Water-solutions-logo"
                 className="w-12"
               />
