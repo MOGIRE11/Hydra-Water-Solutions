@@ -7,10 +7,10 @@ import celestialdental from './assets/7stage.svg'
 import fineteklabs from './assets/fineteklabs-partner.png'
 import amario from "./assets/amario-partner.svg";
 import hidrotech from "./assets/hidrotech-partner.svg";
-import stuntech from "./assets/stuntech-partner.svg";
+import stuntech from "./assets/Stuntech-partner.svg";
 // import image5 from "./assets/image5.svg";
 import hydraprint from "./assets/Hydra-print.svg";
-import hydrateam from "./assets/hydra-team-photo.svg";
+import hydrateam from "./assets/Hydra-team-photo.svg";
 
 
 function Home() {
