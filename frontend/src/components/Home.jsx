@@ -2,9 +2,9 @@ import { NavLink } from "react-router-dom";
 import sevenstagePurifier from './assets/7stage.svg'
 import fivestagePurifier from './assets/5stage.svg'
 // import labelledsevenstagePurifier from "./assets/7stage-labelled.svg";
-// import africanmap from './assets/african-map.svg'
-import celestialdental from './assets/7stage.svg'
-import fineteklabs from './assets/fineteklabs-partner.png'
+// import africanmap from './assets/african-map.svg';
+import celestialdental from './assets/celestial-dental-partner.svg';
+import fineteklabs from './assets/fineteklabs-partner.png';
 import amario from "./assets/amario-partner.svg";
 import hidrotech from "./assets/hidrotech-partner.svg";
 import stuntech from "./assets/Stuntech-partner.svg";
