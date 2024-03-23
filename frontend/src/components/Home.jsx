@@ -125,7 +125,7 @@ function Home() {
             Ideal for users consuming treated City Council Water
           </p>
           <p className="font-bold text-green-500 underline underline-offset-4">
-            Ksh. 30,000
+            Ksh. 25,000
           </p>
         </div>
 
