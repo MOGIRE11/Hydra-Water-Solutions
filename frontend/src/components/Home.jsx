@@ -163,28 +163,49 @@ function Home() {
 
       {/* services */}
       <div className="services flex items-start justify-between lg:items-center lg:justify-evenly flex-wrap gap-y-4 mt-8">
-        <div className="service1 shadow-lg border w-64 h-36 rounded-md relative p-2">
-          {/* <p className="text-lg font-semibold border border-blue-900 w-8 text-center rounded-full bg-blue-900 text-white">
-            1
-          </p> */}
-          <p className="text-blue-800 font-bold text-lg underline-offset-8 mb-2">
-            <i className="fa-solid fa-vial-circle-check mr-2"></i>
-            <span className="underline underline-offset-8">Water Testing</span>
+        
+        {/* water testing */}
+        <div className="service1 border-2 border-blue-800 w-64 h-36 rounded-md relative p-2">
+          <p className="text-blue-800 font-bold text-lg mb-2 text-center underline underline-offset-8">
+            Water Testing
           </p>
-          <p className="text-sm text-neutral-900">
+          <p className="text-sm text-neutral-900 text-center">
             We analyze your water for impurities & safety then recommend the
             perfect treatment solution for your home
           </p>
         </div>
-        <div className="service1  shadow-lg border w-64 h-36 rounded-md relative">
-          <p className="">2</p>
-          <p className="">Domestic Water Purification Systems</p>
+
+{/* purification systems */}
+        <div className="service2 p-2 shadow-lg border w-64 h-36 rounded-md relative bg-blue-800 text-white">
+          <p className=" font-bold text-lg mb-4 text-center">
+            Domestic Water Purification Systems
+          </p>
+          <p className="text-white text-center">
+            <span className="block text-sm text-neutral-200">
+              <i className="fa-regular fa-circle-check mr-2  text-white"></i>5
+              Stage Purifiers
+            </span>
+            <span className="text-sm text-neutral-200">
+              <i className="fa-regular fa-circle-check  mr-2 text-white"></i>7
+              Stage Purifiers
+            </span>
+          </p>
         </div>
-        <div className="service1 shadow-lg border w-64 h-36 rounded-md relative">
-          <p className="">3</p>
-          <p className="">Servicing</p>
+
+{/* servicing services */}
+        <div className="service3 border-2 p-2 border-blue-800 w-64 h-36 rounded-md relative">
+          
+          <p className="mb-2 text-lg text-blue-800 font-bold text-center underline underline-offset-8">
+            System Servicing
+          </p>
+          <p className="text-sm text-neutral-900 text-center">
+            We offer free servicing only for the first month of purchasing the
+            purifier system
+          </p>
         </div>
       </div>
+
+
 
       {/* our story */}
       <div className="about-us mt-32 flex flex-col lg:flex-row lg:items-center justify-between gap-4">
@@ -252,8 +273,8 @@ function Home() {
             <div className="testimonial_2">
               <div className="content_2">
                 <p>
-                  Ever since installing Hydra&apos;s water purification system, our
-                  family can finally enjoy worry-free drinking! The taste is
+                  Ever since installing Hydra&apos;s water purification system,
+                  our family can finally enjoy worry-free drinking! The taste is
                   incredible, and knowing the water is safe for the kids gives
                   us immense peace of mind. Hydra&apos;s technicians were
                   professional and efficient, making the whole process a breeze.
