@@ -14,7 +14,7 @@ const Navbar = () => {
             alt="Hydra-Water-solutions-logo"
             className="w-12"
           />
-          <p className="text-xs font-black flex flex-col 2xl:text-lg text-blue-800">
+          <p className="text-xs font-black flex flex-col 2xl:text-lg text-center text-blue-800">
             <span className="">HYDRA WATER </span>
             <span className="">SOLUTIONS</span>
           </p>
@@ -56,7 +56,7 @@ const Navbar = () => {
                   alt="Hydra-Water-solutions-logo"
                   className="w-12"
                 />
-                <p className="text-xs font-black flex flex-col 2xl:text-lg text-blue-900">
+                <p className="text-xs font-black flex text-center flex-col 2xl:text-lg text-blue-900">
                   <span className="">HYDRA WATER </span>
                   <span className="">SOLUTIONS</span>
                 </p>

@@ -43,15 +43,12 @@ function Home() {
               className="w-40 py-2 font-semibold secondary text-white rounded-md border secondary  flex items-center justify-center gap-4"
               type="button"
             >
-              <NavLink to="/contact">Contact Us
-              </NavLink>
+              <NavLink to="/contact">Contact Us</NavLink>
               <i className="fa-solid fa-arrow-up rotate-90"></i>
             </button>
-          
           </span>
         </div>
-        
-        
+
         <img
           className="h-[300px] w-full lg:h-auto lg:w-auto flex mx-0"
           src={sevenstagePurifier}
@@ -166,14 +163,26 @@ function Home() {
 
       {/* services */}
       <div className="services flex items-start justify-between lg:items-center lg:justify-evenly flex-wrap gap-y-4 mt-8">
-        <div className="service1 shadow-lg border w-64 h-36 rounded-md relative">
-          <div className="w-8 h-8 bg-blue-800 opacity-[0.5] rounded-md absolute top-2 left-2"></div>
+        <div className="service1 shadow-lg border w-64 h-36 rounded-md relative p-2">
+          {/* <p className="text-lg font-semibold border border-blue-900 w-8 text-center rounded-full bg-blue-900 text-white">
+            1
+          </p> */}
+          <p className="text-blue-800 font-bold text-lg underline-offset-8 mb-2">
+            <i className="fa-solid fa-vial-circle-check mr-2"></i>
+            <span className="underline underline-offset-8">Water Testing</span>
+          </p>
+          <p className="text-sm text-neutral-900">
+            We analyze your water for impurities & safety then recommend the
+            perfect treatment solution for your home
+          </p>
         </div>
         <div className="service1  shadow-lg border w-64 h-36 rounded-md relative">
-          <div className="w-8 h-8 bg-blue-800 opacity-[0.5] rounded-md absolute top-2 left-2"></div>
+          <p className="">2</p>
+          <p className="">Domestic Water Purification Systems</p>
         </div>
         <div className="service1 shadow-lg border w-64 h-36 rounded-md relative">
-          <div className="w-8 h-8 bg-blue-800 opacity-[0.5] rounded-md absolute top-2 left-2"></div>
+          <p className="">3</p>
+          <p className="">Servicing</p>
         </div>
       </div>
 
@@ -219,31 +228,15 @@ function Home() {
       </h3>
       <div className="partners-wrapper my-4 ">
         <div className="scroll-content flex items-center w-full justify-evenly gap-4 flex-wrap">
-          <img
-            src={hidrotech}
-            alt="hidrotech-hydra-partner"
-            className=""
-          />
-          <img
-            src={fineteklabs}
-            alt="fineteklabs-hydra-partner"
-            className=""
-          />
+          <img src={hidrotech} alt="hidrotech-hydra-partner" className="" />
+          <img src={fineteklabs} alt="fineteklabs-hydra-partner" className="" />
           <img
             src={celestialdental}
             alt="celestial-dental-hydra-partner"
             className=""
           />
-          <img
-            src={stuntech}
-            alt="stuntech-hydra-partner"
-            className=""
-          />
-          <img
-            src={amario}
-            alt="amario-hydra-partner"
-            className=""
-          />
+          <img src={stuntech} alt="stuntech-hydra-partner" className="" />
+          <img src={amario} alt="amario-hydra-partner" className="" />
         </div>
       </div>
 
@@ -259,10 +252,11 @@ function Home() {
             <div className="testimonial_2">
               <div className="content_2">
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Similique quibusdam impedit quia distinctio, cupiditate unde
-                  sunt esse voluptatum voluptates nulla optio necessitatibus,
-                  repellat at amet, animi eligendi aperiam saepe alias.
+                  Ever since installing Hydra&apos;s water purification system, our
+                  family can finally enjoy worry-free drinking! The taste is
+                  incredible, and knowing the water is safe for the kids gives
+                  us immense peace of mind. Hydra&apos;s technicians were
+                  professional and efficient, making the whole process a breeze.
                 </p>
               </div>
               <div className="author_2">
@@ -275,10 +269,12 @@ function Home() {
             <div className="testimonial_2">
               <div className="content_2">
                 <p>
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Officia, veritatis modi autem dolorum nulla accusamus ratione
-                  culpa aliquam! Nemo ab quisquam consectetur omnis sunt ducimus
-                  accusamus porro, labore accusantium magni?
+                  As someone with sensitive skin, hard water was a nightmare.
+                  Hydra&apos;s water softener is a lifesaver! My skin feels
+                  noticeably softer, and my hair is more manageable. Plus,
+                  there&apos;s less cleaning residue on everything, which is a
+                  bonus. Thank you, Hydra, for making my life easier and my skin
+                  happier!
                 </p>
               </div>
               <div className="author_2">
@@ -291,10 +287,12 @@ function Home() {
             <div className="testimonial_2">
               <div className="content_2">
                 <p>
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                  Soluta architecto perspiciatis eaque dignissimos reprehenderit
-                  itaque ab corporis recusandae culpa at rem consectetur error
-                  minima harum consequuntur, provident quaerat id voluptatem.
+                  Upgrading to Hydra&apos;s commercial filtration system was the
+                  best decision for our restaurant. The coffee tastes amazing,
+                  and customers rave about the improved flavor of our food.
+                  We&apos;ve even seen a decrease in maintenance costs for our
+                  ice machines and coffee makers. Hydra&apos;s customer service
+                  is top-notch, always responsive and helpful.
                 </p>
               </div>
               <div className="author_2">
@@ -310,10 +308,12 @@ function Home() {
             <div className="testimonial_2">
               <div className="content_2">
                 <p>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Molestiae voluptatibus aut quo, quia atque aliquid cupiditate
-                  rerum eum sunt quidem, ratione vero et officiis, iste quasi
-                  unde mollitia nam laboriosam?
+                  Hydra&apos;s commitment to clean water extends far beyond
+                  individual homes. Their partnership with our community to
+                  install filtration systems in public schools ensures safe
+                  drinking water for our children. We&apos;re grateful for
+                  Hydra&apos;s dedication to public health and their innovative
+                  solutions.
                 </p>
               </div>
               <div className="author_2">
