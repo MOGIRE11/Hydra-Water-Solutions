@@ -17,7 +17,7 @@ function Contact() {
       
       <div className="flex flex-wrap mb-8 gap-16 ">
         {/* left side */}
-        <div className="request md:w-[50%] mb-16 sticky top-6 overflow-auto ">
+        <div className="request md:w-[50%] mb-16">
           <h2 className="font-bold text-2xl "> Submit a Quote Request</h2>
           <p className="text-sm mb-4 ">
             Investing in clean water is investing in health and well-being. At
