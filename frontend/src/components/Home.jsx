@@ -5,6 +5,7 @@ import fivestagePurifier from './assets/5stage.svg'
 // import africanmap from './assets/african-map.svg';
 import celestialdental from './assets/celestial-dental-partner.svg';
 import fineteklabs from './assets/fineteklabs-partner.png';
+import user from './assets/user.jpg';
 import amario from "./assets/amario-partner.svg";
 import hidrotech from "./assets/hidrotech-partner.svg";
 import stuntech from "./assets/Stuntech-partner.svg";
@@ -163,7 +164,6 @@ function Home() {
 
       {/* services */}
       <div className="services flex items-start justify-between lg:items-center lg:justify-evenly flex-wrap gap-y-4 mt-8">
-        
         {/* water testing */}
         <div className="service1 border-2 border-blue-800 w-64 h-36 rounded-md relative p-2">
           <p className="text-blue-800 font-bold text-lg mb-2 text-center underline underline-offset-8">
@@ -175,7 +175,7 @@ function Home() {
           </p>
         </div>
 
-{/* purification systems */}
+        {/* purification systems */}
         <div className="service2 p-2 shadow-lg border w-64 h-36 rounded-md relative bg-blue-800 text-white">
           <p className=" font-bold text-lg mb-4 text-center">
             Domestic Water Purification Systems
@@ -192,9 +192,8 @@ function Home() {
           </p>
         </div>
 
-{/* servicing services */}
+        {/* servicing services */}
         <div className="service3 border-2 p-2 border-blue-800 w-64 h-36 rounded-md relative">
-          
           <p className="mb-2 text-lg text-blue-800 font-bold text-center underline underline-offset-8">
             System Servicing
           </p>
@@ -205,8 +204,6 @@ function Home() {
         </div>
       </div>
 
-
- 
       {/* our story */}
       <div className="about-us mt-32 flex flex-col lg:flex-row lg:items-center justify-between gap-4">
         <div className="about-story lg:w-1/2">
@@ -261,9 +258,12 @@ function Home() {
         </div>
       </div>
 
+      <h1 className="mt-24 mb-12 font-bold text-2xl text-center underline underline-offset-4">
+        What Our Customers Say
+      </h1>
       {/* Testimonials */}
 
-      <div className="testimonial_slider_2 my-24">
+      <div className="testimonial_slider_2 mb-24 lg:w-[70%] border shadow-lg rounded-lg bg-white">
         <input type="radio" name="slider_2" id="slide_2_1" checked />
         <input type="radio" name="slider_2" id="slide_2_2" />
         <input type="radio" name="slider_2" id="slide_2_3" />
@@ -280,9 +280,17 @@ function Home() {
                   professional and efficient, making the whole process a breeze.
                 </p>
               </div>
-              <div className="author_2">
-                <h3>Karen Sweetland</h3>
-                <h4>Valley Medical Center, San Jose, CA</h4>
+
+              <div className="author_2 flex items-end gap-2">
+                <img
+                  src={user}
+                  alt=""
+                  className="w-12 h-12 object-cover rounded-full"
+                />
+                <span className="">
+                  <h3>Linda Awuor</h3>
+                  <h4>Valley Medical Center</h4>
+                </span>
               </div>
             </div>
           </div>
@@ -298,9 +306,16 @@ function Home() {
                   happier!
                 </p>
               </div>
-              <div className="author_2">
-                <h3>Leah Jordan</h3>
-                <h4> MDiv, Brite Divinity School</h4>
+              <div className="author_2 flex gap-2 items-end">
+                <img
+                  src={user}
+                  alt=""
+                  className="w-12 h-12 object-cover rounded-full"
+                />
+                <span className="">
+                  <h3>Linda Awuor</h3>
+                  <h4>Valley Medical Center</h4>
+                </span>
               </div>
             </div>
           </div>
@@ -316,12 +331,16 @@ function Home() {
                   is top-notch, always responsive and helpful.
                 </p>
               </div>
-              <div className="author_2">
-                <h3>Brian McNaught</h3>
-                <h4>
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit,
-                  fuga?
-                </h4>
+              <div className="author_2 flex gap-2 items-end">
+                <img
+                  src={user}
+                  alt=""
+                  className="w-12 h-12 object-cover rounded-full"
+                />
+                <span className="">
+                  <h3>Linda Awuor</h3>
+                  <h4>Valley Medical Center</h4>
+                </span>
               </div>
             </div>
           </div>
@@ -337,12 +356,16 @@ function Home() {
                   solutions.
                 </p>
               </div>
-              <div className="author_2">
-                <h3>Lee Barker</h3>
-                <h4>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Laudantium, animi!
-                </h4>
+              <div className="author_2 flex gap-2 items-end">
+                <img
+                  src={user}
+                  alt=""
+                  className="w-12 h-12 object-cover rounded-full"
+                />
+                <span className="">
+                  <h3>Linda Awuor</h3>
+                  <h4>Valley Medical Center</h4>
+                </span>
               </div>
             </div>
           </div>

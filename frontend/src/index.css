@@ -99,13 +99,16 @@ button:active {
 .footer-bottom .bottom-one .logo a:hover{
 	text-decoration: none;
 }
+
 /* testimonials start*/
 .testimonial_slider_2{
-	width:100%;
-	border: 1px solid #ebebeb;
+	/* width:100%; */
+	/* border: 1px solid #ebebeb; */
 	overflow:hidden;
 	box-sizing:border-box;
-	padding-bottom:30px;
+	padding-bottom:10px;
+	margin: auto;
+	/* padding: 0; */
 }
 .testimonial_slider_2 input {
 	display: none;
@@ -156,7 +159,7 @@ button:active {
 }
 .testimonial_2 {
 	font-size: 16px !important;
-	color: #333; /* Change testimonial paragraph text color */
+	/* color: #333; Change testimonial paragraph text color */
 	padding: 30px 30px 23px;
 }
 .content_2 {
@@ -186,19 +189,19 @@ button:active {
 	margin-left: 30px;
 }
 .author_2 h3 {
-	color: #333; /* Change author text color */
+	/* color: #333; Change author text color */
 	font-size: 13px;
 	font-weight: 600px;
 	padding: 0 0 5px;
 }
 .author_2 h4 {
-	color: #333; /* Change author text color */
+	/* color: #333; Change author text color */
 	font-size: 12px;
 	font-weight: 400;
 	padding: 0 0 5px;
 }
 .author_2 h4 a {
-	color: #999; /* Change company text link color */
+	/* color: #999; Change company text link color */
 	text-decoration: none;
 	position: relative;
 	padding-bottom: 1px;
@@ -206,7 +209,7 @@ button:active {
 	border-bottom: 1px solid;
 }
 .author_2 h4 a:after {
-	background: #999; /* Change company border link background color */
+	/* background: #999; Change company border link background color */
 	height: 1px;
 	content: "";
 	position: absolute;
@@ -219,7 +222,7 @@ button:active {
 	transition: all .3s;
 }
 .author_2 h4 a:hover {
-	color: #000; /* Change company text link color when mouse over */
+	/* color: #000; Change company text link color when mouse over */
 	border: none;
 }
 .author_2 h4 a:hover:after {

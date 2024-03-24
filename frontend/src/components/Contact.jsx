@@ -4,7 +4,7 @@ function Contact() {
   return (
     <div className="px-4 lg:px-20">
       {/* breadcrumb */}
-      <div className="breadcrumb flex items-center gap-2 text-xs mt-4 mb-20">
+      <div className="breadcrumb flex items-center gap-2 text-xs mt-4 mb-8">
         <NavLink to="/">
           <i className="fa-solid fa-house mr-1 cursor-pointer text-blue-800"></i>
           <p className="inline hover:text-blue-800 hover:font-bold">Home</p>
