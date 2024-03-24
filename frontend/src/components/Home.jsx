@@ -165,7 +165,7 @@ function Home() {
       {/* services */}
       <div className="services flex items-start justify-between lg:items-center lg:justify-evenly flex-wrap gap-y-4 mt-8">
         {/* water testing */}
-        <div className="service1 border-2 border-blue-800 w-64 h-36 rounded-md relative p-2">
+        <div className="service1 border-2 border-blue-800 w-64 h-36 rounded-md relative p-2 bg-white">
           <p className="text-blue-800 font-bold text-lg mb-2 text-center underline underline-offset-8">
             Water Testing
           </p>
@@ -193,7 +193,7 @@ function Home() {
         </div>
 
         {/* servicing services */}
-        <div className="service3 border-2 p-2 border-blue-800 w-64 h-36 rounded-md relative">
+        <div className="service3 border-2 p-2 border-blue-800 w-64 h-36 rounded-md relative bg-white">
           <p className="mb-2 text-lg text-blue-800 font-bold text-center underline underline-offset-8">
             System Servicing
           </p>
