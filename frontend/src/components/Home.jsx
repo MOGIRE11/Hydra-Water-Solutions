@@ -206,7 +206,7 @@ function Home() {
       </div>
 
 
-
+ 
       {/* our story */}
       <div className="about-us mt-32 flex flex-col lg:flex-row lg:items-center justify-between gap-4">
         <div className="about-story lg:w-1/2">
