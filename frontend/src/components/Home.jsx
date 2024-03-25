@@ -19,7 +19,7 @@ function Home() {
   return (
     <div className="px-4 lg:px-20 my-8">
       <div className="hero-section flex flex-col my-10 lg:my-8 lg:mt-20 gap-4 lg:flex-row lg:justify-between items-center lg:mb-20">
-        <div className="hero-content lg:w-1/2 mb-8 lg:mb-2">
+        <div className="hero-content lg:w-1/2 mb-8 lg:mb-2" data-aos="fade-up">
           <small className="text-xs font-bold gray tracking-wide">
             UNDER THE SINK
           </small>
@@ -57,14 +57,18 @@ function Home() {
         </div>
 
         <img
-          className="h-[300px] w-full lg:w-[500px] rounded-md aspect-video object-cover flex mx-0"
+          className="h-[250px] w-full lg:h-[300px] lg:w-[500px] rounded-md aspect-video object-cover flex mx-0"
           src={underthesink}
           alt="hydra-reverse-osmosis-water-purifier"
+          data-aos="fade-up"
         />
       </div>
 
       {/* Hydra's Statistics */}
-      <div className="stats flex flex-col items-start md:items-center justify-evenly md:flex-row gap-4">
+      <div
+        className="stats flex flex-col items-start md:items-center justify-evenly md:flex-row gap-4"
+        data-aos="fade-up"
+      >
         <section className="flex items-center gap-2">
           <h3 className="text-2xl font-bold">200+</h3>
           <span className="text-sm font-semibold">
@@ -106,20 +110,15 @@ function Home() {
 
       <img src={hydraprint} alt="hydra-print" />
 
-      <div className="featured-products">
+      <div className="featured-products" data-aos="fade-up">
         <p className="gray text-xs mt-24 tracking wider font-bold">
           SHOP WITH US
         </p>
         <p className="text-2xl font-bold">Featured Products</p>
-        {/* <p className="lg:w-[70%] text-sm my-2">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque
-          ipsum,neque dolor eos illo repellendus numquam soluta ratione velit
-          eos illo repellendus
-        </p> */}
       </div>
 
       <div className="products mt-10">
-        <div className="product1">
+        <div className="product1" data-aos="fade-up">
           <img
             src={fivestagePurifier}
             alt="hydra-5stage-purifier"
@@ -136,7 +135,7 @@ function Home() {
           </p>
         </div>
 
-        <div className="product2">
+        <div className="product2" data-aos="fade-up">
           <img
             src={sevenstagePurifier}
             alt="hydra-5stage-purifier"
