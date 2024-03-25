@@ -12,6 +12,7 @@ import stuntech from "./assets/Stuntech-partner.svg";
 // import image5 from "./assets/image5.svg";
 import hydraprint from "./assets/Hydra-print.svg";
 import hydrateam from "./assets/Hydra-team-photo.svg";
+import underthesink from "./assets/7stagepurifier.svg"
 
 
 function Home() {
@@ -56,14 +57,14 @@ function Home() {
         </div>
 
         <img
-          className="h-[300px] w-full lg:h-auto lg:w-auto flex mx-0"
-          src={sevenstagePurifier}
+          className="h-[300px] w-full lg:w-[500px] rounded-md aspect-video object-cover flex mx-0"
+          src={underthesink}
           alt="hydra-reverse-osmosis-water-purifier"
         />
       </div>
 
       {/* Hydra's Statistics */}
-      <div className="stats flex items-center justify-evenly flex-wrap gap-4">
+      <div className="stats flex flex-col items-start md:items-center justify-evenly md:flex-row gap-4">
         <section className="flex items-center gap-2">
           <h3 className="text-2xl font-bold">200+</h3>
           <span className="text-sm font-semibold">
