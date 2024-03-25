@@ -34,19 +34,24 @@ function Home() {
             ensure that every sip is a pure and healthy delight.
           </p>
           <span className="flex flex-wrap gap-4">
-            <button
-              className="border-2 w-40 py-2 rounded-md border-black font-semibold"
-              type="button"
-            >
-              <NavLink to="/products">View Products</NavLink>
-            </button>
-            <button
-              className="w-40 py-2 font-semibold secondary text-white rounded-md border secondary  flex items-center justify-center gap-4"
-              type="button"
-            >
-              <NavLink to="/contact">Contact Us</NavLink>
-              <i className="fa-solid fa-arrow-up rotate-90"></i>
-            </button>
+            <NavLink to="/products">
+              <button
+                className="border-2 w-40 py-2 rounded-md border-black font-semibold"
+                type="button"
+              >
+                View Products
+              </button>
+            </NavLink>
+
+            <NavLink to="/contact">
+              <button
+                className="w-40 py-2 font-semibold secondary text-white rounded-md border secondary  flex items-center justify-center gap-4"
+                type="button"
+              >
+                Contact Us
+                <i className="fa-solid fa-arrow-up rotate-90"></i>
+              </button>
+            </NavLink>
           </span>
         </div>
 
@@ -137,7 +142,7 @@ function Home() {
             className="border h-42 w-full object-cover"
           />
           <p className="font-bold mt-2">
-            5 Stage Reverse Osmosis Water Purifier
+            7 Stage Reverse Osmosis Water Purifier
           </p>
           <p className="text-sm my-2 text-neutral-500 font-semibold">
             Ideal for those using borehole water ,river and rain water
@@ -220,13 +225,15 @@ function Home() {
             products and services, we hope to improve the communities we serve
             as well as the environment .
           </p>
-          <button
-            className="border w-40 py-2 font-semibold secondary text-white rounded-md  flex items-center justify-evenly"
-            type="button"
-          >
-            <NavLink to="/about">Read Our Story</NavLink>
-            <i className="fa-solid fa-arrow-up rotate-45"></i>
-          </button>
+          <NavLink to="/about">
+            <button
+              className="border w-40 py-2 font-semibold secondary text-white rounded-md  flex items-center justify-evenly"
+              type="button"
+            >
+              Read Our Story
+              <i className="fa-solid fa-arrow-up rotate-45"></i>
+            </button>
+          </NavLink>
         </div>
 
         <div className="our-pic lg:w-1/2 flex items-center lg:justify-end my-8">
@@ -382,12 +389,15 @@ function Home() {
       <h2 className="text-2xl font-semibold text-center mb-4 mt-16">
         Ready To Go Green?
       </h2>
-      <button
-        className="w-40 py-2 font-semibold secondary text-white rounded-md flex mx-auto items-center justify-center mb-16"
-        type="button"
-      >
-        <NavLink to="/contact">Contact Us</NavLink>
-      </button>
+
+      <NavLink to="/contact">
+        <button
+          className="w-40 py-2 font-semibold secondary text-white rounded-md flex mx-auto items-center justify-center mb-16"
+          type="button"
+        >
+          Contact Us
+        </button>
+      </NavLink>
     </div>
   );
 }
