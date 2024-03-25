@@ -19,7 +19,7 @@ function Home() {
   return (
     <div className="px-4 lg:px-20 my-8">
       <div className="hero-section flex flex-col my-10 lg:my-8 lg:mt-20 gap-4 lg:flex-row lg:justify-between items-center lg:mb-20">
-        <div className="hero-content lg:w-1/2 mb-8 lg:mb-2" data-aos="fade-up">
+        <div className="hero-content lg:w-1/2 mb-8 lg:mb-2" >
           <small className="text-xs font-bold gray tracking-wide">
             UNDER THE SINK
           </small>
@@ -60,14 +60,13 @@ function Home() {
           className="h-[250px] w-full lg:h-[300px] lg:w-[500px] rounded-md aspect-video object-cover flex mx-0"
           src={underthesink}
           alt="hydra-reverse-osmosis-water-purifier"
-          data-aos="fade-up"
+        
         />
       </div>
 
       {/* Hydra's Statistics */}
       <div
-        className="stats flex flex-col items-start md:items-center justify-evenly md:flex-row gap-4"
-        data-aos="fade-up"
+        className="stats flex flex-col items-start md:items-center justify-between md:flex-row gap-4"
       >
         <section className="flex items-center gap-2">
           <h3 className="text-2xl font-bold">200+</h3>
@@ -110,7 +109,7 @@ function Home() {
 
       <img src={hydraprint} alt="hydra-print" />
 
-      <div className="featured-products" data-aos="fade-up">
+      <div className="featured-products">
         <p className="gray text-xs mt-24 tracking wider font-bold">
           SHOP WITH US
         </p>
@@ -118,7 +117,7 @@ function Home() {
       </div>
 
       <div className="products mt-10">
-        <div className="product1" data-aos="fade-up">
+        <div className="product1">
           <img
             src={fivestagePurifier}
             alt="hydra-5stage-purifier"
@@ -135,7 +134,7 @@ function Home() {
           </p>
         </div>
 
-        <div className="product2" data-aos="fade-up">
+        <div className="product2" >
           <img
             src={sevenstagePurifier}
             alt="hydra-5stage-purifier"
