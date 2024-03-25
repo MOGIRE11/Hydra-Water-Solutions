@@ -55,7 +55,9 @@ function Footer() {
         </div>
 
         <div className="bottom-two flex flex-col items-start ">
-          <h4 className="font-bold text-neutral-300">Quick Links</h4>
+          <h4 className="font-bold text-neutral-300 underline underline-offset-4">
+            Quick Links
+          </h4>
           <span className="flex flex-col text-sm mt-2 gap-1">
             <NavLink to="/" className="">
               Home
@@ -84,7 +86,9 @@ function Footer() {
         </div>
 
         <div className="bottom-three flex flex-col items-start">
-          <h4 className="font-bold text-neutral-300">Legal</h4>
+          <h4 className="font-bold text-neutral-300 underline underline-offset-4">
+            Legal
+          </h4>
           <span className="flex flex-col text-sm mt-2 gap-1">
             <NavLink to="/errorPage" className="">
               Privacy Policy
@@ -110,7 +114,7 @@ function Footer() {
 
         {/* contact Information */}
         <div className="bottom-four">
-          <h4 className="font-bold mb-2 text-neutral-300">
+          <h4 className="font-bold mb-2 text-neutral-300 underline underline-offset-4">
             Contact Information
           </h4>
           <div className="flex items-center gap-2 mb-4">
