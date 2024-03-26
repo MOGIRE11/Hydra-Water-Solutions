@@ -72,7 +72,7 @@ function Home() {
           <h3 className="text-2xl font-bold">200+</h3>
           <span className="text-sm font-semibold">
             Customers
-            <br />
+            <br/>
             Nationwide
           </span>
         </section>
@@ -81,7 +81,7 @@ function Home() {
           <h3 className="text-2xl font-bold">97%</h3>
           <span className="text-sm font-semibold">
             Customer
-            <br />
+            <br/>
             Satisfaction Rate
           </span>
         </section>
@@ -90,7 +90,7 @@ function Home() {
           <h3 className="text-2xl font-bold">2+</h3>
           <span className="text-sm font-semibold">
             Years Of
-            <br />
+            <br/>
             Experience
           </span>
         </section>
@@ -99,7 +99,7 @@ function Home() {
           <h3 className="text-2xl font-bold">100+</h3>
           <span className="text-sm font-semibold">
             Lives
-            <br />
+            <br/>
             Impacted
           </span>
         </section>
