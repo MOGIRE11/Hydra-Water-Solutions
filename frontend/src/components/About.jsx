@@ -63,7 +63,7 @@ function About() {
           <i className="fa-solid fa-house mr-1 cursor-pointer  w-12 h-12 text-white border flex items-center justify-center rounded-full bg-blue-700"></i>
           <h2 className="font-bold tracking-wide text-xl my-2">OUR VISION</h2>
           <p className="">
-            -To provide sustainable world class solutions in our fields of
+            To provide sustainable world class solutions in our fields of
             specialization.
           </p>
         </div>
