@@ -146,10 +146,8 @@ button:active {
 	height:8px;
 	margin:0 2px;
 	display:inline-block;
-	background:#999; /* Change controls background color */
-	border-radius:4px;
-	-moz-border-radius:4px;
-	-webkit-border-radius:4px;
+	background:#999; 
+	/* border-radius:4px; */
 }
 .testimonial_slider_2 #slide_2_1:checked ~ #controls label:nth-child(1), 
 .testimonial_slider_2 #slide_2_2:checked ~ #controls label:nth-child(2), 
@@ -231,3 +229,15 @@ button:active {
 }
 /* testimonials end */
 
+
+
+/* blog cards */
+.blog-card-wrapper{
+	display: grid;
+	grid-template-columns: repeat(auto-fill,minmax(250px,1fr));
+	column-gap: 20px;
+	row-gap: 30px;
+	align-content: center;
+	justify-items: space-between;
+	
+}
