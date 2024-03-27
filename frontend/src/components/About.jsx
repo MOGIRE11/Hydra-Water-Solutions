@@ -178,13 +178,12 @@ function About() {
           <p className="text-sm font-semibold gray">CEO Hydra</p>
         </div>
       </div>
+
       {/* clients */}
-      <p className="text-xs gray tracking-wider font-bold  md:text-center mt-24">
-        OUR PARTNERS
-      </p>
-      <h3 className="text-2xl font-bold md:text-center">
-        Only Recognized By the Best
-      </h3>
+      <h2 className="underline underline-offset-4 text-lg tracking-wider font-bold  md:text-center mt-24 ">
+        Our Partners
+      </h2>
+      
       <div className="partners-wrapper my-4 ">
         <div className="scroll-content flex items-center w-full justify-evenly gap-4 flex-wrap">
           <img src={hidrotech} alt="hidrotech-hydra-partner" className="" />

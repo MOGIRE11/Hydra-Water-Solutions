@@ -8,12 +8,13 @@ import Products from "./components/Products";
 import Footer from "./components/Footer";
 import ErrorPage from "./components/ErrorPage";
 import { Routes, Route } from "react-router-dom";
+import ScrollToTop from "./components/scrollToTop";
 
 function App() {
   return (
     <>
       <Navbar />
-
+      <ScrollToTop />
       <Routes>
         <Route exact path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
