@@ -1,16 +1,12 @@
 import { NavLink } from "react-router-dom";
 import hydrateam from "./assets/Hydra-team-photo.svg";
 import user from "./assets/user.jpg";
-
-
-// import africanmap from './assets/african-map.svg';
 import celestialdental from "./assets/celestial-dental-partner.svg";
 import fineteklabs from "./assets/fineteklabs-partner.png";
 import amario from "./assets/amario-partner.svg";
 import hidrotech from "./assets/hidrotech-partner.svg";
 import stuntech from "./assets/Stuntech-partner.svg";
-import hydraprint from "./assets/Hydra-print.svg";
-import underthesink from "./assets/7stagepurifier.svg";
+
 
 function About() {
   return (
