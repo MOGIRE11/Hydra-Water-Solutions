@@ -1,4 +1,6 @@
 import { NavLink } from "react-router-dom";
+import hydraprint from "./assets/Hydra-print.svg";
+
 
 function Contact() {
   return (
@@ -48,7 +50,7 @@ function Contact() {
               </p>
             </div>
           </div>
-          <img src="src/components/assets/image 5.svg" alt="" />
+          <img src={hydraprint} alt="hydra-african-print" />
         </div>
         {/* form */}
         <div className="form ">

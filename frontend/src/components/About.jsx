@@ -1,7 +1,16 @@
 import { NavLink } from "react-router-dom";
 import hydrateam from "./assets/Hydra-team-photo.svg";
-import user from './assets/user.jpg';
+import user from "./assets/user.jpg";
 
+
+// import africanmap from './assets/african-map.svg';
+import celestialdental from "./assets/celestial-dental-partner.svg";
+import fineteklabs from "./assets/fineteklabs-partner.png";
+import amario from "./assets/amario-partner.svg";
+import hidrotech from "./assets/hidrotech-partner.svg";
+import stuntech from "./assets/Stuntech-partner.svg";
+import hydraprint from "./assets/Hydra-print.svg";
+import underthesink from "./assets/7stagepurifier.svg";
 
 function About() {
   return (
@@ -145,9 +154,10 @@ function About() {
       <h1 className="text-2xl font-bold mt-24 text-center underline underline-offset-4">
         Meet The Team
       </h1>
+
       <div className="members flex items-center justify-evenly flex-wrap mt-12 space-y-8">
         <div className="ceo relative w-[250px]">
-          <img src={user} alt="Hydra-CEO" className="" />
+          <img src={user} alt="Hydra-CEO" className="w-full rounded-md" />
           <p className=" text-lg font-bold">Andrew Gisemba</p>
           <p className="text-sm font-semibold gray">CEO Hydra</p>
         </div>
@@ -156,19 +166,42 @@ function About() {
           <img
             src="https://img.freepik.com/free-photo/businesswoman-executive-professional-success-concept_53876-137644.jpg?t=st=1711576559~exp=1711580159~hmac=34433e1ac2df2b4c9ff27c9aaa647931c08773aecb09a4e1a72e6cb104b158cd&w=826"
             alt="Hydra-CEO"
-            className="border object-cover w-full"
+            className="border object-cover w-full rounded-md"
           />
-          <p className=" text-lg font-bold">Andrew Gisemba</p>
-          <p className="text-sm font-semibold gray">CEO Hydra</p>
+          <p className=" text-lg font-bold">Temina Semo</p>
+          <p className="text-sm font-semibold gray">Sales Manager Hydra</p>
         </div>
 
         <div className="ceo relative w-[250px]">
-          <img src={user} alt="Hydra-CEO" className="" />
-          <p className=" text-lg font-bold">Andrew Gisemba</p>
+          <img
+            src="https://img.freepik.com/free-photo/medium-shot-man-working-as-lawyer_23-2151202441.jpg?t=st=1711577379~exp=1711580979~hmac=38933f2734447de4f3b9a103da2b4bfbc7902ba123859bd915df776e2e0394da&w=826"
+            alt="Hydra-CEO"
+            className="rounded-md w-full object-cover"
+          />
+          <p className=" text-lg font-bold">lorem ipsum</p>
           <p className="text-sm font-semibold gray">CEO Hydra</p>
         </div>
       </div>
       {/* clients */}
+      <p className="text-xs gray tracking-wider font-bold  md:text-center mt-24">
+        OUR PARTNERS
+      </p>
+      <h3 className="text-2xl font-bold md:text-center">
+        Only Recognized By the Best
+      </h3>
+      <div className="partners-wrapper my-4 ">
+        <div className="scroll-content flex items-center w-full justify-evenly gap-4 flex-wrap">
+          <img src={hidrotech} alt="hidrotech-hydra-partner" className="" />
+          <img src={fineteklabs} alt="fineteklabs-hydra-partner" className="" />
+          <img
+            src={celestialdental}
+            alt="celestial-dental-hydra-partner"
+            className=""
+          />
+          <img src={stuntech} alt="stuntech-hydra-partner" className="" />
+          <img src={amario} alt="amario-hydra-partner" className="" />
+        </div>
+      </div>
     </div>
   );
 }
