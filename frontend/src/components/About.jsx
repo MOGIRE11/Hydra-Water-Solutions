@@ -17,7 +17,7 @@ function About() {
       </div>
 
       <h1 className="text-2xl text-center font-bold mt-8">Welcome to Hydra</h1>
-      <p className="mb-8 text-center text-neutral-600">
+      <p className="mb-8 text-center text-neutral-600 text-sm">
         Revolutionizing water for a sustainable future
       </p>
 
@@ -61,7 +61,9 @@ function About() {
         <div className="vision ">
           {/* paper plane - telegram */}
           <i className="fa-solid fa-house mr-1 cursor-pointer  w-12 h-12 text-white border flex items-center justify-center rounded-full bg-blue-700"></i>
-          <h2 className="font-bold tracking-wide text-lg my-2">OUR VISION</h2>
+          <h2 className="font-bold tracking-wide text-lg my-2 underline underline-offset-4">
+            OUR VISION
+          </h2>
           <p className="">
             To provide sustainable world class solutions in our fields of
             specialization.
@@ -72,7 +74,9 @@ function About() {
         <div className="mission">
           {/* compass */}
           <i className="fa-solid fa-house mr-1 cursor-pointer  w-12 h-12 text-white border flex items-center justify-center rounded-full bg-blue-700"></i>
-          <h2 className="font-bold tracking-wide text-lg my-2">OUR MISSION</h2>
+          <h2 className="font-bold tracking-wide text-lg my-2 underline underline-offset-4">
+            OUR MISSION
+          </h2>
           <p className="">
             To provide safe and accessible water for everyone, and to foster a
             culture of collaboration and excellence among our stakeholders. We
@@ -85,7 +89,9 @@ function About() {
         <div className="strengths">
           {/* leaf*/}
           <i className="fa-solid fa-house mr-1 cursor-pointer  w-12 h-12 text-white border flex items-center justify-center rounded-full bg-blue-700"></i>
-          <h2 className="font-bold tracking-wide text-lg my-2">OUR GOAL</h2>
+          <h2 className="font-bold tracking-wide text-lg my-2 underline underline-offset-4">
+            OUR GOAL
+          </h2>
           <p className="">
             To better lives of our communities through provision of of high
             quality products and services in the fields of water, renewable
@@ -134,7 +140,9 @@ function About() {
       </div>
 
       {/* meet our team */}
-      <h1 className="text-2xl font-bold mt-24 text-center">Meet The Team</h1>
+      <h1 className="text-2xl font-bold mt-24 text-center underline underline-offset-4">
+        Meet The Team
+      </h1>
       {/* clients */}
     </div>
   );
