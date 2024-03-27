@@ -17,9 +17,8 @@ function About() {
       </div>
 
       <h1 className="text-2xl text-center font-bold mt-8">Welcome to Hydra</h1>
-      <p className="mb-8 text-center">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat,
-        illum?
+      <p className="mb-8 text-center text-neutral-600">
+        Revolutionizing water for a sustainable future
       </p>
 
       {/* history */}
@@ -32,25 +31,26 @@ function About() {
         <div className="about-details">
           {/* heading */}
           <h2 className="font-bold underline underline-offset-4 mb-4">
-            OUR HISTORY
+            OUR STORY
           </h2>
           <p className="">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-            Accusantium eius itaque qui magnam nisi dolor magni voluptatum sed
-            doloremque nostrum rem minima, sint inventore maiores, cumque quod
-            dolore adipisci at.
+            Hydra was founded to address the notable lack of service delivery in
+            the areas of water, renewable energy and stand-by power solutions.
+            After identifying the gap in quality service, we sought to close the
+            accessibility and availability of safe drinking water to all while
+            encouraging cooperation with our partners. By offering top-notch
+            products and services, we hope to improve the communities we serve
+            as well as the environment .
           </p>
           <p className="my-4">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-            Accusantium eius itaque qui magnam nisi dolor magni voluptatum sed
-            doloremque nostrum rem minima, sint inventore maiores, cumque quod
-            dolore adipisci at.
+            We are an organization aimed at providing solutions for the people
+            we serve through use of sophisticated technology bettering the
+            peoples overall health.
           </p>
           <p className="">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-            Accusantium eius itaque qui magnam nisi dolor magni voluptatum sed
-            doloremque nostrum rem minima, sint inventore maiores, cumque quod
-            dolore adipisci at.
+            We believe in treating our customers with respect and honesty, our
+            employees with value and dignity and our partners with integrity and
+            ethical business practices.
           </p>
         </div>
       </div>
@@ -61,7 +61,7 @@ function About() {
         <div className="vision ">
           {/* paper plane - telegram */}
           <i className="fa-solid fa-house mr-1 cursor-pointer  w-12 h-12 text-white border flex items-center justify-center rounded-full bg-blue-700"></i>
-          <h2 className="font-bold tracking-wide text-xl my-2">OUR VISION</h2>
+          <h2 className="font-bold tracking-wide text-lg my-2">OUR VISION</h2>
           <p className="">
             To provide sustainable world class solutions in our fields of
             specialization.
@@ -72,7 +72,7 @@ function About() {
         <div className="mission">
           {/* compass */}
           <i className="fa-solid fa-house mr-1 cursor-pointer  w-12 h-12 text-white border flex items-center justify-center rounded-full bg-blue-700"></i>
-          <h2 className="font-bold tracking-wide text-xl my-2">OUR MISSION</h2>
+          <h2 className="font-bold tracking-wide text-lg my-2">OUR MISSION</h2>
           <p className="">
             To provide safe and accessible water for everyone, and to foster a
             culture of collaboration and excellence among our stakeholders. We
@@ -85,22 +85,56 @@ function About() {
         <div className="strengths">
           {/* leaf*/}
           <i className="fa-solid fa-house mr-1 cursor-pointer  w-12 h-12 text-white border flex items-center justify-center rounded-full bg-blue-700"></i>
-          <h2 className="font-bold tracking-wide text-xl my-2">
-            OUR STRENGTHS
-          </h2>
+          <h2 className="font-bold tracking-wide text-lg my-2">OUR GOAL</h2>
           <p className="">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
-            porro deleniti, temporibus quod saepe illo eaque fugiat voluptates
-            corrupti, commodi ducimus rerum cupiditate vitae a iusto? Sunt animi
-            ab accusamus.
+            To better lives of our communities through provision of of high
+            quality products and services in the fields of water, renewable
+            energy and stand-by power.
           </p>
         </div>
       </div>
 
       {/* stats */}
+      <div className="about-stats flex flex-col md:flex-row items-center justify-evenly mt-20 bg-blue-700 space-y-4 md:h-24 p-2">
+        <section className="flex items-center gap-2">
+          <h3 className="text-2xl font-bold">200+</h3>
+          <span className="text-sm font-semibold">
+            Customers
+            <br />
+            Nationwide
+          </span>
+        </section>
+
+        <section className="flex items-center gap-2">
+          <h3 className="text-2xl font-bold">97%</h3>
+          <span className="text-sm font-semibold">
+            Customer
+            <br />
+            Satisfaction Rate
+          </span>
+        </section>
+
+        <section className="flex items-center gap-2">
+          <h3 className="text-2xl font-bold">2+</h3>
+          <span className="text-sm font-semibold">
+            Years Of
+            <br />
+            Experience
+          </span>
+        </section>
+
+        <section className="flex items-center gap-2">
+          <h3 className="text-2xl font-bold">100+</h3>
+          <span className="text-sm font-semibold">
+            Lives
+            <br />
+            Impacted
+          </span>
+        </section>
+      </div>
 
       {/* meet our team */}
-
+      <h1 className="text-2xl font-bold mt-24 text-center">Meet The Team</h1>
       {/* clients */}
     </div>
   );
