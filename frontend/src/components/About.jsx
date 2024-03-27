@@ -1,5 +1,7 @@
 import { NavLink } from "react-router-dom";
 import hydrateam from "./assets/Hydra-team-photo.svg";
+import user from './assets/user.jpg';
+
 
 function About() {
   return (
@@ -143,6 +145,29 @@ function About() {
       <h1 className="text-2xl font-bold mt-24 text-center underline underline-offset-4">
         Meet The Team
       </h1>
+      <div className="members flex items-center justify-evenly flex-wrap mt-12 space-y-8">
+        <div className="ceo relative w-[250px]">
+          <img src={user} alt="Hydra-CEO" className="" />
+          <p className=" text-lg font-bold">Andrew Gisemba</p>
+          <p className="text-sm font-semibold gray">CEO Hydra</p>
+        </div>
+
+        <div className="ceo relative w-[250px]">
+          <img
+            src="https://img.freepik.com/free-photo/businesswoman-executive-professional-success-concept_53876-137644.jpg?t=st=1711576559~exp=1711580159~hmac=34433e1ac2df2b4c9ff27c9aaa647931c08773aecb09a4e1a72e6cb104b158cd&w=826"
+            alt="Hydra-CEO"
+            className="border object-cover w-full"
+          />
+          <p className=" text-lg font-bold">Andrew Gisemba</p>
+          <p className="text-sm font-semibold gray">CEO Hydra</p>
+        </div>
+
+        <div className="ceo relative w-[250px]">
+          <img src={user} alt="Hydra-CEO" className="" />
+          <p className=" text-lg font-bold">Andrew Gisemba</p>
+          <p className="text-sm font-semibold gray">CEO Hydra</p>
+        </div>
+      </div>
       {/* clients */}
     </div>
   );
