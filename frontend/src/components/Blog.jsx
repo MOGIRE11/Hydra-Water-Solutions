@@ -18,9 +18,7 @@ function Blog() {
           <p className="inline hover:text-blue-800 hover:font-bold">Home</p>
         </NavLink>
         <i className="fa-solid fa-chevron-right"></i>
-        Contact Us
-        <i className="fa-solid fa-chevron-right"></i>
-        Blog
+        Our Blog
       </div>
       <h2 className="font-bold text-2xl">Latest From our Blogs</h2>
       <p>
