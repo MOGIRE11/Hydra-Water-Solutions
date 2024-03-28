@@ -20,7 +20,7 @@ function Home() {
     <div className="px-4 lg:px-20 my-8">
       <div className="hero-section flex flex-col my-10 lg:my-8 lg:mt-20 gap-4 lg:flex-row lg:justify-between items-center lg:mb-20">
         <div className="hero-content lg:w-1/2 mb-8 lg:mb-2" >
-          <small className="text-xs font-bold gray tracking-wide">
+          <small className="text-xs font-bold text-teal-500 tracking-wide">
             UNDER THE SINK
           </small>
           <h1 className="text-3xl lg:text-4xl font-bold">
@@ -28,7 +28,7 @@ function Home() {
           </h1>
           <p className="mt-6 mb-8 lg:w-[90%]">
             Envision being able to turn your tap water into crisp ,{" "}
-            <span className=" font-semibold underline underline-offset-2">
+            <span className=" font-semibold underline text-teal-500 underline-offset-2">
               clean refeshment at the touch of a button
             </span>
             . Home water filtration systems not only remove impurities but also
@@ -110,7 +110,7 @@ function Home() {
       <img src={hydraprint} alt="hydra-print" />
 
       <div className="featured-products">
-        <p className="gray text-xs mt-24 tracking wider font-bold">
+        <p className="text-teal-500 text-xs mt-24 tracking wider font-bold">
           SHOP WITH US
         </p>
         <p className="text-2xl font-bold">Featured Products</p>
@@ -157,7 +157,7 @@ function Home() {
       </p>
 
       {/* services section header*/}
-      <p className="md:text-center gray tracking-wide text-xs font-bold mt-24">
+      <p className="md:text-center text-teal-500 tracking-wide text-xs font-bold mt-24">
         WHAT WE OFFER
       </p>
       <h3 className="text-2xl md:text-center font-bold">Our Best Services</h3>
@@ -211,7 +211,7 @@ function Home() {
       {/* our story */}
       <div className="about-us mt-32 flex flex-col lg:flex-row lg:items-center justify-between gap-4">
         <div className="about-story lg:w-1/2">
-          <p className="text-xs gray tracking-wider font-bold">ABOUT HYDRA</p>
+          <p className="text-xs text-teal-500 tracking-wider font-bold">ABOUT HYDRA</p>
           <h3 className="text-2xl font-bold">
             Our journey to revolutionize water for a sustainable future
           </h3>
@@ -244,7 +244,7 @@ function Home() {
         </div>
       </div>
 
-      <p className="text-xs gray tracking-wider font-bold  md:text-center mt-24">
+      <p className="text-xs text-teal-500 tracking-wider font-bold  md:text-center mt-24">
         OUR PARTNERS
       </p>
       <h3 className="text-2xl font-bold md:text-center">
