@@ -19,7 +19,7 @@ function Home() {
   return (
     <div className="px-4 lg:px-20 my-8">
       <div className="hero-section flex flex-col my-10 lg:my-8 lg:mt-20 gap-4 lg:flex-row lg:justify-between items-center lg:mb-20">
-        <div className="hero-content lg:w-1/2 mb-8 lg:mb-2" >
+        <div className="hero-content lg:w-1/2 mb-8 lg:mb-2">
           <small className="text-xs font-bold text-teal-500 tracking-wide">
             UNDER THE SINK
           </small>
@@ -60,46 +60,43 @@ function Home() {
           className="h-[250px] w-full lg:h-[300px] lg:w-[500px] rounded-md aspect-video object-cover flex mx-0"
           src={underthesink}
           alt="hydra-reverse-osmosis-water-purifier"
-        
         />
       </div>
 
       {/* Hydra's Statistics */}
-      <div
-        className="stats flex flex-col items-start md:items-center justify-between md:flex-row gap-4"
-      >
+      <div className="stats flex flex-col items-start md:items-center justify-between md:flex-row gap-4">
         <section className="flex items-center gap-2">
-          <h3 className="text-2xl font-bold">200+</h3>
+          <h3 className="text-2xl font-black  text-blue-900">200+</h3>
           <span className="text-sm font-semibold">
             Customers
-            <br/>
+            <br />
             Nationwide
           </span>
         </section>
 
         <section className="flex items-center gap-2">
-          <h3 className="text-2xl font-bold">97%</h3>
+          <h3 className="text-2xl font-black  text-blue-900">97%</h3>
           <span className="text-sm font-semibold">
             Customer
-            <br/>
+            <br />
             Satisfaction Rate
           </span>
         </section>
 
         <section className="flex items-center gap-2">
-          <h3 className="text-2xl font-bold">2+</h3>
+          <h3 className="text-2xl font-black  text-blue-900">2+</h3>
           <span className="text-sm font-semibold">
             Years Of
-            <br/>
+            <br />
             Experience
           </span>
         </section>
 
         <section className="flex items-center gap-2">
-          <h3 className="text-2xl font-bold">100+</h3>
+          <h3 className="text-2xl font-black text-blue-900">100+</h3>
           <span className="text-sm font-semibold">
             Lives
-            <br/>
+            <br />
             Impacted
           </span>
         </section>
@@ -113,7 +110,9 @@ function Home() {
         <p className="text-teal-500 text-xs mt-24 tracking wider font-bold">
           SHOP WITH US
         </p>
-        <p className="text-2xl font-bold">Featured Products</p>
+        <p className="text-2xl font-bold underline underline-offset-4">
+          Featured Products
+        </p>
       </div>
 
       <div className="products mt-10">
@@ -134,7 +133,7 @@ function Home() {
           </p>
         </div>
 
-        <div className="product2" >
+        <div className="product2">
           <img
             src={sevenstagePurifier}
             alt="hydra-5stage-purifier"
@@ -152,15 +151,18 @@ function Home() {
         </div>
       </div>
 
-      <p className="mt-10 text-sm gray font-semibold">
+      <p className="mt-10 text-sm text-blue-900 font-semibold underline underline-offset-4">
         Learn more about the Reverse Osmosis Water Purifiers.
+        <i className="fa-solid fa-arrow-up rotate-45 ml-1"></i>
       </p>
 
       {/* services section header*/}
       <p className="md:text-center text-teal-500 tracking-wide text-xs font-bold mt-24">
         WHAT WE OFFER
       </p>
-      <h3 className="text-2xl md:text-center font-bold">Our Best Services</h3>
+      <h3 className="text-2xl md:text-center font-bold underline underline-offset-4">
+        Our Best Services
+      </h3>
       {/* <p className="md:text-center text-sm">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci
         commodi iusto maxime.
@@ -211,7 +213,9 @@ function Home() {
       {/* our story */}
       <div className="about-us mt-32 flex flex-col lg:flex-row lg:items-center justify-between gap-4">
         <div className="about-story lg:w-1/2">
-          <p className="text-xs text-teal-500 tracking-wider font-bold">ABOUT HYDRA</p>
+          <p className="text-xs text-teal-500 tracking-wider font-bold">
+            ABOUT HYDRA
+          </p>
           <h3 className="text-2xl font-bold">
             Our journey to revolutionize water for a sustainable future
           </h3>
@@ -247,7 +251,7 @@ function Home() {
       <p className="text-xs text-teal-500 tracking-wider font-bold  md:text-center mt-24">
         OUR PARTNERS
       </p>
-      <h3 className="text-2xl font-bold md:text-center">
+      <h3 className="text-2xl font-bold md:text-center underline underline-offset-8">
         Only Recognized By the Best
       </h3>
       <div className="partners-wrapper my-4 ">

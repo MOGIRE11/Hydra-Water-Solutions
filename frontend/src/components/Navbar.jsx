@@ -8,7 +8,7 @@ const Navbar = () => {
   return (
     <div className="nav sticky top-0 z-10">
       {/* email and contact */}
-      <div className="info-bar hidden dark-blue md:text-white md:flex md:items-center md:space-x-8 md:py-2 md:px-4 lg:px-20">
+      <div className="info-bar hidden bg-blue-900 md:text-white md:flex md:items-center md:space-x-8 md:py-2 md:px-4 lg:px-20">
         <div className="phone flex items-center text-xs">
           <i className="fa-solid fa-phone mr-2"></i>
           <p className="text-xs">(+254 )-704-062-778 </p>
