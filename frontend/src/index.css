@@ -25,9 +25,13 @@ button:active {
 }
 
 .footer-bottom {
-  display: grid;
+  /* display: grid;
   align-content: center;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); */
+  display: flex ;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  /* align-items: center; */
   gap: 2rem;
 }
 

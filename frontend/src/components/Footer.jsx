@@ -5,8 +5,8 @@ import hydralogo from "./assets/Hydra-logo.png";
 function Footer() {
   return (
     <div className="footer w-full absolute botttom-0 dark-blue text-neutral-400 pt-8">
-      <div className="newsletter flex flex-col items-center">
-        <h3 className="font-bold">
+      <div className="newsletter flex flex-col items-center justify-center px-4">
+        <h3 className="font-bold text-center">
           Subscribe for the latest products and offers
         </h3>
         <span className="flex items-center gap-1 mt-2 flex-wrap gap-y-2">
