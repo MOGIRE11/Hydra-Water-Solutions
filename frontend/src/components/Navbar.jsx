@@ -9,19 +9,19 @@ const Navbar = () => {
     <div className="nav sticky top-0 z-10">
       {/* email and contact */}
       <div className="info-bar hidden dark-blue md:text-white md:flex md:items-center md:space-x-8 md:py-2 md:px-4 lg:px-20">
-        <div className="phone flex items-center">
+        <div className="phone flex items-center text-xs">
           <i className="fa-solid fa-phone mr-2"></i>
           <p className="text-xs">(+254 )-704-062-778 </p>
         </div>
         
-        <div className="email flex items-center">
+        <div className="email flex items-center text-xs">
           <i className="fa-solid fa-envelope mr-2"></i>
           <p className="text-xs">Hydrawater254@gmail.com</p>
         </div>
       </div>
 
       {/* navbar-content */}
-      <div className="div py-3 px-4 pl-0 md:px-4 flex items-center justify-between lg:px-20 shadow-md ">
+      <div className="div py-3 px-4 pl-0 md:px-4 flex items-center justify-between lg:px-20 ">
         <NavLink to="/">
           <div className="logo flex gap-0 items-center">
             <img
