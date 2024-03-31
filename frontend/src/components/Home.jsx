@@ -419,7 +419,10 @@ function Home() {
               <AccordionIcon />
             </AccordionButton>
           </h2>
-          <AccordionPanel pb={4} className="font-bold text-neutral-700">
+          <AccordionPanel
+            pb={4}
+            className="font-bold text-sm lg:text-base text-neutral-700"
+          >
             Yes
           </AccordionPanel>
         </AccordionItem>
@@ -438,8 +441,11 @@ function Home() {
               <AccordionIcon />
             </AccordionButton>
           </h2>
-          <AccordionPanel pb={4} className="text-neutral-700">
-            <span className="font-bold text-black">Yes</span> ,the systems are
+          <AccordionPanel
+            pb={4}
+            className="text-sm lg:text-base text-neutral-700"
+          >
+            <span className="font-bold text-black">Yes</span> , the systems are
             detached free of charge by our technical team and reinstalled in
             your new space
           </AccordionPanel>
@@ -459,8 +465,11 @@ function Home() {
               <AccordionIcon />
             </AccordionButton>
           </h2>
-          <AccordionPanel pb={4} className="text-neutral-700">
-            <span className="font-bold">Yes ,</span>the systems filter sediment
+          <AccordionPanel
+            pb={4}
+            className="text-neutral-700 text-sm lg:text-base"
+          >
+            <span className="font-bold">Yes , </span>the systems filter sediment
             ,kill microorganisms and mineralise your water optimally , simply
             put , they are the &quot; domestic versions &quot; of the industrial
             purification systems that produce mineral water .
@@ -481,7 +490,10 @@ function Home() {
               <AccordionIcon />
             </AccordionButton>
           </h2>
-          <AccordionPanel pb={4} className="text-neutral-700">
+          <AccordionPanel
+            pb={4}
+            className="text-sm lg:text-base text-neutral-700"
+          >
             5 stage purifiers - 200 to 300l a day , 7 stage purifiers - upto
             400l in a day
           </AccordionPanel>
@@ -505,7 +517,7 @@ function Home() {
             pb={4}
             className="text-sm lg:text-base text-neutral-700"
           >
-            <span className="font-bold">No </span>Fluorosis is not reversible
+            <span className="font-bold">No , </span>Fluorosis is not reversible
             .However , it will prevent further staining of the teeth
           </AccordionPanel>
         </AccordionItem>
@@ -524,7 +536,10 @@ function Home() {
               <AccordionIcon />
             </AccordionButton>
           </h2>
-          <AccordionPanel pb={4} className="text-neutral-700">
+          <AccordionPanel
+            pb={4}
+            className="text-sm lg:text-base text-neutral-700"
+          >
             Sediment , chloride , flouride , heavy metals , microplastics ,
             herbicides , pesticides , microorganisms, salt and most
             contaminants.
@@ -545,7 +560,10 @@ function Home() {
               <AccordionIcon />
             </AccordionButton>
           </h2>
-          <AccordionPanel pb={4} className="text-neutral-700">
+          <AccordionPanel
+            pb={4}
+            className="text-sm lg:text-base text-neutral-700"
+          >
             This is dependent on the water source and your usage .Changes in the
             water source might disrupt your maintenance schedule .
             <span className="font-bold text-black">
