@@ -401,101 +401,160 @@ function Home() {
       </div>
 
       {/* frequently asked questions */}
-      <h2 className="text-2xl mb-4 mt-16 underline underline-offset-8">Frequently Asked Questions</h2>
+      <h2 className="text-2xl mb-8 mt-24 underline underline-offset-8 font-bold">
+        Frequently Asked Questions
+      </h2>
       <Accordion allowToggle>
         <AccordionItem>
           <h2>
             <AccordionButton>
-              <Box as="span" flex="1" textAlign="left">
+              <Box
+                as="span"
+                flex="1"
+                textAlign="left"
+                className="font-semibold"
+              >
                 Does it remove salinity?
               </Box>
               <AccordionIcon />
             </AccordionButton>
           </h2>
-          <AccordionPanel pb={4}>Yes</AccordionPanel>
+          <AccordionPanel pb={4} className="font-bold text-neutral-700">
+            Yes
+          </AccordionPanel>
         </AccordionItem>
 
         <AccordionItem>
           <h2>
             <AccordionButton>
-              <Box as="span" flex="1" textAlign="left">
+              <Box
+                as="span"
+                flex="1"
+                textAlign="left"
+                className="font-semibold"
+              >
                 Can be detached on relocation?
               </Box>
               <AccordionIcon />
             </AccordionButton>
           </h2>
-          <AccordionPanel pb={4}>
-            <span className="font-bold">Yes</span> ,the systems are detached free of charge by our technical team and reinstalled in your new space
+          <AccordionPanel pb={4} className="text-neutral-700">
+            <span className="font-bold text-black">Yes</span> ,the systems are
+            detached free of charge by our technical team and reinstalled in
+            your new space
           </AccordionPanel>
         </AccordionItem>
 
         <AccordionItem>
           <h2>
             <AccordionButton>
-              <Box as="span" flex="1" textAlign="left">
+              <Box
+                as="span"
+                flex="1"
+                textAlign="left"
+                className="font-semibold"
+              >
                 Is the water safe for drinking ?
               </Box>
               <AccordionIcon />
             </AccordionButton>
           </h2>
-          <AccordionPanel pb={4}>
-            <span className="font-bold">Yes ,</span>the systems filter sediment ,kill microorganisms and mineralise your water optimally , simply put , they are the &quot; domestic versions &quot; of the industrial purification systems that produce mineral water .
+          <AccordionPanel pb={4} className="text-neutral-700">
+            <span className="font-bold">Yes ,</span>the systems filter sediment
+            ,kill microorganisms and mineralise your water optimally , simply
+            put , they are the &quot; domestic versions &quot; of the industrial
+            purification systems that produce mineral water .
           </AccordionPanel>
         </AccordionItem>
 
         <AccordionItem>
           <h2>
             <AccordionButton>
-              <Box as="span" flex="1" textAlign="left">
+              <Box
+                as="span"
+                flex="1"
+                textAlign="left"
+                className="font-semibold"
+              >
                 How many litres can it purify in a day?
               </Box>
               <AccordionIcon />
             </AccordionButton>
           </h2>
-          <AccordionPanel pb={4}>
-            5 stage purifiers - 200 to 300l a day , 7 stage purifiers - upto 400l in a day
+          <AccordionPanel pb={4} className="text-neutral-700">
+            5 stage purifiers - 200 to 300l a day , 7 stage purifiers - upto
+            400l in a day
           </AccordionPanel>
         </AccordionItem>
 
         <AccordionItem>
           <h2>
             <AccordionButton>
-              <Box as="span" flex="1" textAlign="left">
+              <Box
+                as="span"
+                flex="1"
+                textAlign="left"
+                className="font-semibold"
+              >
                 Will it clear up my stained teeth
               </Box>
               <AccordionIcon />
             </AccordionButton>
           </h2>
-          <AccordionPanel pb={4} className="text-sm lg:text-base">
-            <span className="font-bold">No </span>Fluorosis is not reversible .However , it will prevent further staining of the teeth
+          <AccordionPanel
+            pb={4}
+            className="text-sm lg:text-base text-neutral-700"
+          >
+            <span className="font-bold">No </span>Fluorosis is not reversible
+            .However , it will prevent further staining of the teeth
           </AccordionPanel>
         </AccordionItem>
 
         <AccordionItem>
           <h2>
             <AccordionButton>
-              <Box as="span" flex="1" textAlign="left">
+              <Box
+                as="span"
+                flex="1"
+                textAlign="left"
+                className="font-semibold"
+              >
                 What does it filter ?
               </Box>
               <AccordionIcon />
             </AccordionButton>
           </h2>
-          <AccordionPanel pb={4}>
-            Sediment , chloride , flouride , heavy metals , microplastics , herbicides , pesticides  , microorganisms, salt and most contaminants.
+          <AccordionPanel pb={4} className="text-neutral-700">
+            Sediment , chloride , flouride , heavy metals , microplastics ,
+            herbicides , pesticides , microorganisms, salt and most
+            contaminants.
           </AccordionPanel>
         </AccordionItem>
 
         <AccordionItem>
           <h2>
             <AccordionButton>
-              <Box as="span" flex="1" textAlign="left">
-                How often do you need to do mainteance
+              <Box
+                as="span"
+                flex="1"
+                textAlign="left"
+                className="font-semibold"
+              >
+                How often do you need to do maintenance ?
               </Box>
               <AccordionIcon />
             </AccordionButton>
           </h2>
-          <AccordionPanel pb={4}>
-            This is dependent on the water source and your usage .Changes in the water source might disrupt your maintenance schedule .<span className="font-bold">Hydra offers free first year maintenance service</span> every 3 months so as to gauge the working of the systems in your space and advise on the best maintenance schedule that will give you optimum functioning of the system .The schedules may range from every 5 months to every 3 years. 
+          <AccordionPanel pb={4} className="text-neutral-700">
+            This is dependent on the water source and your usage .Changes in the
+            water source might disrupt your maintenance schedule .
+            <span className="font-bold text-black">
+              Hydra offers free first year maintenance service
+            </span>{" "}
+            every 3 months so as to gauge the working of the systems in your
+            space and advise on the best maintenance schedule that will give you
+            optimum functioning of the system .The schedules may range from
+            every 5 months to every 3 years.
           </AccordionPanel>
         </AccordionItem>
       </Accordion>
