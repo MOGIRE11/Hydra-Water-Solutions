@@ -1,6 +1,6 @@
 import { NavLink } from "react-router-dom";
 import sevenstagePurifier from "./assets/7stage.svg";
-import fivestagePurifier from "./assets/5stage.svg";
+import fivestagePurifier from "./assets/branded5stage.png";
 // import labelledsevenstagePurifier from "./assets/7stage-labelled.svg";
 // import africanmap from './assets/african-map.svg';
 import celestialdental from "./assets/celestial-dental-partner.svg";
@@ -117,11 +117,14 @@ function Home() {
 
       <div className="products mt-10">
         <div className="product1">
-          <img
-            src={fivestagePurifier}
-            alt="hydra-5stage-purifier"
-            className="border rounded-md h-42 w-full object-cover"
-          />
+          <div className="img overflow-hidden h-[230px] w-full rounded-md flex items-center justify-center">
+            <img
+              src={fivestagePurifier}
+              alt="hydra-5stage-purifier"
+              className="hover:scale-125 w-full object-cover"
+            />
+          </div>
+
           <p className="font-bold mt-2">
             5 Stage Reverse Osmosis Water Purifier
           </p>
@@ -134,11 +137,13 @@ function Home() {
         </div>
 
         <div className="product2">
-          <img
-            src={sevenstagePurifier}
-            alt="hydra-5stage-purifier"
-            className="border h-42 w-full object-cover"
-          />
+          <div className="img overflow-hidden h-[230px] w-full rounded-md flex items-center justify-center">
+            <img
+              src={sevenstagePurifier}
+              alt="hydra-7stage-purifier"
+              className="hover:scale-125 w-full object-cover"
+            />
+          </div>
           <p className="font-bold mt-2">
             7 Stage Reverse Osmosis Water Purifier
           </p>
@@ -389,7 +394,6 @@ function Home() {
       </div>
 
       {/* frequently asked questions */}
-      
 
       {/* ready to go green */}
       <h2 className="text-2xl font-semibold text-center mb-4 mt-16">

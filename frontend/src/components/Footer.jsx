@@ -40,7 +40,7 @@ function Footer() {
               />
               <p className="text-xs font-black flex flex-col 2xl:text-lg text-center text-blue-800">
                 <span className="">HYDRA WATER </span>
-                <span className="">SOLUTIONS</span>
+                <span className="font-semibold">SOLUTIONS</span>
               </p>
             </div>
           </NavLink>

@@ -38,26 +38,59 @@ function About() {
         <div className="about-details">
           {/* heading */}
           <h2 className="font-bold underline underline-offset-4 mb-4">
-            OUR STORY
+            Frustrated by unreliable water treatment options?
           </h2>
           <p className="">
-            Hydra was founded to address the notable lack of service delivery in
+            {/* Hydra was founded to address the notable lack of service delivery in
             the areas of water, renewable energy and stand-by power solutions.
             After identifying the gap in quality service, we sought to close the
             accessibility and availability of safe drinking water to all while
             encouraging cooperation with our partners. By offering top-notch
             products and services, we hope to improve the communities we serve
-            as well as the environment .
+            as well as the environment . */}
+            Hydra was born out of the same frustration. We saw a gap in quality
+            service for water, renewable energy, and backup power solutions. Our
+            mission? To bridge that gap and make these essentials accessible to
+            everyone.
           </p>
           <p className="my-4">
-            We are an organization aimed at providing solutions for the people
+            <span className="font-bold ">We go beyond just products.</span>
+            {/* We are an organization aimed at providing solutions for the people
             we serve through use of sophisticated technology bettering the
-            peoples overall health.
+            peoples overall health. */}
+            We believe in building partnerships to ensure everyone has access to
+            clean drinking water. By offering top-of-the-line technology and
+            unparalleled service, we empower communities and protect the
+            environment.
           </p>
           <p className="">
-            We believe in treating our customers with respect and honesty, our
+            <span className="font-bold">
+              At Hydra, it&apos;s about more than solutions; it&apos;s about
+              people.
+            </span>
+            {/* We believe in treating our customers with respect and honesty, our
             employees with value and dignity and our partners with integrity and
-            ethical business practices.
+            ethical business practices. */}
+            <span>We&apos;re committed to:</span>
+            <ul className="list-disc">
+              <li>
+                <span className="font-bold">
+                  Improving the lives of our customers:
+                </span>
+                We use advanced technology to deliver innovative solutions that
+                enhance your overall health and well-being.
+              </li>
+              <li>
+                <span className="font-bold">Empowering our employees:</span>
+                We value and respect our team, fostering a positive and
+                rewarding work environment.
+              </li>
+              <li>
+                <span className="font-bold">Building strong partnerships:</span>
+                We believe in ethical business practices and building trust with
+                our partners.
+              </li>
+            </ul>
           </p>
         </div>
       </div>
@@ -147,7 +180,7 @@ function About() {
       </div>
 
       {/* meet our team */}
-      <h1 className="text-2xl font-bold mt-24 text-center underline underline-offset-4">
+      {/* <h1 className="text-2xl font-bold mt-24 text-center underline underline-offset-4">
         Meet The Team
       </h1>
 
@@ -177,13 +210,13 @@ function About() {
           <p className=" text-lg font-bold">lorem ipsum</p>
           <p className="text-sm font-semibold gray">CEO Hydra</p>
         </div>
-      </div>
+      </div> */}
 
       {/* clients */}
       <h2 className="underline underline-offset-4 text-lg tracking-wider font-bold  md:text-center mt-24 ">
         Our Partners
       </h2>
-      
+
       <div className="partners-wrapper my-4 ">
         <div className="scroll-content flex items-center w-full justify-evenly gap-4 flex-wrap">
           <img src={hidrotech} alt="hidrotech-hydra-partner" className="" />
