@@ -1,18 +1,18 @@
 import { NavLink } from "react-router-dom";
-import sevenstagePurifier from './assets/7stage.svg'
-import fivestagePurifier from './assets/5stage.svg'
+import sevenstagePurifier from "./assets/7stage.svg";
+import fivestagePurifier from "./assets/5stage.svg";
 // import labelledsevenstagePurifier from "./assets/7stage-labelled.svg";
 // import africanmap from './assets/african-map.svg';
-import celestialdental from './assets/celestial-dental-partner.svg';
-import fineteklabs from './assets/fineteklabs-partner.png';
-import user from './assets/user.jpg';
+import celestialdental from "./assets/celestial-dental-partner.svg";
+import fineteklabs from "./assets/fineteklabs-partner.png";
+import user from "./assets/user.jpg";
 import amario from "./assets/amario-partner.svg";
 import hidrotech from "./assets/hidrotech-partner.svg";
 import stuntech from "./assets/Stuntech-partner.svg";
 // import image5 from "./assets/image5.svg";
 import hydraprint from "./assets/Hydra-print.svg";
 import hydrateam from "./assets/Hydra-team-photo.svg";
-import underthesink from "./assets/7stagepurifier.svg"
+import underthesink from "./assets/7stagepurifier.svg";
 
 
 function Home() {
@@ -387,6 +387,9 @@ function Home() {
           <label htmlFor="slide_2_4"></label>
         </div>
       </div>
+
+      {/* frequently asked questions */}
+      
 
       {/* ready to go green */}
       <h2 className="text-2xl font-semibold text-center mb-4 mt-16">
