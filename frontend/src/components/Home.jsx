@@ -13,6 +13,13 @@ import stuntech from "./assets/Stuntech-partner.svg";
 import hydraprint from "./assets/Hydra-print.svg";
 import hydrateam from "./assets/Hydra-team-photo.svg";
 import underthesink from "./assets/7stagepurifier.svg";
+import {
+  Accordion,
+  AccordionItem,
+  AccordionButton,
+  AccordionPanel,
+  AccordionIcon,Box
+} from "@chakra-ui/react";
 
 
 function Home() {
@@ -394,6 +401,106 @@ function Home() {
       </div>
 
       {/* frequently asked questions */}
+      <h2 className="text-2xl mb-4 mt-16 underline underline-offset-8">Frequently Asked Questions</h2>
+      <Accordion allowToggle>
+        <AccordionItem>
+          <h2>
+            <AccordionButton>
+              <Box as="span" flex="1" textAlign="left">
+                Does it remove salinity?
+              </Box>
+              <AccordionIcon />
+            </AccordionButton>
+          </h2>
+          <AccordionPanel pb={4}>Yes</AccordionPanel>
+        </AccordionItem>
+
+        <AccordionItem>
+          <h2>
+            <AccordionButton>
+              <Box as="span" flex="1" textAlign="left">
+                Can be detached on relocation?
+              </Box>
+              <AccordionIcon />
+            </AccordionButton>
+          </h2>
+          <AccordionPanel pb={4}>
+            <span className="font-bold">Yes</span> ,the systems are detached free of charge by our technical team and reinstalled in your new space
+          </AccordionPanel>
+        </AccordionItem>
+
+        <AccordionItem>
+          <h2>
+            <AccordionButton>
+              <Box as="span" flex="1" textAlign="left">
+                Is the water safe for drinking ?
+              </Box>
+              <AccordionIcon />
+            </AccordionButton>
+          </h2>
+          <AccordionPanel pb={4}>
+            <span className="font-bold">Yes ,</span>the systems filter sediment ,kill microorganisms and mineralise your water optimally , simply put , they are the &quot; domestic versions &quot; of the industrial purification systems that produce mineral water .
+          </AccordionPanel>
+        </AccordionItem>
+
+        <AccordionItem>
+          <h2>
+            <AccordionButton>
+              <Box as="span" flex="1" textAlign="left">
+                How many litres can it purify in a day?
+              </Box>
+              <AccordionIcon />
+            </AccordionButton>
+          </h2>
+          <AccordionPanel pb={4}>
+            5 stage purifiers - 200 to 300l a day , 7 stage purifiers - upto 400l in a day
+          </AccordionPanel>
+        </AccordionItem>
+
+        <AccordionItem>
+          <h2>
+            <AccordionButton>
+              <Box as="span" flex="1" textAlign="left">
+                Will it clear up my stained teeth
+              </Box>
+              <AccordionIcon />
+            </AccordionButton>
+          </h2>
+          <AccordionPanel pb={4} className="text-sm lg:text-base">
+            <span className="font-bold">No </span>Fluorosis is not reversible .However , it will prevent further staining of the teeth
+          </AccordionPanel>
+        </AccordionItem>
+
+        <AccordionItem>
+          <h2>
+            <AccordionButton>
+              <Box as="span" flex="1" textAlign="left">
+                What does it filter ?
+              </Box>
+              <AccordionIcon />
+            </AccordionButton>
+          </h2>
+          <AccordionPanel pb={4}>
+            Sediment , chloride , flouride , heavy metals , microplastics , herbicides , pesticides  , microorganisms, salt and most contaminants.
+          </AccordionPanel>
+        </AccordionItem>
+
+        <AccordionItem>
+          <h2>
+            <AccordionButton>
+              <Box as="span" flex="1" textAlign="left">
+                How often do you need to do mainteance
+              </Box>
+              <AccordionIcon />
+            </AccordionButton>
+          </h2>
+          <AccordionPanel pb={4}>
+            This is dependent on the water source and your usage .Changes in the water source might disrupt your maintenance schedule .<span className="font-bold">Hydra offers free first year maintenance service</span> every 3 months so as to gauge the working of the systems in your space and advise on the best maintenance schedule that will give you optimum functioning of the system .The schedules may range from every 5 months to every 3 years. 
+          </AccordionPanel>
+        </AccordionItem>
+      </Accordion>
+
+      {/* end of accordions */}
 
       {/* ready to go green */}
       <h2 className="text-2xl font-semibold text-center mb-4 mt-16">
