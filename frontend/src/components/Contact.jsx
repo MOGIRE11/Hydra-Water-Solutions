@@ -16,10 +16,10 @@ function Contact() {
         <i className="fa-solid fa-chevron-right"></i>
         Get a Quote
       </div>
-      
-      <div className="flex flex-wrap mb-8 gap-16 ">
+
+      <div className="flex flex-wrap  md:gap-16 ">
         {/* left side */}
-        <div className="request md:w-[50%] mb-16">
+        <div className="request md:w-[50%] md:mb-16">
           <h2 className="font-bold text-2xl "> Submit a Quote Request</h2>
           <p className="text-sm mb-4 ">
             Investing in clean water is investing in health and well-being. At
@@ -50,7 +50,11 @@ function Contact() {
               </p>
             </div>
           </div>
-          <img src={hydraprint} alt="hydra-african-print" />
+          <img
+            src={hydraprint}
+            alt="hydra-african-print"
+            className="hidden md:flex"
+          />
         </div>
         {/* form */}
         <div className="form ">
@@ -152,15 +156,15 @@ function Contact() {
               placeholder="Leave a message ..."
             ></textarea>
 
-            <label className="flex gap-2 items-center" htmlFor="terms">
+            <label className=" items-center" htmlFor="terms">
               <input
-                className="px-3"
+                className="px-3 mr-1"
                 type="checkbox"
                 id="terms"
                 name="terms"
                 required
               />
-              I accept the <a href="#">Terms and Conditions Policy</a>
+              I have read and understood the <NavLink to="/errorPage" className="underline underline-offset-2 text-neutral-600">Terms and Conditions</NavLink> Policy.
             </label>
 
             <button className=" secondary w-52 py-2 px-4 rounded-md  my-4 font-bold text-white">
