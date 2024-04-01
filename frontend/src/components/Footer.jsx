@@ -99,7 +99,7 @@ function Footer() {
           </span>
         </div>
 
-        <div className="bottom-three flex flex-col items-start">
+        {/* <div className="bottom-three flex flex-col items-start">
           <h4 className="font-bold text-neutral-300 underline underline-offset-4">
             Legal
           </h4>
@@ -124,7 +124,7 @@ function Footer() {
               Terms & Conditions
             </NavLink>
           </span>
-        </div>
+        </div> */}
 
         {/* contact Information */}
         <div className="bottom-four">
