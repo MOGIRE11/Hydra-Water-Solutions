@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-import sevenstagePurifier from "./assets/7stage.svg";
+import sevenstagePurifier from "./assets/branded7stage.png";
 import fivestagePurifier from "./assets/branded5stage.png";
 // import labelledsevenstagePurifier from "./assets/7stage-labelled.svg";
 // import africanmap from './assets/african-map.svg';
@@ -34,7 +34,7 @@ function Home() {
             Domestic water Purification System
           </h1>
           <p className="mt-6 mb-8 lg:w-[90%]">
-            Envision being able to turn your tap water into crisp ,{" "}
+            Envision being able to turn your tap water into crisp ,
             <span className=" font-semibold underline text-teal-500 underline-offset-2">
               clean refeshment at the touch of a button
             </span>
