@@ -60,27 +60,41 @@ function Footer() {
           </h4>
           <span className="flex flex-col text-sm mt-2 gap-1">
             <NavLink to="/" className="">
+              <i className="fa-solid fa-chevron-right mr-2 text-xs text-neutral-600"></i>
               Home
             </NavLink>
 
             <NavLink to="/about" className="">
+              <i className="fa-solid fa-chevron-right mr-2 text-xs text-neutral-600"></i>
               About Us
             </NavLink>
 
             <NavLink to="/products" className="">
+              <i className="fa-solid fa-chevron-right mr-2 text-xs text-neutral-600"></i>
               Products
             </NavLink>
 
             <NavLink to="/blog" className="">
+              <i className="fa-solid fa-chevron-right mr-2 text-xs text-neutral-600"></i>
               Our Blog
             </NavLink>
 
             <NavLink to="/contact" className="">
+              <i className="fa-solid fa-chevron-right mr-2 text-xs text-neutral-600"></i>
               Contact Us
             </NavLink>
 
             <NavLink to="/contact" className="">
+              <i className="fa-solid fa-chevron-right mr-2 text-xs text-neutral-600"></i>
               Get a Quote
+            </NavLink>
+
+            <NavLink to="/errorPage" className="">
+              <i className="fa-solid fa-chevron-right mr-2 text-xs text-neutral-600"></i>
+              CSR Programs
+              <span className="text-xs font-black text-green-500 px-2 text-center ">
+                - coming soon
+              </span>
             </NavLink>
           </span>
         </div>
@@ -91,23 +105,23 @@ function Footer() {
           </h4>
           <span className="flex flex-col text-sm mt-2 gap-1">
             <NavLink to="/errorPage" className="">
+              <i className="fa-solid fa-chevron-right mr-2 text-xs text-neutral-600"></i>
               Privacy Policy
             </NavLink>
 
             <NavLink to="/errorPage" className="">
+              <i className="fa-solid fa-chevron-right mr-2 text-xs text-neutral-600"></i>
               Cookies Policy
             </NavLink>
 
             <NavLink to="/errorPage" className="">
-              Products
-            </NavLink>
-
-            <NavLink to="/errorPage" className="">
+              <i className="fa-solid fa-chevron-right mr-2 text-xs text-neutral-600"></i>
               Data Processing
             </NavLink>
 
             <NavLink to="/errorPage" className="">
-              Terms and Conditions
+              <i className="fa-solid fa-chevron-right mr-2 text-xs text-neutral-600"></i>
+              Terms & Conditions
             </NavLink>
           </span>
         </div>
