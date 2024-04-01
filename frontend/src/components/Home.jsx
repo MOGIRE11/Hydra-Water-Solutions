@@ -124,11 +124,11 @@ function Home() {
 
       <div className="products mt-10">
         <div className="product1">
-          <div className="img overflow-hidden h-[230px] w-full rounded-md flex items-center justify-center">
+          <div className="img overflow-hidden h-[230px] w-full rounded-md flex items-center justify-center border">
             <img
               src={fivestagePurifier}
               alt="hydra-5stage-purifier"
-              className="hover:scale-125 w-full object-cover"
+              className="hover:scale-125 w-[90%] object-cover"
             />
           </div>
 
@@ -138,17 +138,17 @@ function Home() {
           <p className="text-sm my-2 text-neutral-500 font-semibold">
             Ideal for users consuming treated City Council Water
           </p>
-          <p className="font-bold text-green-500 underline underline-offset-4">
+          <p className="font-bold text-green-600 underline underline-offset-4">
             Ksh. 25,000
           </p>
         </div>
 
         <div className="product2">
-          <div className="img overflow-hidden h-[230px] w-full rounded-md flex items-center justify-center">
+          <div className="img overflow-hidden h-[230px] w-full rounded-md flex items-center justify-center border">
             <img
               src={sevenstagePurifier}
               alt="hydra-7stage-purifier"
-              className="hover:scale-125 w-full object-cover"
+              className="hover:scale-125 object-cover w-[70%]"
             />
           </div>
           <p className="font-bold mt-2">
@@ -157,7 +157,7 @@ function Home() {
           <p className="text-sm my-2 text-neutral-500 font-semibold">
             Ideal for those using borehole water ,river and rain water
           </p>
-          <p className="font-bold text-green-500 underline underline-offset-4">
+          <p className="font-bold text-green-600 underline underline-offset-4">
             Ksh. 40,000
           </p>
         </div>
@@ -169,10 +169,10 @@ function Home() {
       </p>
 
       {/* services section header*/}
-      <p className="md:text-center text-teal-500 tracking-wide text-xs font-bold mt-24">
+      <p className="text-center text-teal-500 tracking-wide text-xs font-bold mt-24">
         WHAT WE OFFER
       </p>
-      <h3 className="text-2xl md:text-center font-bold underline underline-offset-4">
+      <h3 className="text-2xl text-center font-bold underline underline-offset-4">
         Our Best Services
       </h3>
       {/* <p className="md:text-center text-sm">
@@ -181,7 +181,7 @@ function Home() {
       </p> */}
 
       {/* services */}
-      <div className="services flex items-start justify-between lg:items-center lg:justify-evenly flex-wrap gap-y-4 mt-8">
+      <div className="services flex  justify-center items-center lg:justify-evenly flex-wrap gap-y-4 mt-8">
         {/* water testing */}
         <div className="service1 border-2 border-blue-800 w-64 h-36 rounded-md relative p-2 bg-white">
           <p className="text-blue-800 font-bold text-lg mb-2 text-center underline underline-offset-8">
@@ -251,7 +251,7 @@ function Home() {
           </NavLink>
         </div>
 
-        <div className="our-pic lg:w-1/2 flex items-center lg:justify-end my-8">
+        <div className="our-pic lg:w-1/2 hidden md:flex items-center lg:justify-end my-8">
           <img
             src={hydrateam}
             alt="Hydra-team-photo"
@@ -260,10 +260,10 @@ function Home() {
         </div>
       </div>
 
-      <p className="text-xs text-teal-500 tracking-wider font-bold  md:text-center mt-24">
+      <p className="text-xs text-teal-500 tracking-wider font-bold  text-center mt-24">
         OUR PARTNERS
       </p>
-      <h3 className="text-2xl font-bold md:text-center underline underline-offset-8">
+      <h3 className="text-2xl font-bold text-center underline underline-offset-8">
         Only Recognized By the Best
       </h3>
       <div className="partners-wrapper my-4 ">
@@ -401,7 +401,7 @@ function Home() {
       </div>
 
       {/* frequently asked questions */}
-      <h2 className="text-2xl mb-8 mt-24 underline underline-offset-8 font-bold">
+      <h2 className="text-2xl mb-8 mt-24 underline underline-offset-8 font-bold text-center">
         Frequently Asked Questions
       </h2>
       <Accordion allowToggle>
@@ -421,7 +421,7 @@ function Home() {
           </h2>
           <AccordionPanel
             pb={4}
-            className="font-bold text-sm lg:text-base text-neutral-700"
+            className="font-bold text-sm lg:text-base text-neutral-700 indent-2"
           >
             Yes
           </AccordionPanel>
@@ -443,7 +443,7 @@ function Home() {
           </h2>
           <AccordionPanel
             pb={4}
-            className="text-sm lg:text-base text-neutral-700"
+            className="text-sm lg:text-base text-neutral-700 "
           >
             <span className="font-bold text-black">Yes</span> , the systems are
             detached free of charge by our technical team and reinstalled in
@@ -457,7 +457,7 @@ function Home() {
               <Box
                 as="span"
                 flex="1"
-                textAlign="left"
+                textAlign="start"
                 className="font-semibold"
               >
                 Is the water safe for drinking ?

@@ -255,3 +255,10 @@ button:active {
   align-content: center;
   justify-items: space-between;
 }
+
+@media (max-width:500px){
+  p,button{
+    font-size: 15px;
+  }
+  
+}
