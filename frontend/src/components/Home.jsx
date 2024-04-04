@@ -181,7 +181,7 @@ function Home() {
       </p> */}
 
       {/* services */}
-      <div className="services flex  justify-center items-center lg:justify-evenly flex-wrap gap-y-4 mt-8">
+      <div className="services flex  justify-center items-center lg:justify-evenly flex-wrap gap-4 mt-8">
         {/* water testing */}
         <div className="service1 border-2 border-blue-800 w-64 h-36 rounded-md relative p-2 bg-white">
           <p className="text-blue-800 font-bold text-lg mb-2 text-center underline underline-offset-8">
@@ -405,7 +405,7 @@ function Home() {
         Frequently Asked Questions
       </h2>
       <Accordion allowToggle>
-        <AccordionItem>
+        <AccordionItem className=" shadow-md py-2 mt-1 bg-neutral-100 ">
           <h2>
             <AccordionButton>
               <Box
@@ -427,7 +427,7 @@ function Home() {
           </AccordionPanel>
         </AccordionItem>
 
-        <AccordionItem>
+        <AccordionItem className=" shadow-md py-2 mt-2 border-none bg-neutral-100 ">
           <h2>
             <AccordionButton>
               <Box
@@ -451,7 +451,7 @@ function Home() {
           </AccordionPanel>
         </AccordionItem>
 
-        <AccordionItem>
+        <AccordionItem className=" shadow-md py-2 mt-2 border-none bg-neutral-100 ">
           <h2>
             <AccordionButton>
               <Box
@@ -476,7 +476,7 @@ function Home() {
           </AccordionPanel>
         </AccordionItem>
 
-        <AccordionItem>
+        <AccordionItem className=" shadow-md py-2 mt-2 border-none bg-neutral-100 ">
           <h2>
             <AccordionButton>
               <Box
@@ -499,7 +499,7 @@ function Home() {
           </AccordionPanel>
         </AccordionItem>
 
-        <AccordionItem>
+        <AccordionItem className=" shadow-md py-2 mt-2 border-none bg-neutral-100 ">
           <h2>
             <AccordionButton>
               <Box
@@ -522,7 +522,7 @@ function Home() {
           </AccordionPanel>
         </AccordionItem>
 
-        <AccordionItem>
+        <AccordionItem className=" shadow-md py-2 mt-2 border-none bg-neutral-100 ">
           <h2>
             <AccordionButton>
               <Box
@@ -546,7 +546,7 @@ function Home() {
           </AccordionPanel>
         </AccordionItem>
 
-        <AccordionItem>
+        <AccordionItem className=" shadow-md py-2 mt-2 border-none bg-neutral-100 ">
           <h2>
             <AccordionButton>
               <Box
