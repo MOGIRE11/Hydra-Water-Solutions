@@ -226,7 +226,7 @@ function Home(){
 
       {/* servicing schedule */}
       <h2 className="text-2xl text-center mt-24 mb-1">
-        Our Servicing Schedule
+        Servicing Schedule
       </h2>
       <ol className="stepper">
         <li>Installation</li>

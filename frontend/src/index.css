@@ -332,6 +332,7 @@ ol.stepper li.active::after {
   background: 
     linear-gradient(var(--default-b) 0 0) no-repeat
     calc((var(--circle) - var(--b))/2) 50%/ var(--b) 100%;
+    align-items: center;
   }
   ol.stepper li {
     display: flex;
