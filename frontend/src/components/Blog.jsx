@@ -1,4 +1,4 @@
-// import { NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 // import solar from "./assets/solar-pump.svg";
 // import doctor from "./assets/doctor.svg";
  import stainedTeeth from "./assets/flourosis.svg";
@@ -242,7 +242,15 @@ const BlogPage = () => {
   };
 
   return (
-    <div className="container mx-auto px-4 lg:px-20 py-8 min-h-[80vh]">
+    <div className="container mx-auto px-4 lg:px-20 pb-8 pt-4 min-h-[80vh]">
+      <div className="breadcrumb flex items-center gap-2 text-xs mb-8">
+        <NavLink to="/">
+          <i className="fa-solid fa-house mr-1 cursor-pointer "></i>
+           <p className="inline hover:text-blue-800 hover:font-bold">Home</p>     
+        </NavLink>
+        <i className="fa-solid fa-chevron-right"></i>
+         Our Blog 
+      </div>
       <h2 className="font-bold text-2xl">Latest From our Blogs</h2>
       <p className="mb-8">
         Take some time to read a number of the articles written by people
@@ -276,7 +284,7 @@ const BlogPage = () => {
         <div className="mt-8">
           <h2 className="text-2xl font-semibold mb-4">{selectedPost.title}</h2>
           <p className="text-sm font-semibold mb-4 text-neutral-600">
-            {selectedPost.date}  |  {selectedPost.author}
+            {selectedPost.date} | {selectedPost.author}
           </p>
           <img
             src={selectedPost.image}
