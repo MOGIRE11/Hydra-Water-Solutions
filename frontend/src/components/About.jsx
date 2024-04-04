@@ -144,7 +144,7 @@ function About() {
       <div className="about-stats flex flex-col md:flex-row items-center justify-evenly mt-20 bg-blue-700 space-y-4 md:h-24 p-2">
         <section className="flex items-center flex-col">
           <h3 className="text-2xl font-black">200+</h3>
-          <span className="text-sm font-semibold">
+          <span className="text-sm font-bold">
             Customers
             Nationwide
           </span>
@@ -152,7 +152,7 @@ function About() {
 
         <section className="flex items-center flex-col">
           <h3 className="text-2xl font-black">97%</h3>
-          <span className="text-sm font-semibold">
+          <span className="text-sm font-bold">
             Customer
             Satisfaction Rate
           </span>
@@ -160,7 +160,7 @@ function About() {
 
         <section className="flex flex-col items-center ">
           <h3 className="text-2xl font-black">2+</h3>
-          <span className="text-sm font-semibold">
+          <span className="text-sm font-bold">
             Years Of
             Experience
           </span>
@@ -168,7 +168,7 @@ function About() {
 
         <section className="flex flex-col items-center">
           <h3 className="text-2xl font-black">100+</h3>
-          <span className="text-sm font-semibold">
+          <span className="text-sm font-bold">
             Lives
             Impacted
           </span>
