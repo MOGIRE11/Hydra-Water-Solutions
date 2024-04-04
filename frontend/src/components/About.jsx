@@ -71,21 +71,21 @@ function About() {
             {/* We believe in treating our customers with respect and honesty, our
             employees with value and dignity and our partners with integrity and
             ethical business practices. */}
-            <span>We&apos;re committed to:</span>
+            <span> We&apos;re committed to:</span>
             <ul className="">
-              <li className="">
+              <li className="mt-1">
                 <span className="font-bold block">1. 
                   Improving the lives of our customers:
                 </span>
                 We use advanced technology to deliver innovative solutions that
                 enhance your overall health and well-being.
               </li>
-              <li>
+              <li className="my-2">
                 <span className="font-bold block">2. Empowering our employees:</span>
                 We value and respect our team, fostering a positive and
                 rewarding work environment.
               </li>
-              <li>
+              <li className="">
                 <span className="font-bold block">3. Building strong partnerships:</span>
                 We believe in ethical business practices and building trust with
                 our partners.
