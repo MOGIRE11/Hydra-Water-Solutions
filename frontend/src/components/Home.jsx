@@ -225,12 +225,7 @@ function Home(){
       </div>
 
       {/* servicing schedule */}
-      <ol className="stepper">
-       <li>Step A</li>
-       <li className="active">Step B</li>
-       <li>Step C</li>
-       <li>Step D</li>
-      </ol>
+    
 
       {/* our story */}
       <div className="about-us mt-32 flex flex-col lg:flex-row lg:items-center justify-between gap-4">
