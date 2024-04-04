@@ -64,7 +64,7 @@ function About() {
             environment.
           </p>
           <p className="">
-            <span className="font-bold">
+            <span className="">
               At Hydra, it&apos;s about more than solutions; it&apos;s about
               people.
             </span>
@@ -72,21 +72,21 @@ function About() {
             employees with value and dignity and our partners with integrity and
             ethical business practices. */}
             <span>We&apos;re committed to:</span>
-            <ul className="list-disc">
-              <li>
-                <span className="font-bold">
+            <ul className="">
+              <li className="">
+                <span className="font-bold block">1. 
                   Improving the lives of our customers:
                 </span>
                 We use advanced technology to deliver innovative solutions that
                 enhance your overall health and well-being.
               </li>
               <li>
-                <span className="font-bold">Empowering our employees:</span>
+                <span className="font-bold block">2. Empowering our employees:</span>
                 We value and respect our team, fostering a positive and
                 rewarding work environment.
               </li>
               <li>
-                <span className="font-bold">Building strong partnerships:</span>
+                <span className="font-bold block">3. Building strong partnerships:</span>
                 We believe in ethical business practices and building trust with
                 our partners.
               </li>
