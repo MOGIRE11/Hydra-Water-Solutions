@@ -37,7 +37,7 @@ function About() {
         />
         <div className="about-details">
           {/* heading */}
-          <h2 className="font-bold underline underline-offset-4 mb-4">
+          <h2 className="font-bold underline underline-offset-4 mb-2">
             Frustrated by unreliable water treatment options?
           </h2>
           <p className="">
