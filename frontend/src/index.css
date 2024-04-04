@@ -16,7 +16,8 @@ body {
   /* background: linear-gradient(180deg,rgb(197,193,226),rgb(3,136,229)); */
   background-color: #fafafa;
   max-width: 100%;
-  cursor:url(./assets/water-guy.png),pointer;
+  overflow-x: hiddden;
+  /* cursor:url(./assets/water-guy.png),pointer; */
 }
 
 .nav {
