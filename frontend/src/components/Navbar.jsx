@@ -21,7 +21,7 @@ const Navbar = () => {
       </div>
 
       {/* navbar-content */}
-      <div className="div py-3 px-4 pl-0 md:px-4 flex items-center justify-between lg:px-20 ">
+      <div className="div py-3 px-4 pl-0 md:px-4 flex items-center justify-between lg:px-20 shadow-md">
         <NavLink to="/">
           <div className="logo flex gap-0 items-center">
             <img
@@ -31,7 +31,7 @@ const Navbar = () => {
             />
             <p className="text-xs font-black flex flex-col 2xl:text-lg text-center text-blue-800">
               <span className="">HYDRA WATER </span>
-              <span className="">SOLUTIONS</span>
+              <span className="font-semibold">SOLUTIONS</span>
             </p>
           </div>
         </NavLink>
@@ -73,7 +73,7 @@ const Navbar = () => {
                   />
                   <p className="text-xs font-black flex text-center flex-col 2xl:text-lg text-blue-900">
                     <span className="">HYDRA WATER </span>
-                    <span className="">SOLUTIONS</span>
+                    <span className="font-semibold">SOLUTIONS</span>
                   </p>
                 </div>
               </NavLink>

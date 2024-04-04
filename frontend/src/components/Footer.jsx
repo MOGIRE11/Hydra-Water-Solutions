@@ -5,8 +5,8 @@ import hydralogo from "./assets/Hydra-logo.png";
 function Footer() {
   return (
     <div className="footer w-full absolute botttom-0 dark-blue text-neutral-400 pt-8">
-      <div className="newsletter flex flex-col items-center">
-        <h3 className="font-bold">
+      <div className="newsletter flex flex-col items-center justify-center px-4">
+        <h3 className="font-bold text-center">
           Subscribe for the latest products and offers
         </h3>
         <span className="flex items-center gap-1 mt-2 flex-wrap gap-y-2">
@@ -40,7 +40,7 @@ function Footer() {
               />
               <p className="text-xs font-black flex flex-col 2xl:text-lg text-center text-blue-800">
                 <span className="">HYDRA WATER </span>
-                <span className="">SOLUTIONS</span>
+                <span className="font-semibold">SOLUTIONS</span>
               </p>
             </div>
           </NavLink>
@@ -60,57 +60,71 @@ function Footer() {
           </h4>
           <span className="flex flex-col text-sm mt-2 gap-1">
             <NavLink to="/" className="">
+              <i className="fa-solid fa-chevron-right mr-2 text-xs text-neutral-600"></i>
               Home
             </NavLink>
 
             <NavLink to="/about" className="">
+              <i className="fa-solid fa-chevron-right mr-2 text-xs text-neutral-600"></i>
               About Us
             </NavLink>
 
             <NavLink to="/products" className="">
+              <i className="fa-solid fa-chevron-right mr-2 text-xs text-neutral-600"></i>
               Products
             </NavLink>
 
             <NavLink to="/blog" className="">
+              <i className="fa-solid fa-chevron-right mr-2 text-xs text-neutral-600"></i>
               Our Blog
             </NavLink>
 
             <NavLink to="/contact" className="">
+              <i className="fa-solid fa-chevron-right mr-2 text-xs text-neutral-600"></i>
               Contact Us
             </NavLink>
 
             <NavLink to="/contact" className="">
+              <i className="fa-solid fa-chevron-right mr-2 text-xs text-neutral-600"></i>
               Get a Quote
+            </NavLink>
+
+            <NavLink to="/errorPage" className="">
+              <i className="fa-solid fa-chevron-right mr-2 text-xs text-neutral-600"></i>
+              CSR Programs
+              <span className="text-xs font-black text-green-500 px-2 text-center ">
+                - coming soon
+              </span>
             </NavLink>
           </span>
         </div>
 
-        <div className="bottom-three flex flex-col items-start">
+        {/* <div className="bottom-three flex flex-col items-start">
           <h4 className="font-bold text-neutral-300 underline underline-offset-4">
             Legal
           </h4>
           <span className="flex flex-col text-sm mt-2 gap-1">
             <NavLink to="/errorPage" className="">
+              <i className="fa-solid fa-chevron-right mr-2 text-xs text-neutral-600"></i>
               Privacy Policy
             </NavLink>
 
             <NavLink to="/errorPage" className="">
+              <i className="fa-solid fa-chevron-right mr-2 text-xs text-neutral-600"></i>
               Cookies Policy
             </NavLink>
 
             <NavLink to="/errorPage" className="">
-              Products
-            </NavLink>
-
-            <NavLink to="/errorPage" className="">
+              <i className="fa-solid fa-chevron-right mr-2 text-xs text-neutral-600"></i>
               Data Processing
             </NavLink>
 
             <NavLink to="/errorPage" className="">
-              Terms and Conditions
+              <i className="fa-solid fa-chevron-right mr-2 text-xs text-neutral-600"></i>
+              Terms & Conditions
             </NavLink>
           </span>
-        </div>
+        </div> */}
 
         {/* contact Information */}
         <div className="bottom-four">

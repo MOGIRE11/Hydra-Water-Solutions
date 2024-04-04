@@ -1,18 +1,25 @@
 import { NavLink } from "react-router-dom";
-import sevenstagePurifier from './assets/7stage.svg'
-import fivestagePurifier from './assets/5stage.svg'
+import sevenstagePurifier from "./assets/branded7stage.png";
+import fivestagePurifier from "./assets/branded5stage.png";
 // import labelledsevenstagePurifier from "./assets/7stage-labelled.svg";
 // import africanmap from './assets/african-map.svg';
-import celestialdental from './assets/celestial-dental-partner.svg';
-import fineteklabs from './assets/fineteklabs-partner.png';
-import user from './assets/user.jpg';
+import celestialdental from "./assets/celestial-dental-partner.svg";
+import fineteklabs from "./assets/fineteklabs-partner.png";
+import user from "./assets/user.jpg";
 import amario from "./assets/amario-partner.svg";
 import hidrotech from "./assets/hidrotech-partner.svg";
 import stuntech from "./assets/Stuntech-partner.svg";
 // import image5 from "./assets/image5.svg";
 import hydraprint from "./assets/Hydra-print.svg";
 import hydrateam from "./assets/Hydra-team-photo.svg";
-import underthesink from "./assets/7stagepurifier.svg"
+import underthesink from "./assets/7stagepurifier.svg";
+import {
+  Accordion,
+  AccordionItem,
+  AccordionButton,
+  AccordionPanel,
+  AccordionIcon,Box
+} from "@chakra-ui/react";
 
 
 function Home() {
@@ -27,7 +34,7 @@ function Home() {
             Domestic water Purification System
           </h1>
           <p className="mt-6 mb-8 lg:w-[90%]">
-            Envision being able to turn your tap water into crisp ,{" "}
+            Envision being able to turn your tap water into crisp ,
             <span className=" font-semibold underline text-teal-500 underline-offset-2">
               clean refeshment at the touch of a button
             </span>
@@ -117,35 +124,40 @@ function Home() {
 
       <div className="products mt-10">
         <div className="product1">
-          <img
-            src={fivestagePurifier}
-            alt="hydra-5stage-purifier"
-            className="border rounded-md h-42 w-full object-cover"
-          />
+          <div className="img overflow-hidden h-[230px] w-full rounded-md flex items-center justify-center border">
+            <img
+              src={fivestagePurifier}
+              alt="hydra-5stage-purifier"
+              className="hover:scale-125 w-[90%] object-cover"
+            />
+          </div>
+
           <p className="font-bold mt-2">
             5 Stage Reverse Osmosis Water Purifier
           </p>
           <p className="text-sm my-2 text-neutral-500 font-semibold">
             Ideal for users consuming treated City Council Water
           </p>
-          <p className="font-bold text-green-500 underline underline-offset-4">
+          <p className="font-bold text-green-600 underline underline-offset-4">
             Ksh. 25,000
           </p>
         </div>
 
         <div className="product2">
-          <img
-            src={sevenstagePurifier}
-            alt="hydra-5stage-purifier"
-            className="border h-42 w-full object-cover"
-          />
+          <div className="img overflow-hidden h-[230px] w-full rounded-md flex items-center justify-center border">
+            <img
+              src={sevenstagePurifier}
+              alt="hydra-7stage-purifier"
+              className="hover:scale-125 object-cover w-[70%]"
+            />
+          </div>
           <p className="font-bold mt-2">
             7 Stage Reverse Osmosis Water Purifier
           </p>
           <p className="text-sm my-2 text-neutral-500 font-semibold">
             Ideal for those using borehole water ,river and rain water
           </p>
-          <p className="font-bold text-green-500 underline underline-offset-4">
+          <p className="font-bold text-green-600 underline underline-offset-4">
             Ksh. 40,000
           </p>
         </div>
@@ -157,10 +169,10 @@ function Home() {
       </p>
 
       {/* services section header*/}
-      <p className="md:text-center text-teal-500 tracking-wide text-xs font-bold mt-24">
+      <p className="text-center text-teal-500 tracking-wide text-xs font-bold mt-24">
         WHAT WE OFFER
       </p>
-      <h3 className="text-2xl md:text-center font-bold underline underline-offset-4">
+      <h3 className="text-2xl text-center font-bold underline underline-offset-4">
         Our Best Services
       </h3>
       {/* <p className="md:text-center text-sm">
@@ -169,7 +181,7 @@ function Home() {
       </p> */}
 
       {/* services */}
-      <div className="services flex items-start justify-between lg:items-center lg:justify-evenly flex-wrap gap-y-4 mt-8">
+      <div className="services flex  justify-center items-center lg:justify-evenly flex-wrap gap-y-4 mt-8">
         {/* water testing */}
         <div className="service1 border-2 border-blue-800 w-64 h-36 rounded-md relative p-2 bg-white">
           <p className="text-blue-800 font-bold text-lg mb-2 text-center underline underline-offset-8">
@@ -239,7 +251,7 @@ function Home() {
           </NavLink>
         </div>
 
-        <div className="our-pic lg:w-1/2 flex items-center lg:justify-end my-8">
+        <div className="our-pic lg:w-1/2 hidden md:flex items-center lg:justify-end my-8">
           <img
             src={hydrateam}
             alt="Hydra-team-photo"
@@ -248,10 +260,10 @@ function Home() {
         </div>
       </div>
 
-      <p className="text-xs text-teal-500 tracking-wider font-bold  md:text-center mt-24">
+      <p className="text-xs text-teal-500 tracking-wider font-bold  text-center mt-24">
         OUR PARTNERS
       </p>
-      <h3 className="text-2xl font-bold md:text-center underline underline-offset-8">
+      <h3 className="text-2xl font-bold text-center underline underline-offset-8">
         Only Recognized By the Best
       </h3>
       <div className="partners-wrapper my-4 ">
@@ -387,6 +399,185 @@ function Home() {
           <label htmlFor="slide_2_4"></label>
         </div>
       </div>
+
+      {/* frequently asked questions */}
+      <h2 className="text-2xl mb-8 mt-24 underline underline-offset-8 font-bold text-center">
+        Frequently Asked Questions
+      </h2>
+      <Accordion allowToggle>
+        <AccordionItem>
+          <h2>
+            <AccordionButton>
+              <Box
+                as="span"
+                flex="1"
+                textAlign="left"
+                className="font-semibold"
+              >
+                Does it remove salinity?
+              </Box>
+              <AccordionIcon />
+            </AccordionButton>
+          </h2>
+          <AccordionPanel
+            pb={4}
+            className="font-bold text-sm lg:text-base text-neutral-700 indent-2"
+          >
+            Yes
+          </AccordionPanel>
+        </AccordionItem>
+
+        <AccordionItem>
+          <h2>
+            <AccordionButton>
+              <Box
+                as="span"
+                flex="1"
+                textAlign="left"
+                className="font-semibold"
+              >
+                Can be detached on relocation?
+              </Box>
+              <AccordionIcon />
+            </AccordionButton>
+          </h2>
+          <AccordionPanel
+            pb={4}
+            className="text-sm lg:text-base text-neutral-700 "
+          >
+            <span className="font-bold text-black">Yes</span> , the systems are
+            detached free of charge by our technical team and reinstalled in
+            your new space
+          </AccordionPanel>
+        </AccordionItem>
+
+        <AccordionItem>
+          <h2>
+            <AccordionButton>
+              <Box
+                as="span"
+                flex="1"
+                textAlign="start"
+                className="font-semibold"
+              >
+                Is the water safe for drinking ?
+              </Box>
+              <AccordionIcon />
+            </AccordionButton>
+          </h2>
+          <AccordionPanel
+            pb={4}
+            className="text-neutral-700 text-sm lg:text-base"
+          >
+            <span className="font-bold">Yes , </span>the systems filter sediment
+            ,kill microorganisms and mineralise your water optimally , simply
+            put , they are the &quot; domestic versions &quot; of the industrial
+            purification systems that produce mineral water .
+          </AccordionPanel>
+        </AccordionItem>
+
+        <AccordionItem>
+          <h2>
+            <AccordionButton>
+              <Box
+                as="span"
+                flex="1"
+                textAlign="left"
+                className="font-semibold"
+              >
+                How many litres can it purify in a day?
+              </Box>
+              <AccordionIcon />
+            </AccordionButton>
+          </h2>
+          <AccordionPanel
+            pb={4}
+            className="text-sm lg:text-base text-neutral-700"
+          >
+            5 stage purifiers - 200 to 300l a day , 7 stage purifiers - upto
+            400l in a day
+          </AccordionPanel>
+        </AccordionItem>
+
+        <AccordionItem>
+          <h2>
+            <AccordionButton>
+              <Box
+                as="span"
+                flex="1"
+                textAlign="left"
+                className="font-semibold"
+              >
+                Will it clear up my stained teeth
+              </Box>
+              <AccordionIcon />
+            </AccordionButton>
+          </h2>
+          <AccordionPanel
+            pb={4}
+            className="text-sm lg:text-base text-neutral-700"
+          >
+            <span className="font-bold">No , </span>Fluorosis is not reversible
+            .However , it will prevent further staining of the teeth
+          </AccordionPanel>
+        </AccordionItem>
+
+        <AccordionItem>
+          <h2>
+            <AccordionButton>
+              <Box
+                as="span"
+                flex="1"
+                textAlign="left"
+                className="font-semibold"
+              >
+                What does it filter ?
+              </Box>
+              <AccordionIcon />
+            </AccordionButton>
+          </h2>
+          <AccordionPanel
+            pb={4}
+            className="text-sm lg:text-base text-neutral-700"
+          >
+            Sediment , chloride , flouride , heavy metals , microplastics ,
+            herbicides , pesticides , microorganisms, salt and most
+            contaminants.
+          </AccordionPanel>
+        </AccordionItem>
+
+        <AccordionItem>
+          <h2>
+            <AccordionButton>
+              <Box
+                as="span"
+                flex="1"
+                textAlign="left"
+                className="font-semibold"
+              >
+                How often do you need to do maintenance ?
+              </Box>
+              <AccordionIcon />
+            </AccordionButton>
+          </h2>
+          <AccordionPanel
+            pb={4}
+            className="text-sm lg:text-base text-neutral-700"
+          >
+            This is dependent on the water source and your usage .Changes in the
+            water source might disrupt your maintenance schedule .
+            <span className="font-bold text-black">
+              Hydra offers free first year maintenance service
+            </span>{" "}
+            every 3 months so as to gauge the working of the systems in your
+            space and advise on the best maintenance schedule that will give you
+            optimum functioning of the system .The schedules may range from
+            every 5 months to every 3 years.
+          </AccordionPanel>
+        </AccordionItem>
+      </Accordion>
+
+      {/* end of accordions */}
 
       {/* ready to go green */}
       <h2 className="text-2xl font-semibold text-center mb-4 mt-16">
