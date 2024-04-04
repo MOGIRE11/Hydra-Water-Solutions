@@ -225,7 +225,17 @@ function Home(){
       </div>
 
       {/* servicing schedule */}
-    
+      <h2 className="text-2xl text-center mt-24 mb-1">
+        Our Servicing Schedule
+      </h2>
+      <ol className="stepper">
+        <li>Installation</li>
+        <li>3 Months</li>
+        <li className="active">6 Months</li>
+        <li>9 Months</li>
+        <li>Year 1 </li>
+        <li className="active">Year 2</li>
+      </ol>
 
       {/* our story */}
       <div className="about-us mt-32 flex flex-col lg:flex-row lg:items-center justify-between gap-4">
