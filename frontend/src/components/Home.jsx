@@ -18,11 +18,34 @@ import {
   AccordionItem,
   AccordionButton,
   AccordionPanel,
-  AccordionIcon,Box
+  AccordionIcon,
+  Box,
+  Step,
+  StepDescription,
+  StepIcon,
+  StepIndicator,
+  StepNumber,
+  StepSeparator,
+  StepStatus,
+  StepTitle,
+  Stepper,
+  useSteps,activeSteps
 } from "@chakra-ui/react";
 
 
 function Home() {
+  const steps = [
+  { title: 'First', description: 'Contact Info' },
+  { title: 'Second', description: 'Date & Time' },
+  { title: 'Third', description: 'Select Rooms' },
+]
+
+// function Example() {
+//   const { activeStep } = useSteps({
+//     index: 1,
+//     count: steps.length,
+//   })}
+  
   return (
     <div className="px-4 lg:px-20 my-8">
       <div className="hero-section flex flex-col my-10 lg:my-8 lg:mt-20 gap-4 lg:flex-row lg:justify-between items-center lg:mb-20">
@@ -221,6 +244,30 @@ function Home() {
           </p>
         </div>
       </div>
+      
+      
+      {/* servicing schedule */}
+       <Stepper index={activeStep}>
+      {steps.map((step, index) => (
+        <Step key={index}>
+          <StepIndicator>
+            <StepStatus
+              complete={<StepIcon />}
+              incomplete={<StepNumber />}
+              active={<StepNumber />}
+            />
+          </StepIndicator>
+
+          <Box flexShrink='0'>
+            <StepTitle>{step.title}</StepTitle>
+            <StepDescription>{step.description}</StepDescription>
+          </Box>
+
+          <StepSeparator />
+        </Step>
+      ))}
+    </Stepper>
+    
 
       {/* our story */}
       <div className="about-us mt-32 flex flex-col lg:flex-row lg:items-center justify-between gap-4">
