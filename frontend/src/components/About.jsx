@@ -35,7 +35,7 @@ function About() {
         Revolutionizing water for a sustainable future
       </p>
       <hr className="mt-2" />
-      
+
       {/* history */}
       <div className="section1 flex flex-col md:flex-row gap-8 mt-8 items-center justify-center">
         {/* <img
@@ -43,7 +43,7 @@ function About() {
           alt="hydra-team-photo"
           className="h-[300px] w-full object-cover"
         /> */}
-        <div className="about-details">
+        <div className="about-details md:w-[80%]">
           {/* heading */}
           <h2 className="font-bold underline underline-offset-4 mb-2">
             Frustrated by unreliable water treatment options?
@@ -83,7 +83,8 @@ function About() {
             <ul className="">
               <li className="mt-1">
                 <span className="font-bold block">
-                  1. Improving the lives of our customers:
+                  <i className="fa-solid fa-check"></i> Improving the lives of our
+                  customers:
                 </span>
                 We use advanced technology to deliver innovative solutions that
                 enhance your overall health and well-being.
@@ -108,7 +109,7 @@ function About() {
       </div>
 
       {/* mission and vision */}
-      <div className="vision-warpper grid grid-cols-1  md:grid-cols-3 gap-10 mt-24 divide-y-20">
+      <div className="vision-wrapper grid grid-cols-1  md:w-[80%] mx-auto md:grid-cols-3 gap-10 mt-24 divide-y-20">
         {/* vision */}
         <div className="vision ">
           {/* paper plane - telegram */}
@@ -153,7 +154,7 @@ function About() {
       </div>
 
       {/* stats */}
-      <div className="about-stats flex flex-col md:flex-row items-center justify-evenly mt-20 bg-blue-700 space-y-4 md:h-24 p-2">
+      <div className="about-stats flex flex-col md:flex-row items-center justify-evenly mt-20 bg-blue-700 space-y-4 md:h-24 p-2 md:w-[80%] mx-auto">
         <section className="flex items-center flex-col">
           <h3 className="text-2xl font-black">200+</h3>
           <span className="text-sm font-bold">Customers Nationwide</span>
