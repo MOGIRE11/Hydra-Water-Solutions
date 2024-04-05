@@ -165,10 +165,10 @@ function Home(){
         </div>
       </div>
 
-      <p className="mt-10 text-sm text-blue-900 font-semibold underline underline-offset-4">
+      {/* <p className="mt-10 text-sm text-blue-900 font-semibold underline underline-offset-4">
         Learn more about the Reverse Osmosis Water Purifiers.
         <i className="fa-solid fa-arrow-up rotate-45 ml-1"></i>
-      </p>
+      </p> */}
 
       {/* services section header*/}
       <p className="text-center text-teal-500 tracking-wide text-xs font-bold mt-24">
