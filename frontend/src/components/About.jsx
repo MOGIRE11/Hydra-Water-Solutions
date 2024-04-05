@@ -6,14 +6,20 @@ import fineteklabs from "./assets/fineteklabs-partner.png";
 import amario from "./assets/amario-partner.svg";
 import hidrotech from "./assets/hidrotech-partner.svg";
 import stuntech from "./assets/Stuntech-partner.svg";
+import waterBg from "./assets/water-background.svg"
 
 
 function About() {
   return (
     <div className="px-4 lg:px-20 min-h-[70vh] mb-24">
-      <div className="top h-24 bg-blue-600 mt-2 flex flex-col items-center justify-center">
-        <p className="font-bold text-xl mt-1">About Us</p>
-        <div className="breadcrumb flex items-center gap-2 text-sm font-bold ">
+      <div className="about-top h-24 mt-2 flex flex-col items-center justify-center relative overflow-hidden">
+        <img
+          src={waterBg}
+          alt="hydra-water-bg"
+          className="absolute w-full h-full object-cover -z-20 blur-[1px]"
+        />
+        <p className="font-bold text-xl mt-1 text-white">WHO ARE WE ?</p>
+        <div className="breadcrumb flex items-center gap-2 text-sm font-bold text-white">
           <NavLink to="/">
             <i className="fa-solid fa-house mr-1 cursor-pointer "></i>
             <p className="inline hover:text-blue-800 hover:font-bold">Home</p>
@@ -23,18 +29,20 @@ function About() {
         </div>
       </div>
 
-      <h1 className="text-2xl text-center font-bold mt-8">Welcome to Hydra</h1>
-      <p className="mb-8 text-center text-neutral-600 text-sm">
+      <hr className="mt-2" />
+      <h1 className="text-2xl text-center font-bold">Welcome to Hydra</h1>
+      <p className=" text-center text-neutral-600 text-sm">
         Revolutionizing water for a sustainable future
       </p>
-
+      <hr className="mt-2" />
+      
       {/* history */}
       <div className="section1 flex flex-col md:flex-row gap-8 mt-8 items-center justify-center">
-        <img
+        {/* <img
           src={hydrateam}
           alt="hydra-team-photo"
           className="h-[300px] w-full object-cover"
-        />
+        /> */}
         <div className="about-details">
           {/* heading */}
           <h2 className="font-bold underline underline-offset-4 mb-2">
@@ -74,19 +82,23 @@ function About() {
             <span> We&apos;re committed to:</span>
             <ul className="">
               <li className="mt-1">
-                <span className="font-bold block">1. 
-                  Improving the lives of our customers:
+                <span className="font-bold block">
+                  1. Improving the lives of our customers:
                 </span>
                 We use advanced technology to deliver innovative solutions that
                 enhance your overall health and well-being.
               </li>
               <li className="my-2">
-                <span className="font-bold block">2. Empowering our employees:</span>
+                <span className="font-bold block">
+                  2. Empowering our employees:
+                </span>
                 We value and respect our team, fostering a positive and
                 rewarding work environment.
               </li>
               <li className="">
-                <span className="font-bold block">3. Building strong partnerships:</span>
+                <span className="font-bold block">
+                  3. Building strong partnerships:
+                </span>
                 We believe in ethical business practices and building trust with
                 our partners.
               </li>
@@ -144,34 +156,22 @@ function About() {
       <div className="about-stats flex flex-col md:flex-row items-center justify-evenly mt-20 bg-blue-700 space-y-4 md:h-24 p-2">
         <section className="flex items-center flex-col">
           <h3 className="text-2xl font-black">200+</h3>
-          <span className="text-sm font-bold">
-            Customers
-            Nationwide
-          </span>
+          <span className="text-sm font-bold">Customers Nationwide</span>
         </section>
 
         <section className="flex items-center flex-col">
           <h3 className="text-2xl font-black">97%</h3>
-          <span className="text-sm font-bold">
-            Customer
-            Satisfaction Rate
-          </span>
+          <span className="text-sm font-bold">Customer Satisfaction Rate</span>
         </section>
 
         <section className="flex flex-col items-center ">
           <h3 className="text-2xl font-black">2+</h3>
-          <span className="text-sm font-bold">
-            Years Of
-            Experience
-          </span>
+          <span className="text-sm font-bold">Years Of Experience</span>
         </section>
 
         <section className="flex flex-col items-center">
           <h3 className="text-2xl font-black">100+</h3>
-          <span className="text-sm font-bold">
-            Lives
-            Impacted
-          </span>
+          <span className="text-sm font-bold">Lives Impacted</span>
         </section>
       </div>
 
