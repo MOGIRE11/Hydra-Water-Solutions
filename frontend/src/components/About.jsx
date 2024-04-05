@@ -5,11 +5,19 @@ import amario from "./assets/amario-partner.svg";
 import hidrotech from "./assets/hidrotech-partner.svg";
 import stuntech from "./assets/Stuntech-partner.svg";
 import waterBg from "./assets/water-background.svg"
-
+// import africanmap from "./assets/african-map.svg";
 
 function About() {
   return (
     <div className="px-4 lg:px-20 min-h-[70vh] mb-24">
+      {/* bg-pc */}
+      {/* <img
+        src={africanmap}
+        alt=""
+        className="absolute -z-20 top-[20%] left-[35%] mx-auto flex blur-[2px] w-[80%]"
+      /> */}
+      {/* end of bg-pic */}
+      
       <div className="about-top h-24 mt-2 flex flex-col items-center justify-center relative overflow-hidden">
         <img
           src={waterBg}

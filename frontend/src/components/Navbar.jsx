@@ -5,6 +5,8 @@ import hydralogo from "./assets/Hydra-logo.png";
 
 const Navbar = () => {
   const [display, setDisplay] = useState(false);
+  const handleLinkClick = () =>{setDisplay(false);}
+  
   return (
     <div className="nav sticky top-0 z-10">
       {/* email and contact */}
@@ -13,7 +15,7 @@ const Navbar = () => {
           <i className="fa-solid fa-phone mr-2"></i>
           <p className="text-xs">(+254 )-704-062-778 </p>
         </div>
-        
+
         <div className="email flex items-center text-xs">
           <i className="fa-solid fa-envelope mr-2"></i>
           <p className="text-xs">Hydrawater254@gmail.com</p>
@@ -79,7 +81,7 @@ const Navbar = () => {
               </NavLink>
 
               <i
-                className="fa-solid fa-xmark cursor-pointer"
+                className="fa-solid fa-xmark text-lg cursor-pointer"
                 onClick={() => {
                   setDisplay((prev) => !prev);
                 }}
@@ -89,6 +91,7 @@ const Navbar = () => {
               <NavLink
                 to="/home"
                 className="flex items-center gap-2 font-medium"
+                onClick={handleLinkClick}
               >
                 <i className="fa-solid fa-chevron-right text-neutral-500"></i>
                 Home
@@ -97,6 +100,7 @@ const Navbar = () => {
               <NavLink
                 to="/about"
                 className="flex items-center gap-2 font-medium"
+                onClick={handleLinkClick}
               >
                 <i className="fa-solid fa-chevron-right text-neutral-500"></i>
                 About Us
@@ -105,6 +109,7 @@ const Navbar = () => {
               <NavLink
                 to="/blog"
                 className="flex items-center gap-2 font-medium"
+                onClick={handleLinkClick}
               >
                 <i className="fa-solid fa-chevron-right text-neutral-500"></i>
                 Our Blog
@@ -113,6 +118,7 @@ const Navbar = () => {
               <NavLink
                 to="/products"
                 className="flex items-center gap-2 font-medium"
+                onClick={handleLinkClick}
               >
                 <i className="fa-solid fa-chevron-right text-neutral-500"></i>
                 Products
@@ -121,6 +127,7 @@ const Navbar = () => {
               <NavLink
                 to="/contact"
                 className="flex items-center gap-2 font-medium"
+                onClick={handleLinkClick}
               >
                 <i className="fa-solid fa-chevron-right text-neutral-500"></i>
                 Contact Us

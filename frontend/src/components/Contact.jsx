@@ -1,10 +1,11 @@
 import { NavLink } from "react-router-dom";
-import hydraprint from "./assets/Hydra-print.svg";
-
+import image5 from "./assets/image5.svg";
+import africanmap from "./assets/african-map.svg";
 
 function Contact() {
   return (
-    <div className="px-4 lg:px-20">
+    <div className="px-4 lg:px-20 relative">
+      <img src={africanmap} alt="" className="absolute -z-20 top-[10%] left-[35%] mx-auto flex blur-[2px]" />
       {/* breadcrumb */}
       <div className="breadcrumb flex items-center gap-2 text-xs mt-4 mb-8">
         <NavLink to="/">
@@ -51,9 +52,9 @@ function Contact() {
             </div>
           </div>
           <img
-            src={hydraprint}
+            src={image5}
             alt="hydra-african-print"
-            className="hidden md:flex"
+            className="hidden md:flex border border-blue-800 object-cover"
           />
         </div>
         {/* form */}
