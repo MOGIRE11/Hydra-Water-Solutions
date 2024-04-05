@@ -43,7 +43,7 @@ function About() {
           alt="hydra-team-photo"
           className="h-[300px] w-full object-cover"
         /> */}
-        <div className="about-details md:w-[80%]">
+        <div className="about-details md:w-[90%]">
           {/* heading */}
           <h2 className="font-bold underline underline-offset-4 mb-2">
             Frustrated by unreliable water treatment options?
@@ -82,23 +82,25 @@ function About() {
             <span> We&apos;re committed to:</span>
             <ul className="">
               <li className="mt-1">
-                <span className="font-bold block">
-                  <i className="fa-solid fa-check"></i> Improving the lives of our
-                  customers:
+                <span className="font-bold flex gap-2">
+                  <i className="fa-solid fa-check text-green-600 border-2 border-green-500 rounded-full h-6 w-6 flex items-center justify-center"></i>
+                  Improving the lives of our customers:
                 </span>
                 We use advanced technology to deliver innovative solutions that
                 enhance your overall health and well-being.
               </li>
               <li className="my-2">
-                <span className="font-bold block">
-                  2. Empowering our employees:
+                <span className="font-bold flex gap-2">
+                  <i className="fa-solid fa-check text-green-600 border-2 border-green-500 rounded-full h-6 w-6 flex items-center justify-center"></i>
+                  Empowering our employees:
                 </span>
                 We value and respect our team, fostering a positive and
                 rewarding work environment.
               </li>
               <li className="">
-                <span className="font-bold block">
-                  3. Building strong partnerships:
+                <span className="font-bold flex gap-2">
+                  <i className="fa-solid fa-check text-green-600 font-bold border-2 border-green-500 rounded-full h-6 w-6 flex items-center justify-center"></i>
+                  Building strong partnerships:
                 </span>
                 We believe in ethical business practices and building trust with
                 our partners.
@@ -109,14 +111,19 @@ function About() {
       </div>
 
       {/* mission and vision */}
-      <div className="vision-wrapper grid grid-cols-1  md:w-[80%] mx-auto md:grid-cols-3 gap-10 mt-24 divide-y-20">
+      <div className="vision-wrapper grid grid-cols-1  md:w-[90%] mx-auto md:grid-cols-3 gap-10 mt-24 divide-y-20">
         {/* vision */}
         <div className="vision ">
           {/* paper plane - telegram */}
-          <i className="fa-solid fa-house mr-1 cursor-pointer  w-12 h-12 text-white border flex items-center justify-center rounded-full bg-blue-700"></i>
-          <h2 className="font-bold tracking-wide text-lg my-2 underline underline-offset-4">
-            OUR VISION
-          </h2>
+          <hr className="my-1" />
+          <div className="div flex items-center justify-center">
+            <i className="fa-solid fa-paper-plane mr-2 cursor-pointer  w-8 h-8 text-white border flex items-center justify-center rounded-full bg-blue-700"></i>
+            <h2 className="font-bold tracking-wide text-lg my-2 text-center">
+              OUR VISION
+            </h2>
+          </div>
+          <hr className="my-1 mb-2" />
+
           <p className="">
             To provide sustainable world class solutions in our fields of
             specialization.
@@ -126,10 +133,15 @@ function About() {
         {/* mission */}
         <div className="mission">
           {/* compass */}
-          <i className="fa-solid fa-house mr-1 cursor-pointer  w-12 h-12 text-white border flex items-center justify-center rounded-full bg-blue-700"></i>
-          <h2 className="font-bold tracking-wide text-lg my-2 underline underline-offset-4">
-            OUR MISSION
-          </h2>
+          <hr className="my-1" />
+          <div className="div flex items-center justify-center">
+            <i className="fa-solid fa-compass mr-2 cursor-pointer  w-8 h-8 text-white border flex items-center justify-center rounded-full bg-blue-700"></i>
+            <h2 className="font-bold tracking-wide text-lg my-2 text-center">
+              OUR MISSION
+            </h2>
+          </div>
+          <hr className="my-1 mb-2" />
+
           <p className="">
             To provide safe and accessible water for everyone, and to foster a
             culture of collaboration and excellence among our stakeholders. We
@@ -141,10 +153,15 @@ function About() {
         {/* strengths */}
         <div className="strengths">
           {/* leaf*/}
-          <i className="fa-solid fa-house mr-1 cursor-pointer  w-12 h-12 text-white border flex items-center justify-center rounded-full bg-blue-700"></i>
-          <h2 className="font-bold tracking-wide text-lg my-2 underline underline-offset-4">
-            OUR GOAL
-          </h2>
+          <hr className="my-1" />
+          <div className="div flex items-center justify-center">
+            <i className="fa-solid fa-leaf mr-2 cursor-pointer  w-8 h-8 text-white border flex items-center justify-center rounded-full bg-blue-700"></i>
+
+            <h2 className="font-bold tracking-wide text-lg my-2 text-center">
+              OUR GOAL
+            </h2>
+          </div>
+          <hr className="my-1 mb-2" />
           <p className="">
             To better lives of our communities through provision of of high
             quality products and services in the fields of water, renewable
@@ -154,7 +171,7 @@ function About() {
       </div>
 
       {/* stats */}
-      <div className="about-stats flex flex-col md:flex-row items-center justify-evenly mt-20 bg-blue-700 space-y-4 md:h-24 p-2 md:w-[80%] mx-auto">
+      <div className="about-stats flex flex-col md:flex-row items-center justify-evenly mt-20 bg-blue-700 space-y-4 md:h-24 p-2 md:w-[90%] mx-auto">
         <section className="flex items-center flex-col">
           <h3 className="text-2xl font-black">200+</h3>
           <span className="text-sm font-bold">Customers Nationwide</span>
@@ -175,39 +192,6 @@ function About() {
           <span className="text-sm font-bold">Lives Impacted</span>
         </section>
       </div>
-
-      {/* meet our team */}
-      {/* <h1 className="text-2xl font-bold mt-24 text-center underline underline-offset-4">
-        Meet The Team
-      </h1>
-
-      <div className="members flex items-center justify-evenly flex-wrap mt-12 space-y-8">
-        <div className="ceo relative w-[250px]">
-          <img src={user} alt="Hydra-CEO" className="w-full rounded-md" />
-          <p className=" text-lg font-bold">Andrew Gisemba</p>
-          <p className="text-sm font-semibold gray">CEO Hydra</p>
-        </div>
-
-        <div className="ceo relative w-[250px]">
-          <img
-            src="https://img.freepik.com/free-photo/businesswoman-executive-professional-success-concept_53876-137644.jpg?t=st=1711576559~exp=1711580159~hmac=34433e1ac2df2b4c9ff27c9aaa647931c08773aecb09a4e1a72e6cb104b158cd&w=826"
-            alt="Hydra-CEO"
-            className="border object-cover w-full rounded-md"
-          />
-          <p className=" text-lg font-bold">Temina Semo</p>
-          <p className="text-sm font-semibold gray">Sales Manager Hydra</p>
-        </div>
-
-        <div className="ceo relative w-[250px]">
-          <img
-            src="https://img.freepik.com/free-photo/medium-shot-man-working-as-lawyer_23-2151202441.jpg?t=st=1711577379~exp=1711580979~hmac=38933f2734447de4f3b9a103da2b4bfbc7902ba123859bd915df776e2e0394da&w=826"
-            alt="Hydra-CEO"
-            className="rounded-md w-full object-cover"
-          />
-          <p className=" text-lg font-bold">lorem ipsum</p>
-          <p className="text-sm font-semibold gray">CEO Hydra</p>
-        </div>
-      </div> */}
 
       {/* clients */}
       <h2 className="underline underline-offset-4 text-lg tracking-wider font-bold  md:text-center mt-24 ">
