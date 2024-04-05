@@ -193,7 +193,7 @@ function About() {
       </div>
 
       {/* clients */}
-      <h2 className="underline underline-offset-4 text-lg tracking-wider font-bold  md:text-center mt-24 ">
+      <h2 className="underline underline-offset-4 text-lg tracking-wider font-bold text-center mt-24 ">
         Our Partners
       </h2>
 
