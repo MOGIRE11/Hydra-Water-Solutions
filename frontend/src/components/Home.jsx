@@ -2,16 +2,16 @@ import { NavLink } from "react-router-dom";
 import sevenstagePurifier from "./assets/branded7stage.png";
 import fivestagePurifier from "./assets/branded5stage.png";
 // import labelledsevenstagePurifier from "./assets/7stage-labelled.svg";
-// import africanmap from './assets/african-map.svg';
+import africanmap from './assets/african-map.svg';
 import celestialdental from "./assets/celestial-dental-partner.svg";
 import fineteklabs from "./assets/fineteklabs-partner.png";
 import user from "./assets/user.jpg";
 import amario from "./assets/amario-partner.svg";
 import hidrotech from "./assets/hidrotech-partner.svg";
 import stuntech from "./assets/Stuntech-partner.svg";
-// import image5 from "./assets/image5.svg";
-import hydraprint from "./assets/Hydra-print.svg";
-import hydrateam from "./assets/Hydra-team-photo.svg";
+import image5 from "./assets/image5.svg";
+// import hydraprint from "./assets/Hydra-print.svg";
+// import hydrateam from "./assets/Hydra-team-photo.svg";
 import underthesink from "./assets/7stagepurifier.svg";
 import {
   Accordion,
@@ -22,6 +22,8 @@ import {
   Box,
 
 } from "@chakra-ui/react";
+// import Testimonials from "./components/Testimonials";
+
 
 function Home(){
 
@@ -73,8 +75,8 @@ function Home(){
       </div>
 
       {/* Hydra's Statistics */}
-      <div className="stats flex flex-col items-start md:items-center justify-between md:flex-row gap-4">
-        <section className="flex items-center gap-2">
+      <div className="stats flex flex-col  items-center justify-between md:flex-row gap-4">
+        <section className="flex  items-center gap-2">
           <h3 className="text-2xl font-black  text-blue-900">200+</h3>
           <span className="text-sm font-semibold">
             Customers
@@ -83,7 +85,7 @@ function Home(){
           </span>
         </section>
 
-        <section className="flex items-center gap-2">
+        <section className="flex  items-center gap-2">
           <h3 className="text-2xl font-black  text-blue-900">97%</h3>
           <span className="text-sm font-semibold">
             Customer
@@ -92,7 +94,7 @@ function Home(){
           </span>
         </section>
 
-        <section className="flex items-center gap-2">
+        <section className="flex  items-center gap-2">
           <h3 className="text-2xl font-black  text-blue-900">2+</h3>
           <span className="text-sm font-semibold">
             Years Of
@@ -113,7 +115,7 @@ function Home(){
 
       <hr className="my-2" />
 
-      <img src={hydraprint} alt="hydra-print" />
+      <img src={image5} alt="hydra-print" className="h-6 object-cover w-full" />
 
       <div className="featured-products">
         <p className="text-teal-500 text-xs mt-24 tracking wider font-bold">
@@ -165,10 +167,6 @@ function Home(){
         </div>
       </div>
 
-      {/* <p className="mt-10 text-sm text-blue-900 font-semibold underline underline-offset-4">
-        Learn more about the Reverse Osmosis Water Purifiers.
-        <i className="fa-solid fa-arrow-up rotate-45 ml-1"></i>
-      </p> */}
 
       {/* services section header*/}
       <p className="text-center text-teal-500 tracking-wide text-xs font-bold mt-24">
@@ -177,10 +175,7 @@ function Home(){
       <h3 className="text-2xl text-center font-bold underline underline-offset-4">
         Our Best Services
       </h3>
-      {/* <p className="md:text-center text-sm">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci
-        commodi iusto maxime.
-      </p> */}
+    
 
       {/* services */}
       <div className="services flex  justify-center items-center lg:justify-evenly flex-wrap gap-4 mt-8">
@@ -225,9 +220,7 @@ function Home(){
       </div>
 
       {/* servicing schedule */}
-      <h2 className="text-2xl text-center mt-24 mb-1">
-        Servicing Schedule
-      </h2>
+      <h2 className="text-2xl text-center mt-24 mb-1">Servicing Schedule</h2>
       <ol className="stepper">
         <li>Installation</li>
         <li>3 Months</li>
@@ -268,9 +261,9 @@ function Home(){
 
         <div className="our-pic lg:w-1/2 hidden md:flex items-center lg:justify-end my-8">
           <img
-            src={hydrateam}
-            alt="Hydra-team-photo"
-            className="h-[300px] w-full lg:w-[80%] lg:h-[300px] object-cover rounded-md"
+            src={africanmap}
+            alt="The-African-map-hydra"
+            className="w-[70%] object-cover rounded-md"
           />
         </div>
       </div>
@@ -298,6 +291,9 @@ function Home(){
       <h1 className="mt-24 mb-12 font-bold text-2xl text-center underline underline-offset-4">
         What Our Customers Say
       </h1>
+      
+      {/* <Testimonials/> */}
+      
       {/* Testimonials */}
 
       <div className="testimonial_slider_2 mb-24 lg:w-[70%] border shadow-lg rounded-lg bg-white">

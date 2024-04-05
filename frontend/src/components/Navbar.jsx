@@ -89,7 +89,7 @@ const Navbar = () => {
             </div>
             <div className="bottom-menu-list flex flex-col justify-evenly mx-auto w-48 divide-y-0 divide-neutral-600 h-1/2 mt-8 px-4">
               <NavLink
-                to="/home"
+                to="/"
                 className="flex items-center gap-2 font-medium"
                 onClick={handleLinkClick}
               >

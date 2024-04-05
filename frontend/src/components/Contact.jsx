@@ -54,7 +54,7 @@ function Contact() {
           <img
             src={image5}
             alt="hydra-african-print"
-            className="hidden md:flex border border-blue-800 object-cover"
+            className="hidden md:flex border border-blue-800 h-8 w-full object-cover"
           />
         </div>
         {/* form */}
