@@ -1,12 +1,7 @@
 import { NavLink } from "react-router-dom";
 import image5 from "./assets/image5.svg";
 import africanmap from "./assets/african-map.svg";
-import { useForm,handleSubmit} from "@formspree/react";
-function ContactForm() {
-  const [state, handleSubmit] = useForm("xnqkwele");
-  if (state.succeeded) {
-      return <p>Thanks for joining!</p>;
-  }}
+
 
 function Contact() {
   return (
@@ -71,9 +66,8 @@ function Contact() {
         <div className="form ">
           <form
             className="flex flex-col justify-center gap-1"
-            action=""
-            method="post"
-            onSubmit={handleSubmit}
+            action="https://formspree.io/f/xbjnplqv"
+            method="POST"
           >
             <label className="mb-2" htmlFor="name">
               <p className="font-bold "> Name</p>
@@ -185,11 +179,10 @@ function Contact() {
               </NavLink>{" "}
               Policy.
             </label>
-<ContactForm/>
+
             <button
-            type="submit"
+              type="submit"
               className=" secondary w-52 py-2 px-4 rounded-md  my-4 font-bold text-white"
-              disabled={state.submitting}
             >
               Submit Quote Request
             </button>
