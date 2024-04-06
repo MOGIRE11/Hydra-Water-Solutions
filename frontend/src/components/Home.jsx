@@ -317,8 +317,8 @@ function Home(){
                   className="w-12 h-12 object-cover rounded-full"
                 />
                 <span className="">
-                  <h3>John Doe</h3>
-                  <h4>Resident Nairobi, Kenya</h4>
+                  <h3>Alex Thuo</h3>
+                  <h4>Celestial Dental</h4>
                 </span>
               </div>
             </div>
