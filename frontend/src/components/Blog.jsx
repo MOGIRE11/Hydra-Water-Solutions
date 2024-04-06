@@ -232,7 +232,7 @@ const blogPosts = [
     id: 1,
     title: "The Fluorosis menace. Does it affect children only?",
     image: stainedTeeth,
-    date: "April 1, 2024",
+    date: "April 6, 2024",
     author: "Gisemba Andrew",
     content:
       "Dental fluorosis is the staining of teeth (yellowing, brown, white spots , freckles) and pitting of teeth due to intake of excess levels of flouride.Fluoride is an essential ion in whose role is to protect our teeth from dental caries. However, when ingested in higher levels (above 1000ppm) its benefits are overruled. The sources of the fluoride are : fluoridated bottled water, fluoridated milk, borehole water(major carrier), toothpaste when ingested, fluoride tablets, tea infusion etc. The fluoride gets into our system by ingestion of these products. The major contributor being the highly fluoridated borehole water used for cooking and drinking. In cooking, as the water boils the concentration of fluoride increases, in most households this occurs at least twice a day bringing the fluoride intake to an overall high.  Hydra water solutions solves this problem by purifying the water consumed using our Reverse Osmosis domestic water purifiers. These systems optimally fluoridate, purify, enhance taste, regulate pH and removes salinity from your tap water not only making it safe for drinking but it also brings delight to the user every sip they take. Excessive fluoride intake gradually presents itself as : dental fluorosis, skeletal fluorosis(weaker bones), gut complications, tremors etc.",

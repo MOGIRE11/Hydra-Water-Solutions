@@ -167,7 +167,6 @@ function Home(){
         </div>
       </div>
 
-
       {/* services section header*/}
       <p className="text-center text-teal-500 tracking-wide text-xs font-bold mt-24">
         WHAT WE OFFER
@@ -175,7 +174,6 @@ function Home(){
       <h3 className="text-2xl text-center font-bold underline underline-offset-4">
         Our Best Services
       </h3>
-    
 
       {/* services */}
       <div className="services flex  justify-center items-center lg:justify-evenly flex-wrap gap-4 mt-8">
@@ -291,9 +289,9 @@ function Home(){
       <h1 className="mt-24 mb-12 font-bold text-2xl text-center underline underline-offset-4">
         What Our Customers Say
       </h1>
-      
+
       {/* <Testimonials/> */}
-      
+
       {/* Testimonials */}
 
       <div className="testimonial_slider_2 mb-24 lg:w-[70%] border shadow-lg rounded-lg bg-white">
@@ -306,11 +304,9 @@ function Home(){
             <div className="testimonial_2">
               <div className="content_2">
                 <p>
-                  Ever since installing Hydra&apos;s water purification system,
-                  our family can finally enjoy worry-free drinking! The taste is
-                  incredible, and knowing the water is safe for the kids gives
-                  us immense peace of mind. Hydra&apos;s technicians were
-                  professional and efficient, making the whole process a breeze.
+                  Absolutely love it. My water is crystal clear and taste so
+                  good. You can definitely tell water no chemicals like
+                  chlorine... HIGHLY RECOMMEND
                 </p>
               </div>
 
@@ -321,8 +317,8 @@ function Home(){
                   className="w-12 h-12 object-cover rounded-full"
                 />
                 <span className="">
-                  <h3>Linda Awuor</h3>
-                  <h4>Valley Medical Center</h4>
+                  <h3>John Doe</h3>
+                  <h4>Resident Nairobi, Kenya</h4>
                 </span>
               </div>
             </div>
