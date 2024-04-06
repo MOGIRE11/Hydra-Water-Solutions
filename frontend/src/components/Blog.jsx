@@ -3,7 +3,7 @@
 // import doctor from "./assets/doctor.svg";
  import stainedTeeth from "./assets/flourosis.svg";
 // import ladyFetchingWater from "./assets/lady-fetching-water.svg";
-// import purificationProcess from "./assets/water-purificaion-process.svg";
+import purificationProcess from "./assets/water-purificaion-process.svg";
 // import waterTesting from "./assets/water-testing.svg";
 // import agriBusiness from "./assets/agri-business.svg";
 // import coast from "./assets/coast.svg";
@@ -229,13 +229,13 @@ const blogPosts = [
       "Dental fluorosis is the staining of teeth (yellowing, brown, white spots , freckles) and pitting of teeth due to intake of excess levels of flouride.Fluoride is an essential ion in whose role is to protect our teeth from dental caries. However, when ingested in higher levels (above 1000ppm) its benefits are overruled. The sources of the fluoride are : fluoridated bottled water, fluoridated milk, borehole water(major carrier), toothpaste when ingested, fluoride tablets, tea infusion etc. The fluoride gets into our system by ingestion of these products. The major contributor being the highly fluoridated borehole water used for cooking and drinking. In cooking, as the water boils the concentration of fluoride increases, in most households this occurs at least twice a day bringing the fluoride intake to an overall high.  Hydra water solutions solves this problem by purifying the water consumed using our Reverse Osmosis domestic water purifiers. These systems optimally fluoridate, purify, enhance taste, regulate pH and removes salinity from your tap water not only making it safe for drinking but it also brings delight to the user every sip they take. Excessive fluoride intake gradually presents itself as : dental fluorosis, skeletal fluorosis(weaker bones), gut complications, tremors etc.",
   },
   {
-    id: 1,
-    title: "The Fluorosis menace. Does it affect children only?",
-    image: stainedTeeth,
+    id: 2,
+    title: "What exactly does reverse osmosis mean?",
+    image: purificationProcess,
     date: "April 6, 2024",
     author: "Gisemba Andrew",
     content:
-      "Dental fluorosis is the staining of teeth (yellowing, brown, white spots , freckles) and pitting of teeth due to intake of excess levels of flouride.Fluoride is an essential ion in whose role is to protect our teeth from dental caries. However, when ingested in higher levels (above 1000ppm) its benefits are overruled. The sources of the fluoride are : fluoridated bottled water, fluoridated milk, borehole water(major carrier), toothpaste when ingested, fluoride tablets, tea infusion etc. The fluoride gets into our system by ingestion of these products. The major contributor being the highly fluoridated borehole water used for cooking and drinking. In cooking, as the water boils the concentration of fluoride increases, in most households this occurs at least twice a day bringing the fluoride intake to an overall high.  Hydra water solutions solves this problem by purifying the water consumed using our Reverse Osmosis domestic water purifiers. These systems optimally fluoridate, purify, enhance taste, regulate pH and removes salinity from your tap water not only making it safe for drinking but it also brings delight to the user every sip they take. Excessive fluoride intake gradually presents itself as : dental fluorosis, skeletal fluorosis(weaker bones), gut complications, tremors etc.",
+      "Reverse osmosis (RO) water purifiers are advanced systems designed to remove contaminants from water through a process involving a semipermeable membrane and multiple filtration stages. RO systems are highly effective in eliminating a wide range of contaminants, including dissolved salts, chemicals, heavy metals, microorganisms, and radiological elements. The process begins with a sediment filter that removes large particles like dirt, sand, and rust to prevent clogging of subsequent filters. Next, a pre-carbon filter uses activated carbon to remove contaminants like chlorine and chloramines, which can degrade the RO membrane. The reverse osmosis membrane then filters out molecules heavier than water, such as sodium, high levels of lead, dissolved minerals, and fluoride. A post-carbon filter polishes the water, ensuring the highest quality of purified water. RO systems can be configured with additional features like remineralization postfilters, which add essential minerals back into the water, enhancing its taste and health benefits. These systems are highly recommended for individuals on pre-treated municipal water systems, providing an effective solution for removing bacteria and viruses. In addition to their residential applications, RO systems are also used in commercial settings, such as medical facilities, restaurants, and manufacturing industries, to ensure the production of pure, filtered water. With their high contaminant removal rate and versatility, RO systems are an excellent choice for providing safe and great-tasting water in various applications.",
   },
   // Add more blog posts as needed
 ];
