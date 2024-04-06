@@ -9,7 +9,7 @@ function Contact() {
       <img
         src={africanmap}
         alt=""
-        className="absolute -z-20 top-[10%] left-[35%] mx-auto flex blur-[2px]"
+        className="absolute -z-20 top-[10%] left-[25%] mx-auto flex blur-[2px] w-[70%] md:w-[30%]"
       />
       {/* breadcrumb */}
       <div className="breadcrumb flex items-center gap-2 text-xs mt-4 mb-8">
