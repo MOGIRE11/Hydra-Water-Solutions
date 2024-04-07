@@ -156,7 +156,7 @@ function About() {
       </div>
 
       {/* stats */}
-      <div className="about-stats flex flex-col md:flex-row items-center justify-evenly mt-20 bg-blue-700 space-y-4 md:h-24 p-2 md:w-[90%] mx-auto">
+      <div className="about-stats flex flex-col md:flex-row items-center justify-evenly mt-20 border bg-blue-600 space-y-4 md:h-24 p-2 md:w-[90%] mx-auto">
         <section className="flex items-center flex-col">
           <h3 className="text-2xl font-black">200+</h3>
           <span className="text-sm font-bold">Customers Nationwide</span>
