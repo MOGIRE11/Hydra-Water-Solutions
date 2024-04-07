@@ -37,7 +37,7 @@ function About() {
 
       <hr className="mt-2 border-neutral-300" />
       <h1 className="text-2xl text-center font-bold">Welcome to Hydra</h1>
-      <p className=" text-center text-neutral-600 text-sm">
+      <p className=" text-center font-semibold text-sm">
         Revolutionizing water for a sustainable future
       </p>
       <hr className="mt-2 border-neutral-300" />
