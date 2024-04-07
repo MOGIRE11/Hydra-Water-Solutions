@@ -126,7 +126,7 @@ function Home(){
         </p>
       </div>
 
-      <div className="products mt-10">
+      <div className="products my-10">
         <div className="product1">
           <div className="img overflow-hidden h-[230px] w-full rounded-md flex items-center justify-center border">
             <img
@@ -166,6 +166,11 @@ function Home(){
           </p>
         </div>
       </div>
+
+      <NavLink to="/blog" className="text-sm font-bold underline underline-offset-2 text-blue-600">
+        Learn more about RO Purifiers
+        <i className="fa-solid fa-arrow-up rotate-45 ml-1"></i>
+      </NavLink>
 
       {/* services section header*/}
       <p className="text-center text-teal-500 tracking-wide text-xs font-bold mt-24">
