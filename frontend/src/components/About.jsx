@@ -199,7 +199,7 @@ function About() {
 
       {/* fun facts */}
       <hr className="mt-10 mb-2" />
-      <p className="text-center text-2xl font-semibold">Did You Know?</p>
+      <p className="text-center text-2xl font-bold"><i className="fa-regular fa-lightbulb mr-2 text-blue-600"></i>Did You Know?</p>
       <hr className="mb-10 mt-2" />
       <ol>
         <li className="">
