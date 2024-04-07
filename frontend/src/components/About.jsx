@@ -35,12 +35,12 @@ function About() {
         </div>
       </div>
 
-      <hr className="mt-2" />
+      <hr className="mt-2 border-neutral-300" />
       <h1 className="text-2xl text-center font-bold">Welcome to Hydra</h1>
       <p className=" text-center text-neutral-600 text-sm">
         Revolutionizing water for a sustainable future
       </p>
-      <hr className="mt-2" />
+      <hr className="mt-2 border-neutral-300" />
 
       {/* history */}
       <div className="section1 flex flex-col md:flex-row gap-8 mt-8 items-center justify-center">
@@ -102,14 +102,14 @@ function About() {
       <div className="vision-wrapper grid grid-cols-1  md:w-[90%] mx-auto md:grid-cols-3 gap-10 mt-24 divide-y-20">
         {/* vision */}
         <div className="vision ">
-          <hr className="my-1" />
+          <hr className="my-1 border-neutral-300" />
           <div className="div flex items-center justify-center">
             <i className="fa-solid fa-paper-plane mr-2 cursor-pointer  w-8 h-8 text-white border flex items-center justify-center rounded-full bg-blue-700"></i>
             <h2 className="font-bold tracking-wide text-lg my-2 text-center">
               OUR VISION
             </h2>
           </div>
-          <hr className="my-1 mb-2" />
+          <hr className="my-1 mb-2 border-neutral-300" />
 
           <p className="">
             To provide sustainable world class solutions in our fields of
@@ -119,14 +119,14 @@ function About() {
 
         {/* mission */}
         <div className="mission">
-          <hr className="my-1" />
+          <hr className="my-1 border-neutral-300" />
           <div className="div flex items-center justify-center">
             <i className="fa-solid fa-compass mr-2 cursor-pointer  w-8 h-8 text-white border flex items-center justify-center rounded-full bg-blue-700"></i>
             <h2 className="font-bold tracking-wide text-lg my-2 text-center">
               OUR MISSION
             </h2>
           </div>
-          <hr className="my-1 mb-2" />
+          <hr className="my-1 mb-2 border-neutral-300" />
 
           <p className="">
             To provide safe and accessible water for everyone, and to foster a
@@ -138,7 +138,7 @@ function About() {
 
         {/* strengths */}
         <div className="strengths">
-          <hr className="my-1" />
+          <hr className="my-1 border-neutral-300" />
           <div className="div flex items-center justify-center">
             <i className="fa-solid fa-leaf mr-2 cursor-pointer  w-8 h-8 text-white border flex items-center justify-center rounded-full bg-blue-700"></i>
 
@@ -146,7 +146,7 @@ function About() {
               OUR GOAL
             </h2>
           </div>
-          <hr className="my-1 mb-2" />
+          <hr className="my-1 mb-2 border-neutral-300" />
           <p className="">
             To better lives of our communities through provision of of high
             quality products and services in the fields of water, renewable
@@ -179,11 +179,13 @@ function About() {
       </div>
 
       {/* clients */}
-      <h2 className="underline underline-offset-4 text-lg tracking-wider font-bold text-center mt-24 ">
+      <hr className="border-neutral-300 mt-24 mb-2 md:w-[90%] mx-auto" />
+      <h2 className="text-xl tracking-wider font-bold text-center ">
         Our Partners
       </h2>
+      <hr className="border-neutral-300 my-2 md:w-[90%] mx-auto" />
 
-      <div className="partners-wrapper my-4 ">
+      <div className="partners-wrapper my-4 mb-8 ">
         <div className="scroll-content flex items-center w-full justify-evenly gap-4 flex-wrap">
           <img src={hidrotech} alt="hidrotech-hydra-partner" className="" />
           <img src={fineteklabs} alt="fineteklabs-hydra-partner" className="" />
@@ -198,10 +200,13 @@ function About() {
       </div>
 
       {/* fun facts */}
-      <hr className="mt-10 mb-2" />
-      <p className="text-center text-2xl font-bold"><i className="fa-regular fa-lightbulb mr-2 text-blue-600"></i>Did You Know?</p>
-      <hr className="mb-10 mt-2" />
-      <ol>
+      <hr className="mt-10 mb-2 border-neutral-300 md:w-[90%] mx-auto" />
+      <p className="text-center text-xl font-bold">
+        <i className="fa-regular fa-lightbulb mr-2 text-blue-600 animate-bounce"></i>Did You
+        Know?
+      </p>
+      <hr className="mb-4 mt-2 border-neutral-300 md:w-[90%] mx-auto" />
+      <ol className="md:w-[90%] mx-auto">
         <li className="">
           <span className="font-black">1. </span> In Kenya, 9.9 million people
           drink directly from contaminated surface water sources .
@@ -211,8 +216,8 @@ function About() {
           access to safe drinking water.- 41% living below that.
         </li>
         <li className="">
-          <span className="font-black">3. </span> Dental fluorosis prevalence is at
-          45% .
+          <span className="font-black">3. </span> Dental fluorosis prevalence is
+          at 45% .
         </li>
         <li className="">
           <span className="font-black">4. </span> 33% of Kenyans living in urban
