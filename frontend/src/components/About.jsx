@@ -17,7 +17,7 @@ function About() {
         className="absolute -z-20 top-[20%] left-[35%] mx-auto flex blur-[2px] w-[80%]"
       /> */}
       {/* end of bg-pic */}
-      
+
       <div className="about-top h-24 mt-2 flex flex-col items-center justify-center relative overflow-hidden">
         <img
           src={waterBg}
@@ -196,6 +196,37 @@ function About() {
           <img src={amario} alt="amario-hydra-partner" className="" />
         </div>
       </div>
+
+      {/* fun facts */}
+      <hr className="mt-10 mb-2" />
+      <p className="text-center text-2xl font-semibold">Did You Know?</p>
+      <hr className="mb-10 mt-2" />
+      <ol>
+        <li className="">
+          <span className="font-black">1. </span> In Kenya, 9.9 million people
+          drink directly from contaminated surface water sources .
+        </li>
+        <li className="">
+          <span className="font-black">2. </span> 59% of people in Kenya have
+          access to safe drinking water.- 41% living below that.
+        </li>
+        <li className="">
+          <span className="font-black">3. </span> Dental fluorosis prevalence is at
+          45% .
+        </li>
+        <li className="">
+          <span className="font-black">4. </span> 33% of Kenyans living in urban
+          areas do not have access to piped water, hence outsorce .
+        </li>
+        <li className="">
+          <span className="font-black">5. </span> 19 million Kenyans have
+          mild-extreme dental fluorosis. Number is set to double in 15 years .
+        </li>
+        <li className="">
+          <span className="font-black">6. </span> Dental fluorosis is a major
+          problem in all major cities .
+        </li>
+      </ol>
     </div>
   );
 }
