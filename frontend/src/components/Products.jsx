@@ -33,7 +33,7 @@ function Products() {
       </div>
 
       {/* 5 stage reverse osmosis */}
-      <div className="five-stage flex mb-14 justify-between gap-12 border">
+      <div className="five-stage flex mb-14 justify-between gap-12">
         <div className="image border w-96">
           <img
             className=" mb-6 h-[200px] w-[75%] object-cover mx-auto"
