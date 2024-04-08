@@ -6,7 +6,7 @@ function Products() {
   return (
     <div className="px-4 lg:px-20 min-h-[80vh]">
       {/* Breadcrumb */}
-      <div className="breadcrumb flex items-center gap-2 text-xs mt-4 mb-8">
+      <div className="breadcrumb flex items-center gap-2 text-xs mt-4 mb-4">
         <NavLink to="/">
           <i className="fa-solid fa-house mr-1 cursor-pointer "></i>
           <p className="inline hover:text-blue-800 hover:font-bold">Home</p>
@@ -14,20 +14,20 @@ function Products() {
         <i className="fa-solid fa-chevron-right"></i>
         Products
       </div>
-      <h1 className="text-black font-bold tracking-wider text-3xl mb-8">
+      <h1 className="text-black font-bold tracking-wider text-3xl mb-4">
         Store
       </h1>
-      <div className="guide flex flex-row gap-12 mb-8">
-        <button className="bg-teal-500 py-1 px-3 rounded-md text-white">
+      <div className="guide flex flex-row gap-4 mb-8">
+        <button className="bg-teal-500 py-2 px-3 rounded-sm text-white">
           All
         </button>
-        <button className="bg-teal-500 py-1 px-3 rounded-md text-white">
+        <button className="bg-teal-500 py-2 px-3 rounded-sm text-white">
           5 Stage Purifiers
         </button>
-        <button className="bg-teal-500 py-1 px-3 rounded-md text-white">
+        <button className="bg-teal-500 py-2 px-3 rounded-sm text-white">
           7 Stage Purifiers
         </button>
-        <button className="bg-teal-500 py-1 px-3 rounded-md text-white">
+        <button className="bg-teal-500 py-2 px-3 rounded-sm text-white">
           Solar Water Pumps
         </button>
       </div>
