@@ -23,7 +23,7 @@ function Contact() {
         Get a Quote
       </div>
 
-      <div className="flex flex-wrap  md:gap-16 ">
+      <div className="flex md:gap-16 relative">
         {/* left side */}
         <div className="request md:w-[50%] md:mb-16">
           <h2 className="font-bold text-2xl "> Submit a Quote Request</h2>
