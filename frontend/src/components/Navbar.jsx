@@ -41,7 +41,7 @@ const Navbar = () => {
         <div className="links  text-sm font-semibold hidden lg:flex lg:items-center lg:gap-8 2xl:text-2xl">
           <NavLink to="/">Home</NavLink>
           <NavLink to="/about">About Us</NavLink>
-          <NavLink to="/products">Products</NavLink>
+          <NavLink to="/errorPage">Products</NavLink>
           <NavLink to="/blog">Blog</NavLink>
           <NavLink to="/contact">Contact Us</NavLink>
         </div>
@@ -116,7 +116,7 @@ const Navbar = () => {
               </NavLink>
 
               <NavLink
-                to="/products"
+                to="/errorPage"
                 className="flex items-center gap-2 font-medium"
                 onClick={handleLinkClick}
               >
