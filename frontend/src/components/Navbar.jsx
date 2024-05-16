@@ -31,14 +31,14 @@ const Navbar = () => {
               alt="Hydra-Water-solutions-logo"
               className="w-12"
             />
-            <p className="text-xs font-black flex flex-col 2xl:text-lg text-center text-blue-800">
+            <p className="text-xs font-black flex flex-col text-center text-blue-800">
               <span className="">HYDRA WATER </span>
               <span className="font-semibold">SOLUTIONS</span>
             </p>
           </div>
         </NavLink>
 
-        <div className="links  text-sm font-semibold hidden lg:flex lg:items-center lg:gap-8 2xl:text-2xl">
+        <div className="links  text-sm font-semibold hidden lg:flex lg:items-center lg:gap-8">
           <NavLink to="/">Home</NavLink>
           <NavLink to="/about">About Us</NavLink>
           <NavLink to="/errorPage">Products</NavLink>
@@ -49,7 +49,7 @@ const Navbar = () => {
         <div className="nav-right flex items-center gap-4">
           <button
             type="button"
-            className="bg-green-500 px-6 rounded-md text-white font-semibold py-1 hidden md:flex 2xl:text-2xl"
+            className="bg-green-500 px-6 rounded-md text-white font-semibold py-1 hidden md:flex"
           >
             <NavLink to="/contact">Get a Quote</NavLink>
           </button>

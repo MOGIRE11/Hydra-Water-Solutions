@@ -16,9 +16,14 @@ body {
   font-family: "Mulish", sans-serif;
   /* background: linear-gradient(180deg,rgb(197,193,226),rgb(3,136,229)); */
   background-color: #fafafa;
-  max-width: 100%;
-  overflow-x: hiddden;
-  /* cursor:url(./assets/water-guy.png),pointer; */
+  width: 100%;
+  /* max-width: 1500px;
+  margin:auto; 
+  display: flex;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black; */
 }
 
 .nav {
