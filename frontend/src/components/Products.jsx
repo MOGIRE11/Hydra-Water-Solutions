@@ -32,8 +32,8 @@ function Products() {
         </button>
       </div>
       {/* 5 stage reverse osmosis */}
-      <div className="five-stage flex mb-14 justify-evenly gap-12 ">
-        <div className="image border w-[34%]">
+      <div className="five-stage flex mb-14 justify-between gap-12 ">
+        <div className="image border ">
           <img className=" mb-6" src={fiveStageReverse} alt="" />
           <h2 className="font-bold text-lg mb-3">
             5 Stage Reverse Osmosis Water Purifier
@@ -74,7 +74,7 @@ function Products() {
       </div>
       {/* 7 Stage reverse osmosis */}
       <div className="seven-stage flex gap-12 justify-evenly mb-14">
-        <div className="image border">
+        <div className="image border w-[34%]">
           <img className="mb-6" src={sevenStageReverse} alt="" />
           <h2 className="mb-3 font-bold text-lg">
             7 Stage Reverse Osmosis Water Purifier
