@@ -2,27 +2,31 @@ import { NavLink } from "react-router-dom";
 import sevenstagePurifier from "./assets/branded7stage.png";
 import fivestagePurifier from "./assets/branded5stage.png";
 // import labelledsevenstagePurifier from "./assets/7stage-labelled.svg";
-// import africanmap from './assets/african-map.svg';
+import africanmap from './assets/african-map.svg';
 import celestialdental from "./assets/celestial-dental-partner.svg";
 import fineteklabs from "./assets/fineteklabs-partner.png";
 import user from "./assets/user.jpg";
 import amario from "./assets/amario-partner.svg";
 import hidrotech from "./assets/hidrotech-partner.svg";
 import stuntech from "./assets/Stuntech-partner.svg";
-// import image5 from "./assets/image5.svg";
-import hydraprint from "./assets/Hydra-print.svg";
-import hydrateam from "./assets/Hydra-team-photo.svg";
+import image5 from "./assets/image5.svg";
+// import hydraprint from "./assets/Hydra-print.svg";
+// import hydrateam from "./assets/Hydra-team-photo.svg";
 import underthesink from "./assets/7stagepurifier.svg";
 import {
   Accordion,
   AccordionItem,
   AccordionButton,
   AccordionPanel,
-  AccordionIcon,Box
+  AccordionIcon,
+  Box,
+
 } from "@chakra-ui/react";
+// import Testimonials from "./components/Testimonials";
 
 
-function Home() {
+function Home(){
+
   return (
     <div className="px-4 lg:px-20 my-8">
       <div className="hero-section flex flex-col my-10 lg:my-8 lg:mt-20 gap-4 lg:flex-row lg:justify-between items-center lg:mb-20">
@@ -71,8 +75,8 @@ function Home() {
       </div>
 
       {/* Hydra's Statistics */}
-      <div className="stats flex flex-col items-start md:items-center justify-between md:flex-row gap-4">
-        <section className="flex items-center gap-2">
+      <div className="stats flex flex-col  items-center justify-between md:flex-row gap-4">
+        <section className="flex  items-center gap-2">
           <h3 className="text-2xl font-black  text-blue-900">200+</h3>
           <span className="text-sm font-semibold">
             Customers
@@ -81,7 +85,7 @@ function Home() {
           </span>
         </section>
 
-        <section className="flex items-center gap-2">
+        <section className="flex  items-center gap-2">
           <h3 className="text-2xl font-black  text-blue-900">97%</h3>
           <span className="text-sm font-semibold">
             Customer
@@ -90,7 +94,7 @@ function Home() {
           </span>
         </section>
 
-        <section className="flex items-center gap-2">
+        <section className="flex  items-center gap-2">
           <h3 className="text-2xl font-black  text-blue-900">2+</h3>
           <span className="text-sm font-semibold">
             Years Of
@@ -111,7 +115,7 @@ function Home() {
 
       <hr className="my-2" />
 
-      <img src={hydraprint} alt="hydra-print" />
+      <img src={image5} alt="hydra-print" className="h-6 object-cover w-full" />
 
       <div className="featured-products">
         <p className="text-teal-500 text-xs mt-24 tracking wider font-bold">
@@ -122,7 +126,7 @@ function Home() {
         </p>
       </div>
 
-      <div className="products mt-10">
+      <div className="products my-10">
         <div className="product1">
           <div className="img overflow-hidden h-[230px] w-full rounded-md flex items-center justify-center border">
             <img
@@ -163,10 +167,10 @@ function Home() {
         </div>
       </div>
 
-      <p className="mt-10 text-sm text-blue-900 font-semibold underline underline-offset-4">
-        Learn more about the Reverse Osmosis Water Purifiers.
+      <NavLink to="/blog" className="text-sm font-bold underline underline-offset-2 text-blue-600">
+        Learn more about RO Purifiers
         <i className="fa-solid fa-arrow-up rotate-45 ml-1"></i>
-      </p>
+      </NavLink>
 
       {/* services section header*/}
       <p className="text-center text-teal-500 tracking-wide text-xs font-bold mt-24">
@@ -175,13 +179,9 @@ function Home() {
       <h3 className="text-2xl text-center font-bold underline underline-offset-4">
         Our Best Services
       </h3>
-      {/* <p className="md:text-center text-sm">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci
-        commodi iusto maxime.
-      </p> */}
 
       {/* services */}
-      <div className="services flex  justify-center items-center lg:justify-evenly flex-wrap gap-y-4 mt-8">
+      <div className="services flex  justify-center items-center lg:justify-evenly flex-wrap gap-4 mt-8">
         {/* water testing */}
         <div className="service1 border-2 border-blue-800 w-64 h-36 rounded-md relative p-2 bg-white">
           <p className="text-blue-800 font-bold text-lg mb-2 text-center underline underline-offset-8">
@@ -222,6 +222,17 @@ function Home() {
         </div>
       </div>
 
+      {/* servicing schedule */}
+      <h2 className="text-2xl text-center mt-24 mb-1">Servicing Schedule</h2>
+      <ol className="stepper">
+        <li>Installation</li>
+        <li>3 Months</li>
+        <li className="active">6 Months</li>
+        <li>9 Months</li>
+        <li>Year 1 </li>
+        <li className="active">Year 2</li>
+      </ol>
+
       {/* our story */}
       <div className="about-us mt-32 flex flex-col lg:flex-row lg:items-center justify-between gap-4">
         <div className="about-story lg:w-1/2">
@@ -253,9 +264,9 @@ function Home() {
 
         <div className="our-pic lg:w-1/2 hidden md:flex items-center lg:justify-end my-8">
           <img
-            src={hydrateam}
-            alt="Hydra-team-photo"
-            className="h-[300px] w-full lg:w-[80%] lg:h-[300px] object-cover rounded-md"
+            src={africanmap}
+            alt="The-African-map-hydra"
+            className="w-[70%] object-cover rounded-md"
           />
         </div>
       </div>
@@ -283,6 +294,9 @@ function Home() {
       <h1 className="mt-24 mb-12 font-bold text-2xl text-center underline underline-offset-4">
         What Our Customers Say
       </h1>
+
+      {/* <Testimonials/> */}
+
       {/* Testimonials */}
 
       <div className="testimonial_slider_2 mb-24 lg:w-[70%] border shadow-lg rounded-lg bg-white">
@@ -295,11 +309,9 @@ function Home() {
             <div className="testimonial_2">
               <div className="content_2">
                 <p>
-                  Ever since installing Hydra&apos;s water purification system,
-                  our family can finally enjoy worry-free drinking! The taste is
-                  incredible, and knowing the water is safe for the kids gives
-                  us immense peace of mind. Hydra&apos;s technicians were
-                  professional and efficient, making the whole process a breeze.
+                  Absolutely love it. My water is crystal clear and taste so
+                  good. You can definitely tell water no chemicals like
+                  chlorine... HIGHLY RECOMMEND
                 </p>
               </div>
 
@@ -310,8 +322,8 @@ function Home() {
                   className="w-12 h-12 object-cover rounded-full"
                 />
                 <span className="">
-                  <h3>Linda Awuor</h3>
-                  <h4>Valley Medical Center</h4>
+                  <h3>Alex Thuo</h3>
+                  <h4>Celestial Dental</h4>
                 </span>
               </div>
             </div>
@@ -405,7 +417,7 @@ function Home() {
         Frequently Asked Questions
       </h2>
       <Accordion allowToggle>
-        <AccordionItem>
+        <AccordionItem className=" shadow-md py-2 mt-1 bg-neutral-100 ">
           <h2>
             <AccordionButton>
               <Box
@@ -427,7 +439,7 @@ function Home() {
           </AccordionPanel>
         </AccordionItem>
 
-        <AccordionItem>
+        <AccordionItem className=" shadow-md py-2 mt-2 border-none bg-neutral-100 ">
           <h2>
             <AccordionButton>
               <Box
@@ -451,7 +463,7 @@ function Home() {
           </AccordionPanel>
         </AccordionItem>
 
-        <AccordionItem>
+        <AccordionItem className=" shadow-md py-2 mt-2 border-none bg-neutral-100 ">
           <h2>
             <AccordionButton>
               <Box
@@ -476,7 +488,7 @@ function Home() {
           </AccordionPanel>
         </AccordionItem>
 
-        <AccordionItem>
+        <AccordionItem className=" shadow-md py-2 mt-2 border-none bg-neutral-100 ">
           <h2>
             <AccordionButton>
               <Box
@@ -499,7 +511,7 @@ function Home() {
           </AccordionPanel>
         </AccordionItem>
 
-        <AccordionItem>
+        <AccordionItem className=" shadow-md py-2 mt-2 border-none bg-neutral-100 ">
           <h2>
             <AccordionButton>
               <Box
@@ -522,7 +534,7 @@ function Home() {
           </AccordionPanel>
         </AccordionItem>
 
-        <AccordionItem>
+        <AccordionItem className=" shadow-md py-2 mt-2 border-none bg-neutral-100 ">
           <h2>
             <AccordionButton>
               <Box
@@ -546,7 +558,7 @@ function Home() {
           </AccordionPanel>
         </AccordionItem>
 
-        <AccordionItem>
+        <AccordionItem className=" shadow-md py-2 mt-2 border-none bg-neutral-100 ">
           <h2>
             <AccordionButton>
               <Box

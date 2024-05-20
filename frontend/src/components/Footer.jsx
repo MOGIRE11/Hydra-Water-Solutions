@@ -69,7 +69,7 @@ function Footer() {
               About Us
             </NavLink>
 
-            <NavLink to="/products" className="">
+            <NavLink to="/errorPage" className="">
               <i className="fa-solid fa-chevron-right mr-2 text-xs text-neutral-600"></i>
               Products
             </NavLink>
