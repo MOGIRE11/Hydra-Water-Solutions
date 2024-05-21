@@ -2,6 +2,7 @@ import { NavLink } from "react-router-dom";
 import sevenstagePurifier from "./assets/branded7stage.png";
 import fivestagePurifier from "./assets/branded5stage.png";
 import solarWater from "./assets/Solar water pump.svg";
+
 function Products() {
   return (
     <div className="px-4 lg:px-20 min-h-[80vh]">
@@ -33,10 +34,17 @@ function Products() {
       </div>
 
       {/* 5 stage reverse osmosis */}
-      <div className="five-stage flex mb-14 justify-evenly gap-12 ">
-        <div className="image border w-[34%]">
-          <img className=" mb-6" src={fiveStageReverse} alt="" />
-          <h2 className="font-bold text-lg mb-3">
+
+      
+      <div className="five-stage flex mb-14 justify-between gap-12">
+        <div className="image border w-96">
+          <img
+            className=" mb-6 h-[200px] w-[75%] object-cover mx-auto"
+            src={fivestagePurifier}
+            alt=""
+          />
+          <h2 className="font-bold text-lg">
+
             5 Stage Reverse Osmosis Water Purifier
           </h2>
           <p className="text-sm my-2">
@@ -75,9 +83,11 @@ function Products() {
       </div>
 
       {/* 7 Stage reverse osmosis */}
-      <div className="seven-stage flex gap-12 justify-evenly mb-14">
-        <div className="image border">
-          <img className="mb-6" src={sevenStageReverse} alt="" />
+
+    
+      <div className="seven-stage flex gap-12 justify-evenly mb-14 ">
+        <div className="image border w-96">
+          <img className="mb-6 h-[200px] mx-auto object-cover" src={sevenstagePurifier} alt="" />
           <h2 className="mb-3 font-bold text-lg">
             7 Stage Reverse Osmosis Water Purifier
           </h2>
