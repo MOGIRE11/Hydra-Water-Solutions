@@ -191,7 +191,7 @@ const BlogPage = () => {
   };
 
   return (
-    <div className="container mx-auto px-4 lg:px-20 pb-8 pt-4 min-h-[80vh]">
+    <div className="container mx-auto px-4 lg:px-20 pb-8 pt-4 min-h-[80dvh] max-w-[1440px]">
       <div className="breadcrumb flex items-center gap-2 text-xs mb-8">
         <NavLink to="/">
           <i className="fa-solid fa-house mr-1 cursor-pointer "></i>

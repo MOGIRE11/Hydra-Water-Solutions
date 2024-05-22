@@ -1,11 +1,10 @@
 import { NavLink } from "react-router-dom";
 import hydralogo from "./assets/Hydra-logo.png";
 
-
 function Footer() {
   return (
     <div className="footer w-full absolute botttom-0 dark-blue text-neutral-400 pt-8">
-      <div className="newsletter flex flex-col items-center justify-center px-4">
+      <div className="newsletter flex flex-col items-center justify-center px-4 max-w-[1440px] mx-auto">
         <h3 className="font-bold text-center">
           Subscribe for the latest products and offers
         </h3>
@@ -29,7 +28,7 @@ function Footer() {
 
       <hr className="my-4 mx-4 lg:mx-20 border-neutral-700" />
 
-      <div className="footer-bottom px-4 lg:px-20">
+      <div className="footer-bottom px-4 lg:px-20 max-w-[1440px] mx-auto">
         <div className="bottom-one">
           <NavLink to="/">
             <div className="logo flex gap-0 items-center">
@@ -161,7 +160,7 @@ function Footer() {
 
       <hr className="my-4 px-4 lg:mx-20 border-neutral-700" />
 
-      <div className="anchor mb-2 flex flex-col items-center justify-between lg:flex-row px-4 lg:px-20">
+      <div className="anchor mb-2 flex flex-col items-center justify-between lg:flex-row px-4 lg:px-20 max-w-[1440px] mx-auto">
         <p className="text-sm font-semibold">
           Copyright &copy; 2024 . Hydra Water Solutions
         </p>

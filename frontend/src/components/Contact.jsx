@@ -5,7 +5,7 @@ import africanmap from "./assets/african-map.svg";
 
 function Contact() {
   return (
-    <div className="px-4 lg:px-20 relative">
+    <div className="px-4 lg:px-20 relative max-w-[1440px] mx-auto min-h-[80dvh]">
       <img
         src={africanmap}
         alt=""

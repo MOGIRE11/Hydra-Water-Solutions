@@ -1,7 +1,7 @@
 import { NavLink } from "react-router-dom"; 
 function ErrorPage() {
   return (
-    <div className="mt-16 min-h-[80vh] flex items-center flex-col justify-center">
+    <div className="mt-16 min-h-[80vh] flex items-center flex-col justify-center max-w-[1440px] mx-auto">
       <h1 className="font-bold text-4xl text-center mb-2">Ooops !</h1>
       <h1 className="text-blue-800 text-4xl font-bold text-center mb-2 ">
         Nothing

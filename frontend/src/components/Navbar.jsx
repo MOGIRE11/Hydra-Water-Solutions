@@ -8,9 +8,9 @@ const Navbar = () => {
   const handleLinkClick = () =>{setDisplay(false);}
   
   return (
-    <div className="nav sticky top-0 z-10">
+    <div className="nav sticky top-0 z-10 w-full">
       {/* email and contact */}
-      <div className="info-bar hidden bg-blue-900 md:text-white md:flex md:items-center md:space-x-8 md:py-2 md:px-4 lg:px-20">
+      <div className="info-bar hidden bg-blue-900 md:text-white md:flex md:items-center md:space-x-8 md:py-2 md:px-4 lg:px-20 w-full max-w-[1440px] mx-auto">
         <div className="phone flex items-center text-xs">
           <i className="fa-solid fa-phone mr-2"></i>
           <p className="text-xs">(+254 )-704-062-778 </p>
@@ -23,7 +23,7 @@ const Navbar = () => {
       </div>
 
       {/* navbar-content */}
-      <div className="div py-3 px-4 pl-0 md:px-4 flex items-center justify-between lg:px-20 shadow-md">
+      <div className="div py-3 px-4 pl-0 md:px-4 flex items-center justify-between lg:px-20  w-full max-w-[1440px] mx-auto">
         <NavLink to="/">
           <div className="logo flex gap-0 items-center">
             <img

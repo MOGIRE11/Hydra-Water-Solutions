@@ -28,7 +28,7 @@ import {
 function Home(){
 
   return (
-    <div className="px-4 lg:px-20 my-8">
+    <div className="px-4 lg:px-20 my-8 max-w-[1440px] mx-auto">
       <div className="hero-section flex flex-col my-10 lg:my-8 lg:mt-20 gap-4 lg:flex-row lg:justify-between items-center lg:mb-20">
         <div className="hero-content lg:w-1/2 mb-8 lg:mb-2">
           <small className="text-xs font-bold text-teal-500 tracking-wide">

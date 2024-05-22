@@ -9,7 +9,7 @@ import waterBg from "./assets/water-background.svg"
 
 function About() {
   return (
-    <div className="px-4 lg:px-20 min-h-[70vh] mb-24">
+    <div className="px-4 lg:px-20 min-h-[70vh] mb-24 max-w-[1440px] mx-auto">
       {/* bg-pc */}
       {/* <img
         src={africanmap}
