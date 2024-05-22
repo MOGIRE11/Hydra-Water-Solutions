@@ -2,6 +2,7 @@ import { NavLink } from "react-router-dom";
 import sevenstagePurifier from "./assets/branded7stage.png";
 import fivestagePurifier from "./assets/branded5stage.png";
 import solarWater from "./assets/Solar water pump.svg";
+
 function Products() {
   return (
     <div className="px-4 lg:px-20 min-h-[80vh]">
@@ -79,6 +80,7 @@ function Products() {
       </div>
 
       {/* 7 Stage reverse osmosis */}
+
       <div className="seven-stage flex gap-12 justify-evenly mb-14 ">
         <div className="image border w-96">
           <img className="mb-6 h-[200px] mx-auto object-cover" src={sevenstagePurifier} alt="" />
