@@ -22,7 +22,7 @@ import {
   Box,
 
 } from "@chakra-ui/react";
-// import Testimonials from "./components/Testimonials";
+import Testimonials from "./Testimonials";
 
 
 function Home(){
@@ -411,6 +411,11 @@ function Home(){
           <label htmlFor="slide_2_4"></label>
         </div>
       </div>
+      
+      
+      
+      
+      <Testimonials />
 
       {/* frequently asked questions */}
       <h2 className="text-2xl mb-8 mt-24 underline underline-offset-8 font-bold text-center">
