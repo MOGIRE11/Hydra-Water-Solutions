@@ -22,7 +22,7 @@ import {
   Box,
 
 } from "@chakra-ui/react";
-import Testimonials from "./Testimonials";
+// import Testimonials from "./Testimonials";
 
 
 function Home(){
@@ -291,7 +291,7 @@ function Home(){
         </div>
       </div>
 
-      <h1 className="mt-24 mb-12 font-bold text-2xl text-center underline underline-offset-4">
+      <h1 className="mt-24 mb-12 font-bold text-2xl text-center">
         What Our Customers Say
       </h1>
 
@@ -415,7 +415,7 @@ function Home(){
       
       
       
-      <Testimonials />
+      {/* <Testimonials /> */}
 
       {/* frequently asked questions */}
       <h2 className="text-2xl mb-8 mt-24 underline underline-offset-8 font-bold text-center">
