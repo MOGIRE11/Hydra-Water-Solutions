@@ -5,7 +5,7 @@ import fivestagePurifier from "./assets/branded5stage.png";
 import africanmap from './assets/african-map.svg';
 import celestialdental from "./assets/celestial-dental-partner.svg";
 import fineteklabs from "./assets/fineteklabs-partner.png";
-import user from "./assets/user.jpg";
+// import user from "./assets/user.jpg";
 import amario from "./assets/amario-partner.svg";
 import hidrotech from "./assets/hidrotech-partner.svg";
 import stuntech from "./assets/Stuntech-partner.svg";
@@ -22,7 +22,7 @@ import {
   Box,
 
 } from "@chakra-ui/react";
-// import Testimonials from "./Testimonials";
+import Testimonials from "./Testimonials";
 
 
 function Home(){
@@ -295,10 +295,10 @@ function Home(){
         What Our Customers Say
       </h1>
 
-      {/* <Testimonials/> */}
+      <Testimonials/>
 
       {/* Testimonials */}
-
+{/* 
       <div className="testimonial_slider_2 mb-24 lg:w-[70%] border shadow-lg rounded-lg bg-white">
         <input type="radio" name="slider_2" id="slide_2_1" checked />
         <input type="radio" name="slider_2" id="slide_2_2" />
@@ -411,7 +411,7 @@ function Home(){
           <label htmlFor="slide_2_4"></label>
         </div>
       </div>
-      
+       */}
       
       
       

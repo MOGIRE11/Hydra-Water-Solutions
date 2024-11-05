@@ -3,30 +3,30 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
 import user from "./assets/user.jpg";
 // Import Swiper styles
-import 'swiper/css';
-import 'swiper/css/pagination';
-import 'swiper/css/navigation';
+// import 'swiper/css';
+// import 'swiper/css/pagination';
+// import 'swiper/css/navigation';
 
-// import '/index.css';
+import '../index.css';
 
 // import required modules
-import { Autoplay, Pagination, Navigation } from 'swiper/modules';
+// import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 
 export default function Testimonials() {
   return (
     <div className="h-[60dvh]">
       <Swiper
-        spaceBetween={30}
-        centeredSlides={true}
-        autoplay={{
-          delay: 7000,
-          disableOnInteraction: false,
-        }}
+        // spaceBetween={30}
+        // centeredSlides={true}
+        // autoplay={{
+        //   delay: 7000,
+        //   disableOnInteraction: false,
+        // }}
         pagination={{
           clickable: true,
         }}
         // navigation={true}
-        modules={[Autoplay, Pagination, Navigation]}
+        // modules={[Autoplay, Pagination, Navigation]}
         className="mySwiper"
       >
         <SwiperSlide className="border border-blue-800">

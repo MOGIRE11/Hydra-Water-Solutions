@@ -17,17 +17,10 @@ body {
   /* background: linear-gradient(180deg,rgb(197,193,226),rgb(3,136,229)); */
   background-color: #fafafa;
   width: 100%;
-  /* max-width: 1500px;
-  margin:auto; 
-  display: flex;
-  margin: auto;
-  align-items: center;
-  justify-content: center;
-  border: 1px solid black; */
 }
 
 .nav {
-  background-color: #fafafa;
+  /* background-color: #fafafa; */
 }
 
 button:active {

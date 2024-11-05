@@ -8,17 +8,19 @@ const Navbar = () => {
   const handleLinkClick = () =>{setDisplay(false);}
   
   return (
-    <div className="nav sticky top-0 z-10 w-full">
+    <div className="nav sticky top-0 z-10 w-full bg-neutral-100">
       {/* email and contact */}
-      <div className="info-bar hidden bg-blue-900 md:text-white md:flex md:items-center md:space-x-8 md:py-2 md:px-4 lg:px-20 w-full max-w-[1440px] mx-auto">
-        <div className="phone flex items-center text-xs">
-          <i className="fa-solid fa-phone mr-2"></i>
-          <p className="text-xs">(+254 )-704-062-778 </p>
-        </div>
+      <div className="info-bar hidden bg-gradient-to-r from-blue-900 to-blue-400 md:flex">
+        <div className=" flex container mx-auto md:text-white md:flex md:items-center md:space-x-8 md:py-2 md:px-4 lg:px-20 max-w-[1440px]">
+          <div className="phone flex items-center text-xs">
+            <i className="fa-solid fa-phone mr-2"></i>
+            <p className="text-xs">(+254 )-704-062-778 </p>
+          </div>
 
-        <div className="email flex items-center text-xs">
-          <i className="fa-solid fa-envelope mr-2"></i>
-          <p className="text-xs">Hydrawater254@gmail.com</p>
+          <div className="email flex items-center text-xs">
+            <i className="fa-solid fa-envelope mr-2"></i>
+            <p className="text-xs">Hydrawater254@gmail.com</p>
+          </div>
         </div>
       </div>
 
@@ -49,7 +51,7 @@ const Navbar = () => {
         <div className="nav-right flex items-center gap-4">
           <button
             type="button"
-            className="bg-green-500 px-6 rounded-md text-white font-semibold py-1 hidden md:flex"
+            className="bg-green-500 hover:bg-green-500/80 active:translate-y-[2px] transition-colors px-6 rounded-md text-white font-semibold py-2 hidden md:flex"
           >
             <NavLink to="/contact">Get a Quote</NavLink>
           </button>
@@ -64,8 +66,8 @@ const Navbar = () => {
         </div>
 
         {display ? (
-          <div className="menu-list h-screen bg-blue-400 absolute top-0 right-0 w-[80%] ">
-            <div className="top-menu-list flex items-center justify-between px-4 py-2 pl-0">
+          <div className="menu-list h-screen bg-white absolute top-0 right-0 w-full">
+            <div className="top-menu-list flex items-center justify-between py-3 px-4 pl-0 bg-neutral-100">
               <NavLink to="/">
                 <div className="logo flex gap-0 items-center">
                   <img
@@ -87,7 +89,8 @@ const Navbar = () => {
                 }}
               ></i>
             </div>
-            <div className="bottom-menu-list flex flex-col justify-evenly mx-auto w-48 divide-y-0 divide-neutral-600 h-1/2 mt-8 px-4">
+            
+            <div className="bottom-menu-list flex flex-col justify-evenly mx-auto w-[95%] h-1/2 px-4">
               <NavLink
                 to="/"
                 className="flex items-center gap-2 font-medium"
