@@ -19,22 +19,14 @@ body {
   width: 100%;
 }
 
-.nav {
-  /* background-color: #fafafa; */
-}
-
 button:active {
   transform: translateY(2px);
 }
 
 .footer-bottom {
-  /* display: grid;
-  align-content: center;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); */
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  /* align-items: center; */
   gap: 2rem;
 }
 
@@ -44,7 +36,6 @@ button:active {
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   column-gap: 4rem;
   row-gap: 2rem;
-  /* gap: 2rem; */
 }
 
 .footer-bottom a:hover,
@@ -358,9 +349,7 @@ ol.stepper li.active::after {
 }
 
 .swiper-slide {
-  text-align: center;
   font-size: 18px;
-  background: #fff;
 
   /* Center slide text vertically */
   display: flex;
@@ -369,7 +358,6 @@ ol.stepper li.active::after {
 }
 
 .swiper-slide img {
-  display: block;
   width: 100%;
   height: 100%;
   object-fit: cover;
