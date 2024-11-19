@@ -1,23 +1,16 @@
 import { NavLink } from "react-router-dom";
-import celestialdental from "./assets/celestial-dental-partner.svg";
-import fineteklabs from "./assets/fineteklabs-partner.png";
-import amario from "./assets/amario-partner.svg";
-import hidrotech from "./assets/hidrotech-partner.svg";
-import stuntech from "./assets/Stuntech-partner.svg";
-import waterBg from "./assets/water-background.svg"
-// import africanmap from "./assets/african-map.svg";
+import {
+  celestialdental,
+  fineteklabs,
+  amario,
+  hidrotech,
+  stuntech,
+  waterBg,
+} from "./assets/images";
 
-function About() {
+export default function About() {
   return (
     <div className="px-4 lg:px-20 min-h-[70vh] mb-24 max-w-[1440px] mx-auto">
-      {/* bg-pc */}
-      {/* <img
-        src={africanmap}
-        alt=""
-        className="absolute -z-20 top-[20%] left-[35%] mx-auto flex blur-[2px] w-[80%]"
-      /> */}
-      {/* end of bg-pic */}
-
       <div className="about-top h-24 mt-2 flex flex-col items-center justify-center relative overflow-hidden">
         <img
           src={waterBg}
@@ -202,8 +195,8 @@ function About() {
       {/* fun facts */}
       <hr className="mt-10 mb-2 border-neutral-300 md:w-[90%] mx-auto" />
       <p className="text-center text-xl font-bold">
-        <i className="fa-regular fa-lightbulb mr-2 text-blue-600 animate-bounce"></i>Did You
-        Know?
+        <i className="fa-regular fa-lightbulb mr-2 text-blue-600 animate-bounce"></i>
+        Did You Know?
       </p>
       <hr className="mb-4 mt-2 border-neutral-300 md:w-[90%] mx-auto" />
       <ol className="md:w-[90%] mx-auto">
@@ -235,5 +228,3 @@ function About() {
     </div>
   );
 }
-
-export default About;

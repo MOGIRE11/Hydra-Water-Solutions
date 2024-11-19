@@ -1,18 +1,16 @@
-import { NavLink } from "react-router-dom";
-import sevenstagePurifier from "./assets/branded7stage.png";
-import fivestagePurifier from "./assets/branded5stage.png";
-// import labelledsevenstagePurifier from "./assets/7stage-labelled.svg";
-import africanmap from './assets/african-map.svg';
-import celestialdental from "./assets/celestial-dental-partner.svg";
-import fineteklabs from "./assets/fineteklabs-partner.png";
-// import user from "./assets/user.jpg";
-import amario from "./assets/amario-partner.svg";
-import hidrotech from "./assets/hidrotech-partner.svg";
-import stuntech from "./assets/Stuntech-partner.svg";
-import image5 from "./assets/image5.svg";
-// import hydraprint from "./assets/Hydra-print.svg";
-// import hydrateam from "./assets/Hydra-team-photo.svg";
-import underthesink from "./assets/7stagepurifier.svg";
+import {Link } from "react-router-dom";
+import {
+  sevenstagePurifier,
+  fivestagePurifier,
+  africanmap,
+  celestialdental,
+  fineteklabs,
+  amario,
+  hidrotech,
+  stuntech,
+  image5,
+  underthesink,
+} from "./assets/images";
 import {
   Accordion,
   AccordionItem,
@@ -20,13 +18,10 @@ import {
   AccordionPanel,
   AccordionIcon,
   Box,
-
 } from "@chakra-ui/react";
-import Testimonials from "./Testimonials";
+import Testimonials from "../components/Testimonials";
 
-
-function Home(){
-
+function Home() {
   return (
     <div className="px-4 lg:px-20 my-8 max-w-[1440px] mx-auto">
       <div className="hero-section flex flex-col my-10 lg:my-8 lg:mt-20 gap-4 lg:flex-row lg:justify-between items-center lg:mb-20">
@@ -46,16 +41,16 @@ function Home(){
             ensure that every sip is a pure and healthy delight.
           </p>
           <span className="flex flex-wrap gap-4">
-            <NavLink to="/products">
+            <Link to="/products">
               <button
                 className="border-2 w-40 py-2 rounded-md border-black font-semibold"
                 type="button"
               >
                 View Products
               </button>
-            </NavLink>
+            </Link>
 
-            <NavLink to="/contact">
+            <Link to="/contact">
               <button
                 className="w-40 py-2 font-semibold secondary text-white rounded-md border secondary  flex items-center justify-center gap-4"
                 type="button"
@@ -63,7 +58,7 @@ function Home(){
                 Contact Us
                 <i className="fa-solid fa-arrow-up rotate-90"></i>
               </button>
-            </NavLink>
+            </Link>
           </span>
         </div>
 
@@ -167,10 +162,13 @@ function Home(){
         </div>
       </div>
 
-      <NavLink to="/blog" className="text-sm font-bold underline underline-offset-2 text-blue-600">
+      <Link
+        to="/blog"
+        className="text-sm font-bold underline underline-offset-2 text-blue-600"
+      >
         Learn more about RO Purifiers
         <i className="fa-solid fa-arrow-up rotate-45 ml-1"></i>
-      </NavLink>
+      </Link>
 
       {/* services section header*/}
       <p className="text-center text-teal-500 tracking-wide text-xs font-bold mt-24">
@@ -251,7 +249,7 @@ function Home(){
             products and services, we hope to improve the communities we serve
             as well as the environment .
           </p>
-          <NavLink to="/about">
+          <Link to="/about">
             <button
               className="border w-40 py-2 font-semibold secondary text-white rounded-md  flex items-center justify-evenly"
               type="button"
@@ -259,7 +257,7 @@ function Home(){
               Read Our Story
               <i className="fa-solid fa-arrow-up rotate-45"></i>
             </button>
-          </NavLink>
+          </Link>
         </div>
 
         <div className="our-pic lg:w-1/2 hidden md:flex items-center lg:justify-end my-8">
@@ -295,10 +293,10 @@ function Home(){
         What Our Customers Say
       </h1>
 
-      <Testimonials/>
+      <Testimonials />
 
       {/* Testimonials */}
-{/* 
+      {/* 
       <div className="testimonial_slider_2 mb-24 lg:w-[70%] border shadow-lg rounded-lg bg-white">
         <input type="radio" name="slider_2" id="slide_2_1" checked />
         <input type="radio" name="slider_2" id="slide_2_2" />
@@ -412,9 +410,7 @@ function Home(){
         </div>
       </div>
        */}
-      
-      
-      
+
       {/* <Testimonials /> */}
 
       {/* frequently asked questions */}
@@ -601,14 +597,14 @@ function Home(){
         Ready To Go Green?
       </h2>
 
-      <NavLink to="/contact">
+      <Link to="/contact">
         <button
           className="w-40 py-2 font-semibold secondary text-white rounded-md flex mx-auto items-center justify-center mb-16"
           type="button"
         >
           Contact Us
         </button>
-      </NavLink>
+      </Link>
     </div>
   );
 }

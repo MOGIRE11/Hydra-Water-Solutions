@@ -1,14 +1,14 @@
 import "./App.css";
 import Navbar from "./components/Navbar";
-import Home from "./components/Home";
-import About from "./components/About";
-import Blog from "./components/Blog";
-import Contact from "./components/Contact";
-import Products from "./components/Products";
+import Home from "./Pages/Home";
+import About from "./Pages/About";
+import Blog from "./Pages/Blog";
+import Contact from "./Pages/Contact";
+import Products from "./Pages/Products";
 import Footer from "./components/Footer";
-import ErrorPage from "./components/ErrorPage";
+import ErrorPage from "./Pages/ErrorPage";
 import { Routes, Route } from "react-router-dom";
-import ScrollToTop from "./components/scrollToTop";
+import ScrollToTop from "./Pages/scrollToTop";
 
 function App() {
   return (
@@ -24,7 +24,6 @@ function App() {
         <Route path="/products" element={<Products />} />
         <Route path="*" element={<ErrorPage />} />
       </Routes>
-
       <Footer />
     </>
   );

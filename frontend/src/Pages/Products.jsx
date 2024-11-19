@@ -1,7 +1,9 @@
 import { NavLink } from "react-router-dom";
-import sevenstagePurifier from "./assets/branded7stage.png";
-import fivestagePurifier from "./assets/branded5stage.png";
-import solarWater from "./assets/Solar water pump.svg";
+import {
+  sevenstagePurifier,
+  fivestagePurifier,
+  solarwaterpump,
+} from "./assets/images";
 
 function Products() {
   return (
@@ -83,7 +85,11 @@ function Products() {
 
       <div className="seven-stage flex gap-12 justify-evenly mb-14 ">
         <div className="image border w-96">
-          <img className="mb-6 h-[200px] mx-auto object-cover" src={sevenstagePurifier} alt="" />
+          <img
+            className="mb-6 h-[200px] mx-auto object-cover"
+            src={sevenstagePurifier}
+            alt=""
+          />
           <h2 className="mb-3 font-bold text-lg">
             7 Stage Reverse Osmosis Water Purifier
           </h2>
@@ -132,7 +138,7 @@ function Products() {
       {/* Solar water pump */}
       <div className="solar-water flex gap-12 justify-between mb-14">
         <div className="image  ">
-          <img className="mb-6" src={solarWater} alt="" />
+          <img className="mb-6" src={solarwaterpump} alt="" />
           <h2 className="mb-3 font-bold text-lg">Solar Water Pumps</h2>
           <p className="text-sm mb-3">
             Mostly ideal for consumers who reside in the remote areas

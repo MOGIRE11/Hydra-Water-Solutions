@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-import hydralogo from "./assets/Hydra-logo.png";
+import { hydralogo } from "../Pages/assets/images";
 
 function Footer() {
   return (
