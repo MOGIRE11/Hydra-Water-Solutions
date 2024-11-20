@@ -3,7 +3,7 @@ import { hydralogo } from "../Pages/assets/images";
 
 function Footer() {
   return (
-    <div className="footer w-full absolute botttom-0 dark-blue text-neutral-400 pt-10 pb-2">
+    <div className="footer w-full dark-blue text-neutral-400 pt-10 pb-2">
       <div className="newsletter flex flex-col items-center justify-center px-4 max-w-[1440px] mx-auto">
         <h3 className="font-bold text-center">
           Subscribe for the latest products and offers

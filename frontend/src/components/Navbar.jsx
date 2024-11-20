@@ -54,14 +54,14 @@ const Navbar = () => {
         <div className="nav-right flex items-center gap-4">
           <button
             type="button"
-            className="bg-green-500 hover:bg-green-500/90 active:translate-y-[2px] transition-colors px-6 rounded text-white font-semibold py-2 hidden md:flex"
+            className="bg-green-500 hover:bg-green-500/90 active:translate-y-[2px] transition-colors px-6 rounded text-white font-semibold py-2 hidden lg:flex"
           >
             <NavLink to="/contact">Get a Quote</NavLink>
           </button>
 
           {/* hamburger-menu  -  only visible for mobile screens and hidden for larger devices */}
           <i
-            className={"fa-solid fa-bars lg:hidden cursor-pointer"}
+            className="fa-solid fa-bars text-xl lg:hidden cursor-pointer"
             onClick={() => {
               setDisplay((prev) => !prev);
             }}
@@ -86,7 +86,7 @@ const Navbar = () => {
               </NavLink>
 
               <i
-                className="fa-solid fa-xmark text-lg cursor-pointer"
+                className="fa-solid fa-xmark text-xl cursor-pointer"
                 onClick={() => {
                   setDisplay((prev) => !prev);
                 }}

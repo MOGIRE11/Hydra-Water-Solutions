@@ -3,7 +3,7 @@ import { image5, africanmap } from "./assets/images";
 
 export default function Contact() {
   return (
-    <div className="px-4 lg:px-20 relative max-w-[1440px] mx-auto min-h-[80dvh]">
+    <div className="px-4 lg:px-20 relative max-w-[1440px] mx-auto min-h-[80dvh] mb-24">
       <img
         src={africanmap}
         alt=""
@@ -170,7 +170,7 @@ export default function Contact() {
               />
               I have read and understood the{" "}
               <NavLink
-                to="/errorPage"
+                to="/termsandconditions"
                 className="underline underline-offset-2 text-neutral-600"
               >
                 Terms and Conditions
@@ -180,7 +180,7 @@ export default function Contact() {
 
             <button
               type="submit"
-              className=" secondary w-52 py-2 px-4 rounded-md  my-4 font-bold text-white"
+              className=" secondary py-3 w-64 px-4 rounded  my-4 font-semibold tracking-wide text-white"
             >
               Submit Quote Request
             </button>
