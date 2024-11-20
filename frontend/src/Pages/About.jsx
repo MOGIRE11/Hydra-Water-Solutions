@@ -1,11 +1,11 @@
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 import {
   celestialdental,
   fineteklabs,
   amario,
   hidrotech,
   stuntech,
-  waterBg,
+  waterBg
 } from "./assets/images";
 
 export default function About() {
@@ -19,10 +19,10 @@ export default function About() {
         />
         <p className="font-bold text-xl mt-1 text-white">WHO ARE WE ?</p>
         <div className="breadcrumb flex items-center gap-2 text-sm font-bold text-white">
-          <NavLink to="/">
+          <Link to="/">
             <i className="fa-solid fa-house mr-1 cursor-pointer "></i>
             <p className="inline hover:text-blue-800 hover:font-bold">Home</p>
-          </NavLink>
+          </Link>
           <i className="fa-solid fa-chevron-right"></i>
           About Us
         </div>
