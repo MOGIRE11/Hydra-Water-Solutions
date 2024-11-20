@@ -3,23 +3,23 @@ import { hydralogo } from "../Pages/assets/images";
 
 function Footer() {
   return (
-    <div className="footer w-full absolute botttom-0 dark-blue text-neutral-400 pt-8">
+    <div className="footer w-full absolute botttom-0 dark-blue text-neutral-400 pt-10 pb-2">
       <div className="newsletter flex flex-col items-center justify-center px-4 max-w-[1440px] mx-auto">
         <h3 className="font-bold text-center">
           Subscribe for the latest products and offers
         </h3>
-        <span className="flex items-center gap-1 mt-2 flex-wrap gap-y-2">
-          <fieldset className="flex items-center border gap-3 pl-2 w-[auto] flex-wrap bg-white text-black">
+        <span className="flex items-center gap-1 mt-4 gap-y-2 flex-wrap">
+          <fieldset className="flex items-center gap-3 pl-2 py-1 rounded bg-white text-black w-full md:w-auto">
             <i className="fa-solid fa-user text-sm"></i>
             <input
               type="mail"
               placeholder="Enter Email Address"
-              className="h-10 outline-0"
+              className="h-10 outline-0 w-full md:w-auto rounded"
             />
           </fieldset>
           <button
             type="submit"
-            className="py-2 px-6 bg-blue-800 text-white font-semibold text-sm h-10"
+            className="w-full md:w-auto py-3 px-6 bg-blue-800 text-white font-semibold tracking-wide rounded"
           >
             Subscribe
           </button>
@@ -162,7 +162,7 @@ function Footer() {
 
       <div className="anchor mb-2 flex flex-col items-center justify-between lg:flex-row px-4 lg:px-20 max-w-[1440px] mx-auto">
         <p className="text-sm font-semibold">
-          Copyright &copy; 2024 . Hydra Water Solutions
+          Copyright &copy; {new Date().getFullYear()} . Hydra Water Solutions
         </p>
         <p className="text-sm font-bold">
           Developed with 💙 by{" "}

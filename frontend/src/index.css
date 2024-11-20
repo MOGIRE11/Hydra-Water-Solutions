@@ -14,13 +14,17 @@
 body {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-family: "Mulish", sans-serif;
-  /* background: linear-gradient(180deg,rgb(197,193,226),rgb(3,136,229)); */
+  /* background-color: linear-gradient(180deg,rgb(197,193,226),rgb(3,136,229)); */
   background-color: #fafafa;
   width: 100%;
 }
 
 button:active {
   transform: translateY(2px);
+}
+
+.service-card{
+ width:min(20rem,100%)  
 }
 
 .footer-bottom {
@@ -60,28 +64,11 @@ button:active {
   color: #0c192c;
 }
 
-.partners-wrapper {
-  position: relative;
-  /* height: 100px; */
-  /* -webkit-mask-image: linear-gradient(90deg, transparent, white 20%, white 80%);
-  mask-image: linear-gradient(90deg, transparent, white 20%, white 80%); */
-}
-/* .scroll-content {
-  animation: scroll-horizontal 30s linear infinite forwards;
-} */
-@keyframes scroll-horizontal {
-  0% {
-    transform: translatex(0);
-  }
-  100% {
-    transform: translateX(-100%);
-  }
-}
+
+
 .partners-wrapper img {
   width: 150px;
   object-fit: contain;
-  /* position: absolute; */
-  /* right: 0; */
 }
 
 .request i {
@@ -96,163 +83,11 @@ button:active {
   text-decoration: none;
 }
 
-/* testimonials start*/
-.testimonial_slider_2 {
-  /* width:100%; */
-  /* border: 1px solid #ebebeb; */
-  overflow: hidden;
-  box-sizing: border-box;
-  padding-bottom: 10px;
-  margin: auto;
-  /* padding: 0; */
-}
-.testimonial_slider_2 input {
-  display: none;
-}
-
-.testimonial_slider_2 #slide_2_1:checked ~ .boo_inner {
-  margin-left: 0;
-}
-.testimonial_slider_2 #slide_2_2:checked ~ .boo_inner {
-  margin-left: -100%;
-}
-.testimonial_slider_2 #slide_2_3:checked ~ .boo_inner {
-  margin-left: -200%;
-}
-.testimonial_slider_2 #slide_2_4:checked ~ .boo_inner {
-  margin-left: -300%;
-}
-.testimonial_slider_2 .boo_inner {
-  width: 400%;
-  -webkit-transform: translateZ(0);
-  transform: translateZ(0);
-  -webkit-transition: all 800ms cubic-bezier(0.77, 0, 0.175, 1);
-  -moz-transition: all 800ms cubic-bezier(0.77, 0, 0.175, 1);
-  -ms-transition: all 800ms cubic-bezier(0.77, 0, 0.175, 1);
-  -o-transition: all 800ms cubic-bezier(0.77, 0, 0.175, 1);
-  transition: all 800ms cubic-bezier(0.77, 0, 0.175, 1); /* easeInOutQuart */
-
-  -webkit-transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
-  -moz-transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
-  -ms-transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
-  -o-transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
-  transition-timing-function: cubic-bezier(
-    0.77,
-    0,
-    0.175,
-    1
-  ); /* easeInOutQuart */
-}
-.testimonial_slider_2 .slide_content {
-  width: 25%;
-  float: left;
-}
-.testimonial_slider_2 #controls {
-  text-align: center;
-}
-.testimonial_slider_2 #controls label {
-  width: 8px;
-  height: 8px;
-  margin: 0 2px;
-  display: inline-block;
-  background: #999;
-  /* border-radius:4px; */
-}
-.testimonial_slider_2 #slide_2_1:checked ~ #controls label:nth-child(1),
-.testimonial_slider_2 #slide_2_2:checked ~ #controls label:nth-child(2),
-.testimonial_slider_2 #slide_2_3:checked ~ #controls label:nth-child(3),
-.testimonial_slider_2 #slide_2_4:checked ~ #controls label:nth-child(4) {
-  background: #000; /* Change controls background color when mouse click */
-}
-.testimonial_2 {
-  font-size: 16px !important;
-  /* color: #333; Change testimonial paragraph text color */
-  padding: 30px 30px 23px;
-}
-.content_2 {
-  position: relative;
-  padding-left: 30px;
-  margin-bottom: 30px;
-}
-.content_2:before,
-.content_2:after {
-  content: "";
-  height: 15px;
-  width: 19px;
-  position: absolute;
-}
-.content_2:before {
-  background: url(icon_testimonial_2_before.png) 0 0 no-repeat;
-  left: 0;
-}
-.content_2:after {
-  background: url(icon_testimonial_2_after.png) 0 0 no-repeat;
-  margin: 5px 10px;
-}
-.testimonial_2 p {
-  display: inline;
-}
-.author_2 {
-  margin-left: 30px;
-}
-.author_2 h3 {
-  /* color: #333; Change author text color */
-  font-size: 13px;
-  font-weight: 600px;
-  padding: 0 0 5px;
-}
-.author_2 h4 {
-  /* color: #333; Change author text color */
-  font-size: 12px;
-  font-weight: 400;
-  padding: 0 0 5px;
-}
-.author_2 h4 a {
-  /* color: #999; Change company text link color */
-  text-decoration: none;
-  position: relative;
-  padding-bottom: 1px;
-  overflow: hidden;
-  border-bottom: 1px solid;
-}
-.author_2 h4 a:after {
-  /* background: #999; Change company border link background color */
-  height: 1px;
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: -1px;
-  width: 0;
-  -o-transition: all 0.3s;
-  -moz-transition: all 0.3s;
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
-}
-.author_2 h4 a:hover {
-  /* color: #000; Change company text link color when mouse over */
-  border: none;
-}
-.author_2 h4 a:hover:after {
-  border-color: #000;
-  width: 100%;
-}
-/* testimonials end */
-
-/* blog cards */
-.blog-card-wrapper {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-  column-gap: 20px;
-  row-gap: 30px;
-  align-content: center;
-  justify-items: space-between;
-}
 
 @media (max-width:500px){
   p,button{
     font-size: 15px;
-  }
-  
+  }  
 }
 
 
@@ -274,18 +109,18 @@ ol.stepper {
   counter-reset: step;
   margin: 20px;
   padding: 0;
-  /* font-size: 22px; */
   font-weight: bold;
   counter-reset: step;
   overflow: hidden;
 }
+
 ol.stepper li {
   display: grid;
   place-items: center;
   gap: 5px;
-  /* font-family: sans-serif; */
   position: relative;
 }
+
 ol.stepper li::before {
   content: counter(step) " ";
   counter-increment: step;
@@ -300,10 +135,12 @@ ol.stepper li::before {
   border-radius: 50%;
   z-index: 1;
 }
+
 ol.stepper li.active ~ li::before{
   background: var(--default-b);
   color: var(--default-c);
 }
+
 ol.stepper li.active::after {
   content: "";
   position: absolute;
@@ -322,8 +159,6 @@ ol.stepper li.active::after {
   background: 
     linear-gradient(var(--default-b) 0 0) no-repeat
     calc((var(--circle) - var(--b))/2) 50%/ var(--b) 100%;
-    /* align-content: center; */
-    /* justify-content: center; */
   }
   ol.stepper li {
     display: flex;
@@ -350,7 +185,6 @@ ol.stepper li.active::after {
 
 .swiper-slide {
   font-size: 18px;
-
   /* Center slide text vertically */
   display: flex;
   justify-content: center;

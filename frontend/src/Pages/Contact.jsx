@@ -10,7 +10,7 @@ export default function Contact() {
         className="absolute -z-20 top-[10%] left-[25%] mx-auto flex blur-[2px] w-[70%] md:w-[30%]"
       />
       {/* breadcrumb */}
-      <div className="breadcrumb flex items-center gap-2 text-xs mt-4 mb-8">
+      <div className="breadcrumb flex items-center gap-2 text-xs mt-4 mb-8 tracking-wide">
         <NavLink to="/">
           <i className="fa-solid fa-house mr-1 cursor-pointer text-blue-800"></i>
           <p className="inline hover:text-blue-800 hover:font-bold">Home</p>

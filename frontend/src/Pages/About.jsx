@@ -94,34 +94,29 @@ export default function About() {
       {/* mission and vision */}
       <div className="vision-wrapper grid grid-cols-1  md:w-[90%] mx-auto md:grid-cols-3 gap-10 mt-24 divide-y-20">
         {/* vision */}
-        <div className="vision ">
-          <hr className="my-1 border-neutral-300" />
-          <div className="div flex items-center justify-center">
+        <div className="vision border border-neutral-300 rounded overflow-hidden">
+          <div className="div flex items-center justify-center bg-neutral-100 border-b py-1">
             <i className="fa-solid fa-paper-plane mr-2 cursor-pointer  w-8 h-8 text-white border flex items-center justify-center rounded-full bg-blue-700"></i>
             <h2 className="font-bold tracking-wide text-lg my-2 text-center">
               OUR VISION
             </h2>
           </div>
-          <hr className="my-1 mb-2 border-neutral-300" />
-
-          <p className="">
+          <p className="p-2">
             To provide sustainable world class solutions in our fields of
             specialization.
           </p>
         </div>
 
         {/* mission */}
-        <div className="mission">
-          <hr className="my-1 border-neutral-300" />
-          <div className="div flex items-center justify-center">
+        <div className="mission border border-neutral-300 rounded overflow-hidden">
+          <div className="div flex items-center justify-center bg-neutral-100 border-b py-1">
             <i className="fa-solid fa-compass mr-2 cursor-pointer  w-8 h-8 text-white border flex items-center justify-center rounded-full bg-blue-700"></i>
             <h2 className="font-bold tracking-wide text-lg my-2 text-center">
               OUR MISSION
             </h2>
           </div>
-          <hr className="my-1 mb-2 border-neutral-300" />
 
-          <p className="">
+          <p className="p-2">
             To provide safe and accessible water for everyone, and to foster a
             culture of collaboration and excellence among our stakeholders. We
             believe that by delivering quality products and services, we can
@@ -130,17 +125,15 @@ export default function About() {
         </div>
 
         {/* strengths */}
-        <div className="strengths">
-          <hr className="my-1 border-neutral-300" />
-          <div className="div flex items-center justify-center">
+        <div className="strengths border border-neutral-300 rounded overflow-hidden">
+          <div className="div flex items-center justify-center bg-neutral-100 border-b py-1">
             <i className="fa-solid fa-leaf mr-2 cursor-pointer  w-8 h-8 text-white border flex items-center justify-center rounded-full bg-blue-700"></i>
 
             <h2 className="font-bold tracking-wide text-lg my-2 text-center">
               OUR GOAL
             </h2>
           </div>
-          <hr className="my-1 mb-2 border-neutral-300" />
-          <p className="">
+          <p className="p-2">
             To better lives of our communities through provision of of high
             quality products and services in the fields of water, renewable
             energy and stand-by power.
@@ -149,7 +142,7 @@ export default function About() {
       </div>
 
       {/* stats */}
-      <div className="about-stats flex flex-col md:flex-row items-center justify-evenly mt-20 border bg-blue-600 space-y-4 md:h-24 p-2 md:w-[90%] mx-auto">
+      <div className="about-stats flex flex-col md:flex-row items-center justify-evenly mt-20 border bg-blue-300 border-blue-400 rounded gap-8 md:h-24 p-4 md:w-[90%] mx-auto">
         <section className="flex items-center flex-col">
           <h3 className="text-2xl font-black">200+</h3>
           <span className="text-sm font-bold">Customers Nationwide</span>
@@ -225,6 +218,19 @@ export default function About() {
           problem in all major cities .
         </li>
       </ol>
+
+      <h2 className="text-2xl font-semibold text-center mb-4 mt-28">
+        Ready To Go Green?
+      </h2>
+
+      <Link to="/contact">
+        <button
+          className="w-48 py-3 font-semibold secondary text-white rounded flex mx-auto items-center justify-center mb-28  active:translate-y-[2px] transition-all"
+          type="button"
+        >
+          Contact Us
+        </button>
+      </Link>
     </div>
   );
 }
