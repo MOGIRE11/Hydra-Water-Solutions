@@ -35,7 +35,7 @@ function Home() {
             ensure that every sip is a pure and healthy delight.
           </p>
           <span className="flex gap-4">
-            <Link to="/products">
+            <Link to="/noproducts">
               <button
                 className="border-2 w-40 py-3 rounded border-blue-900 font-semibold"
                 type="button"
